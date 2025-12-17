@@ -1,0 +1,11 @@
+name,symbol,default_index
+Apple,AAPL,S&P 500
+Microsoft,MSFT,S&P 500
+Nvidia,NVDA,NASDAQ 100
+Amazon,AMZN,S&P 500
+Alphabet,GOOGL,S&P 500
+Meta,META,S&P 500
+Tesla,TSLA,NASDAQ 100
+AMD,AMD,NASDAQ 100
+Intel,INTC,NASDAQ 100
+Qualcomm,QCOM,NASDAQ 100
