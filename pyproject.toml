@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "market-tickers"
-version = "0.1.0"
+version = "0.1.2"
 description = "Human-friendly stock and index names to Yahoo Finance tickers"
 authors = [{ name = "Vedant Wade" }]
 readme = "README.md"
@@ -14,3 +14,9 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/Pr3sencX/market-tickers"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+market_tickers = ["data/*.csv"]
