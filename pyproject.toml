@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-tickers"
+version = "0.1.0"
+description = "Human-friendly stock and index names to Yahoo Finance tickers"
+authors = [{ name = "Vedant Wade" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Pr3sencX/market-tickers"
