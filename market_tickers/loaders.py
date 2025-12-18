@@ -1,28 +1,64 @@
-# market_tickers/loaders.py
-
+from importlib import resources
 import csv
-import os
-
-BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, "data")
 
 
-def _load_csv(filename):
-    path = os.path.join(DATA_DIR, filename)
-    with open(path, newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+def _load_csv(relative_path: str) -> list[dict]:
+    """
+    Load a CSV file bundled inside the market_tickers package.
+    Returns list of dict rows.
+    """
+    with resources.files("market_tickers").joinpath(relative_path).open(
+        "r", encoding="utf-8"
+    ) as f:
+        reader = csv.DictReader(f)
+        return list(reader)
 
 
-def load_india_stocks():
-    return _load_csv("india_stocks.csv")
+# -----------------------------
+# STOCKS
+# -----------------------------
+
+def load_stocks(country: str) -> list[dict]:
+    """
+    Load stock tickers for a given country.
+
+    Example:
+        load_stocks("india")
+        load_stocks("united_states")
+    """
+    country = country.lower().replace(" ", "_")
+    path = f"data/stocks/stocks_{country}.csv"
+    return _load_csv(path)
 
 
-def load_usa_stocks():
-    return _load_csv("usa_stocks.csv")
+# -----------------------------
+# INDICES
+# -----------------------------
+
+def load_indices() -> list[dict]:
+    """
+    Load global indices.
+    """
+    return _load_csv("data/indices/indices.csv")
 
 
-def load_indices():
-    indices = []
-    for file in ["indices_india.csv", "indices_usa.csv", "indices_global.csv"]:
-        indices.extend(_load_csv(file))
-    return indices
+# -----------------------------
+# ETFs
+# -----------------------------
+
+def load_etfs() -> list[dict]:
+    """
+    Load global ETFs.
+    """
+    return _load_csv("data/etfs/etfs.csv")
+
+
+# -----------------------------
+# CURRENCIES
+# -----------------------------
+
+def load_currencies() -> list[dict]:
+    """
+    Load currency tickers.
+    """
+    return _load_csv("data/currencies/currencies.csv")

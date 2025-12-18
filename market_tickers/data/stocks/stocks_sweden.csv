@@ -1,0 +1,899 @@
+ticker,name,exchange,category name,country
+WIHL.ST,Wihlborgs Fastigheter AB (publ),STO,Property Management,Sweden
+VOLV-B.ST,AB Volvo (publ),STO,Trucks & Other Vehicles,Sweden
+SCA-A.ST,Svenska Cellulosa Aktiebolaget SCA (publ),STO,Personal Products,Sweden
+SAS.ST,SAS AB (publ),STO,"Air Services, Other",Sweden
+REZT.ST,Rezidor Hotel Group AB (publ),STO,Lodging,Sweden
+PACT.ST,Proact IT Group AB (publ),STO,Information Technology Services,Sweden
+LUND-B.ST,L E Lundbergföretagen AB (publ),STO,Asset Management,Sweden
+HLDX.ST,Haldex AB (publ),STO,Auto Parts,Sweden
+ECEX.ST,East Capital Explorer AB (publ),STO,,Sweden
+CLAS-B.ST,Clas Ohlson AB (publ),STO,"Specialty Retail, Other",Sweden
+BILL.ST,BillerudKorsnäs AB (publ),STO,Paper & Paper Products,Sweden
+BBTO-B.ST,B&B Tools AB (publ),STO,,Sweden
+AXFO.ST,Axfood AB,STO,Food Wholesale,Sweden
+XANO-B.ST,XANO Industri AB (publ),STO,Diversified Machinery,Sweden
+SAND.ST,Sandvik AB,STO,Diversified Machinery,Sweden
+MQ.ST,MQ Holding AB,STO,Apparel Stores,Sweden
+LUPE.ST,Lundin Petroleum AB (publ),STO,Independent Oil & Gas,Sweden
+KINV-B.ST,Kinnevik AB,STO,,Sweden
+DUNI.ST,Duni AB (publ),STO,Personal Products,Sweden
+BEIJ-B.ST,Beijer Ref AB (publ),STO,Diversified Machinery,Sweden
+VBG-B.ST,VBG Group AB (publ),STO,Auto Parts,Sweden
+SKA-B.ST,Skanska AB (publ),STO,General Contractors,Sweden
+SAAB-B.ST,Saab AB (publ),STO,Aerospace/Defense - Major Diversified,Sweden
+RUSF.ST,RusForest AB (publ),STO,,Sweden
+NOTE.ST,NOTE AB,STO,Diversified Electronics,Sweden
+NOMI.ST,Nordic Mines AB (publ),STO,Gold,Sweden
+NIBE-B.ST,NIBE Industrier AB (publ),STO,,Sweden
+LIAB.ST,Lindab International AB,STO,,Sweden
+JM.ST,JM AB (publ),STO,,Sweden
+ITAB-B.ST,Itab Shop Concept AB,STO,Business Services,Sweden
+HUSQ-B.ST,Husqvarna AB (publ),STO,Machine Tools & Accessories,Sweden
+HEXA-B.ST,Hexagon AB,STO,Scientific & Technical Instruments,Sweden
+FEEL.ST,Feelgood Svenska AB (publ),STO,Health Care Plans,Sweden
+COIC.ST,Concentric AB (publ),STO,,Sweden
+BMAX.ST,Byggmax Group AB (publ),STO,Home Improvement Stores,Sweden
+BEIA-B.ST,Beijer Alma AB (publ),STO,Diversified Machinery,Sweden
+ASSA-B.ST,ASSA ABLOY AB (publ),STO,General Building Materials,Sweden
+AF-B.ST,ÅF AB (publ),STO,Business Services,Sweden
+ZZ-B.ST,Zinzino AB,STO,Business Equipment,Sweden
+SVED-B.ST,Svedbergs i Dalstorp AB,STO,General Building Materials,Sweden
+SEAM.ST,Seamless Distribution AB (publ),STO,,Sweden
+ODLO.ST,Odfjell Drilling Ltd.,STO,,Sweden
+MEDF.ST,Medfield Diagnostics AB,STO,,Sweden
+KDEV.ST,Karolinska Development AB (publ),STO,,Sweden
+ETX.ST,Etrion Corporation,STO,Diversified Utilities,Sweden
+ERICB.ST,Telefonaktiebolaget LM Ericsson (publ),STO,,Sweden
+ERIC-B.ST,Telefonaktiebolaget LM Ericsson (publ),STO,Communication Equipment,Sweden
+EPIS-B.ST,Episurf Medical AB,STO,Medical Appliances & Equipment,Sweden
+ENRO.ST,Eniro AB,STO,Publishing - Newspapers,Sweden
+ELAN-B.ST,Elanders AB (publ),STO,Publishing - Newspapers,Sweden
+BELE.ST,Beijer Electronics Group AB (publ),STO,Technical & System Software,Sweden
+FPIP.ST,Formpipe Software AB,STO,Technical & System Software,Sweden
+FIRE.ST,Firefly AB (publ),STO,Security & Protection Services,Sweden
+FING-B.ST,Fingerprint Cards AB (publ),STO,Electronic Equipment,Sweden
+BALD-B.ST,Fastighets AB Balder (publ),STO,Property Management,Sweden
+SENS.ST,Sensys Gatso Group AB (publ),STO,Security & Protection Services,Sweden
+HM-B.ST,H & M Hennes & Mauritz AB (publ),STO,,Sweden
+RECY-B.ST,Recyctec Holding AB (publ),STO,,Sweden
+NMAN.ST,Nederman Holding AB (publ),STO,Diversified Machinery,Sweden
+AZA.ST,Avanza Bank Holding AB (publ),STO,Money Center Banks,Sweden
+SIVE.ST,Sivers IMA Holding AB (publ),STO,,Sweden
+IJ.ST,Intrum Justitia AB,STO,Business Services,Sweden
+KNOW.ST,Knowit Aktiebolag (publ),STO,Information Technology Services,Sweden
+KARO.ST,Karo Pharma AB (publ),STO,Biotechnology,Sweden
+KOPY.ST,Kopy Goldfields AB,STO,Gold,Sweden
+KAMBI.ST,Kambi Group plc,STO,,Sweden
+KAHL.ST,KappAhl AB (publ),STO,Textile - Apparel Clothing,Sweden
+KLIC-B.ST,Klick Data AB (publ.),STO,,Sweden
+KLOV-PREF.ST,Klövern AB (publ),STO,,Sweden
+MOB.ST,Moberg Pharma AB (publ),STO,,Sweden
+MEDA-A.ST,Meda AB,STO,,Sweden
+QFRO.ST,Q-Free ASA,STO,,Sweden
+NOLA-B.ST,Nolato AB (publ),STO,Communication Equipment,Sweden
+NCC-B.ST,NCC AB,STO,General Contractors,Sweden
+AKSOO.ST,Aker Solutions,STO,,Sweden
+WWASAO.ST,Wilh. Wilhelmsen ASA,STO,,Sweden
+WEIFAO.ST,Weifa ASA,STO,,Sweden
+SSOO.ST,Scatec Solar ASA,STO,,Sweden
+SKBNO.ST,Skandiabanken ASA,STO,,Sweden
+ORI.ST,Oriflame Holding AG,STO,,Sweden
+NSP-B.ST,Nordic Service Partners Holding AB,STO,,Sweden
+NRSO.ST,Norway Royal Salmon AS,STO,,Sweden
+NOVE.ST,Strax AB (publ),STO,,Sweden
+NOKI.ST,Nokia Corporation,STO,,Sweden
+NODO.ST,Nordic Semiconductor ASA,STO,,Sweden
+NN-B.ST,Nordnet AB (publ),STO,,Sweden
+NGQ.ST,NGEx Resources Inc.,STO,,Sweden
+NET-B.ST,NetEnt AB (publ),STO,Multimedia & Graphics Software,Sweden
+ORX.ST,Orexo AB (publ),STO,Drugs - Generic,Sweden
+OPCO.ST,Trention AB (publ),STO,,Sweden
+STE-R.ST,Stora Enso Oyj,STO,Paper & Paper Products,Sweden
+STE-A.ST,Stora Enso Oyj,STO,Paper & Paper Products,Sweden
+SOBI.ST,Swedish Orphan Biovitrum AB,STO,Medical Laboratories & Research,Sweden
+SAVOS.ST,Savo-Solar Oyj,STO,,Sweden
+OS.ST,Orasolv AB,STO,,Sweden
+OEM-B.ST,OEM International AB (publ),STO,Diversified Machinery,Sweden
+ODD.ST,Odd Molly International AB (publ),STO,Textile - Apparel Clothing,Sweden
+LUCE.ST,Lucent Oil AB,STO,,Sweden
+FOI-B.ST,Fenix Outdoor International AG,STO,,Sweden
+AOI.ST,Africa Oil Corp,STO,Independent Oil & Gas,Sweden
+OP-PREF.ST,Oscar Properties Holding AB (publ),STO,,Sweden
+GOIL-PREF.ST,Ginger Oil AB,STO,,Sweden
+QLRO.ST,Qliro Group AB (publ),STO,,Sweden
+QUICK.ST,QuickCool AB,STO,,Sweden
+QBNK.ST,QBNK Holding AB (publ),STO,,Sweden
+PAR.ST,PA Resources AB,STO,,Sweden
+TREL-B.ST,Trelleborg AB,STO,Diversified Machinery,Sweden
+TOBII.ST,Tobii AB (publ),STO,,Sweden
+TLSN.ST,Telia Company AB,STO,,Sweden
+TEL2B.ST,Tele2 AB (publ),STO,,Sweden
+TEL2-B.ST,Tele2 AB (publ),STO,Wireless Communications,Sweden
+UFLX-B.ST,Uniflex AB (publ),STO,Staffing & Outsourcing Services,Sweden
+UNIB-SDB.ST,Kindred Group plc,STO,,Sweden
+PFE.ST,Pfizer Inc.,STO,Drug Manufacturers - Major,Sweden
+VITR.ST,Vitrolife AB (publ),STO,Biotechnology,Sweden
+VOLV-A.ST,AB Volvo (publ),STO,Trucks & Other Vehicles,Sweden
+ELV.ST,Elverket Vallentuna AB (publ),STO,,Sweden
+EOLU-B.ST,Eolus Vind AB,STO,Diversified Utilities,Sweden
+FLNGO.ST,Flex LNG Ltd.,STO,,Sweden
+VNIL-SDB.ST,Vostok New Ventures Ltd,STO,,Sweden
+NEVI-B.ST,New Equity Venture International AB,STO,,Sweden
+VVLO.ST,Voss Veksel- og Landmandsbank A,STO,,Sweden
+VICP-B.ST,Victoria Park AB (publ),STO,,Sweden
+VERI.ST,Verisec AB (publ),STO,,Sweden
+VNV-SDB.ST,Vostok New Ventures Ltd,STO,,Sweden
+NILS.ST,Nilsson Special Vehicles AB (publ),STO,,Sweden
+STVA-B.ST,Star Vault AB (publ),STO,,Sweden
+WESC.ST,WeSC AB (publ),STO,Apparel Stores,Sweden
+WALL-B.ST,Wallenstam AB (publ),STO,Real Estate Development,Sweden
+WISE.ST,WISE Group AB,STO,Staffing & Outsourcing Services,Sweden
+WILSO.ST,Wilson ASA,STO,,Sweden
+NEWA-B.ST,New Wave Group AB (publ),STO,Textile - Apparel Clothing,Sweden
+WRLO.ST,Wentworth Resources Ltd,STO,,Sweden
+XVIVO.ST,Xvivo Perfusion AB (publ),STO,,Sweden
+XINT.ST,Xintela AB (publ),STO,,Sweden
+XXLO.ST,XXL ASA,STO,,Sweden
+XTRA.ST,Xtranet Gruppen i Stockholm AB (publ),STO,,Sweden
+XBRANE.ST,Xbrane Biopharma AB (publ),STO,,Sweden
+63649.ST,63649.ST,STO,,Sweden
+OCYO.ST,Ocean Yield AS,STO,,Sweden
+YILD-B.ST,Yield Life Science AB,STO,,Sweden
+ZETA.ST,ZetaDisplay AB,STO,,Sweden
+ZALO.ST,Zalaris ASA,STO,,Sweden
+ZENZIP.ST,Zenergy AB,STO,,Sweden
+ZENI.ST,Zenicor Medical Systems AB (publ),STO,,Sweden
+AAK.ST,AAK AB (publ.),STO,Food - Major Diversified,Sweden
+AAP-B.ST,Arc Aroma Pure AB (publ),STO,,Sweden
+SWOL-B.ST,Swedol AB,STO,"Specialty Retail, Other",Sweden
+SEMC.ST,Semcon AB,STO,General Contractors,Sweden
+PROB.ST,Probi AB (publ),STO,Biotechnology,Sweden
+LOOM-B.ST,Loomis AB (publ),STO,Business Services,Sweden
+LATO-B.ST,Investment AB Latour (publ),STO,Asset Management,Sweden
+INDT.ST,Indutrade AB (publ),STO,Industrial Equipment Wholesale,Sweden
+ICA.ST,ICA Gruppen AB,STO,,Sweden
+IAR-B.ST,IAR Systems Group AB (publ),STO,,Sweden
+GUNN.ST,Gunnebo AB,STO,Business Services,Sweden
+GENI.ST,Generic Sweden AB,STO,Information Technology Services,Sweden
+CTT.ST,CTT Systems AB,STO,Aerospace/Defense - Major Diversified,Sweden
+CATE.ST,Catena AB (publ),STO,Property Management,Sweden
+BOL.ST,Boliden AB (publ.),STO,Industrial Metals & Minerals,Sweden
+BEGR.ST,BE Group AB (publ),STO,Steel & Iron,Sweden
+AXIS.ST,Axis AB (publ),STO,Information Technology Services,Sweden
+ARCM.ST,Arcam AB (publ),STO,,Sweden
+ANOT.ST,Anoto Group AB (publ),STO,Computer Based Systems,Sweden
+ALFA.ST,Alfa Laval AB (publ),STO,Diversified Machinery,Sweden
+ACTI.ST,Active Biotech AB,STO,Biotechnology,Sweden
+ABB.ST,ABB Ltd,STO,Diversified Machinery,Sweden
+TRMO.ST,Transmode AB (publ),STO,,Sweden
+TRAN-B.ST,Transferator AB,STO,,Sweden
+TEL2-A.ST,Tele2 AB (publ),STO,Wireless Communications,Sweden
+TAGM-B.ST,TagMaster AB (publ),STO,Communication Equipment,Sweden
+SYSR.ST,Systemair AB (publ),STO,General Building Materials,Sweden
+SWEC-B.ST,Sweco AB (publ),STO,General Contractors,Sweden
+SWEC-A.ST,Sweco AB (publ),STO,General Contractors,Sweden
+SVOL-B.ST,Svolder AB,STO,Asset Management,Sweden
+SSAB-B.ST,SSAB AB,STO,Steel & Iron,Sweden
+SSAB-A.ST,SSAB AB,STO,Steel & Iron,Sweden
+SOF-B.ST,Softronic AB,STO,Business Services,Sweden
+SKF-B.ST,SKF AB,STO,Machine Tools & Accessories,Sweden
+SINT.ST,SinterCast AB (publ),STO,Scientific & Technical Instruments,Sweden
+SECU-B.ST,Securitas AB,STO,Security & Protection Services,Sweden
+SEB-A.ST,Skandinaviska Enskilda Banken AB (publ),STO,Money Center Banks,Sweden
+SEAB-B.ST,Skånska Energi AB,STO,,Sweden
+RROS.ST,Rottneros AB (publ),STO,Paper & Paper Products,Sweden
+RNBS.ST,RNB Retail and Brands AB (publ),STO,"Specialty Retail, Other",Sweden
+PRCO-B.ST,Precio Fishbone AB (publ),STO,Technical & System Software,Sweden
+PEAB-B.ST,Peab AB,STO,General Contractors,Sweden
+PCELL.ST,PowerCell Sweden AB (publ),STO,,Sweden
+NDA-SEK.ST,Nordea Bank AB (publ),STO,Money Center Banks,Sweden
+NCC-A.ST,NCC AB,STO,General Contractors,Sweden
+NAXS.ST,NAXS AB (publ),STO,Asset Management,Sweden
+MSON-A.ST,Midsona AB (publ),STO,Personal Products,Sweden
+MSC-B.ST,MSC Group AB,STO,Business Services,Sweden
+MPEN.ST,MedicPen AB (publ),STO,,Sweden
+MISE.ST,Misen Energy AB (publ),STO,,Sweden
+MIDW-A.ST,Midway Holding AB,STO,Conglomerates,Sweden
+MELK.ST,Melker Schörling AB,STO,Asset Management,Sweden
+MEKO.ST,Mekonomen AB,STO,Auto Dealerships,Sweden
+MCAP.ST,MedCap AB (publ),STO,Asset Management,Sweden
+MAV.ST,Mavshack AB (publ),STO,,Sweden
+LIFCO-B.ST,Lifco AB,STO,,Sweden
+IVISYS.ST,Ivisys AB (publ),STO,,Sweden
+INVE-B.ST,Investor AB,STO,Asset Management,Sweden
+INSP.ST,Insplorion AB,STO,,Sweden
+IMMU.ST,Immunicum AB (publ),STO,,Sweden
+IFS-A.ST,"Industrial and Financial Systems, IFS AB (publ)",STO,,Sweden
+IFOX.ST,Interfox Resources AB,STO,,Sweden
+HUFV-C.ST,Hufvudstaden AB (publ),STO,Property Management,Sweden
+HTRO.ST,Hexatronic Group AB (publ),STO,,Sweden
+HMS.ST,HMS Networks AB (publ),STO,Communication Equipment,Sweden
+HMED.ST,Hansa Medical AB (publ),STO,Biotechnology,Sweden
+HMB.ST,H & M Hennes & Mauritz AB (publ),STO,,Sweden
+HIFA-B.ST,Hifab Group AB (publ),STO,General Contractors,Sweden
+HEMF.ST,Hemfosa Fastigheter AB (publ),STO,,Sweden
+GRNG.ST,Gränges AB (publ),STO,,Sweden
+GHUS-B.ST,Götenehus Group AB (publ),STO,,Sweden
+GETI-B.ST,Getinge AB,STO,Medical Instruments & Supplies,Sweden
+GENO.ST,Genovis AB (publ),STO,Biotechnology,Sweden
+FXI.ST,FX International AB (Publ),STO,,Sweden
+FPAR.ST,FastPartner AB (publ),STO,Property Management,Sweden
+EWRK.ST,eWork Group AB (publ),STO,Information Technology Services,Sweden
+ENDO.ST,Endomines AB (publ),STO,Industrial Metals & Minerals,Sweden
+ELUX-A.ST,AB Electrolux (publ),STO,Electronic Equipment,Sweden
+ELTEL.ST,Eltel AB (publ),STO,,Sweden
+ELOS-B.ST,Elos Medtech AB (publ),STO,Medical Instruments & Supplies,Sweden
+ELN.ST,Ellen AB (publ),STO,Personal Products,Sweden
+EKTA-B.ST,Elekta AB (publ),STO,Medical Appliances & Equipment,Sweden
+EFFN.ST,Effnetplattformen AB (publ),STO,,Sweden
+DOM.ST,Dometic Group AB (publ),STO,,Sweden
+DMYD-B.ST,Diamyd Medical AB (publ),STO,,Sweden
+DIGN.ST,Dignitana AB,STO,Medical Appliances & Equipment,Sweden
+DIAH.ST,Diadrom Holding AB (publ),STO,Communication Equipment,Sweden
+DEFL-B.ST,Deflamo AB,STO,Specialty Chemicals,Sweden
+CRAD-B.ST,C-Rad AB,STO,Medical Laboratories & Research,Sweden
+CORE.ST,Corem Property Group AB (publ),STO,Property Management,Sweden
+CONS-B.ST,Consilium AB (publ),STO,Scientific & Technical Instruments,Sweden
+CONF.ST,Confidence International AB,STO,,Sweden
+COMH.ST,Com Hem Holding AB (publ),STO,,Sweden
+CLA-B.ST,Cloetta AB (publ),STO,Confectioners,Sweden
+CI-B.ST,Cell Impact AB (publ),STO,,Sweden
+CCOR-B.ST,Concordia Maritime AB (publ),STO,Shipping,Sweden
+CBA.ST,CybAero AB,STO,Business Services,Sweden
+CAT-A.ST,Catella AB (publ),STO,Asset Management,Sweden
+CAST.ST,Castellum AB (publ),STO,Real Estate Development,Sweden
+CAPIO.ST,Capio AB (publ),STO,,Sweden
+BRG-B.ST,Bergs Timber AB (publ),STO,"Lumber, Wood Production",Sweden
+BRE2.ST,Bredband2 i Skandinavien AB (publ),STO,Communication Equipment,Sweden
+BRAV.ST,Bravida Holding AB (publ),STO,,Sweden
+BORG.ST,Björn Borg AB (publ),STO,Textile - Apparel Clothing,Sweden
+BIOT.ST,Biotage AB,STO,Medical Instruments & Supplies,Sweden
+BINV.ST,BioInvent International AB,STO,Biotechnology,Sweden
+BILI-A.ST,Bilia AB,STO,Auto Dealerships,Sweden
+BETS-B.ST,Betsson AB,STO,Gaming Activities,Sweden
+BAHN-B.ST,Bahnhof AB (publ),STO,,Sweden
+ATCO-B.ST,Atlas Copco AB,STO,Diversified Machinery,Sweden
+ATCO-A.ST,Atlas Copco AB,STO,Diversified Machinery,Sweden
+ASCO.ST,ABG Sundal Collier Holding ASA,STO,,Sweden
+AQER.ST,Aqeri Holding AB (publ),STO,,Sweden
+ALIG.ST,Alimak Group AB (publ),STO,,Sweden
+AGIS.ST,Agellis Group AB,STO,,Sweden
+SKIS-B.ST,SkiStar AB (publ),STO,"Recreational Goods, Other",Sweden
+ARCOMA.ST,Arcoma AB,STO,,Sweden
+ADVE.ST,Advenica AB (publ),STO,,Sweden
+ICTA-B.ST,Intellecta AB (publ),STO,Business Services,Sweden
+BWL.ST,Bringwell AB (publ),STO,,Sweden
+SPRINT.ST,Sprint Bioscience AB (publ),STO,,Sweden
+SPAG.ST,Spago Nanomedical AB (publ),STO,,Sweden
+NOVU.ST,Novus Group International AB,STO,,Sweden
+AQ.ST,AQ Group AB (publ),STO,Diversified Electronics,Sweden
+KONT.ST,Kontigo Care Ab,STO,,Sweden
+ECC.ST,Ecoclime Comfort Ceilings AB (publ),STO,,Sweden
+TROAX.ST,Troax Group AB (publ),STO,,Sweden
+SANION.ST,Saniona AB (publ),STO,,Sweden
+PETRO.ST,Petrogrand AB (publ),STO,,Sweden
+SEAL.ST,SealWacs AB (publ),STO,,Sweden
+PART.ST,PartnerTech AB (publ),STO,,Sweden
+ALZ.ST,Alzinova AB,STO,,Sweden
+ME.ST,Modern Ekonomi Sverige Holding AB (publ),STO,,Sweden
+HEMF-PREF.ST,Hemfosa Fastigheter AB (publ),STO,,Sweden
+MAT.ST,Matse Holding AB (publ),STO,,Sweden
+HEBA-B.ST,HEBA Fastighets AB (publ),STO,,Sweden
+KARE.ST,Karessa Pharma Holding AB (publ),STO,,Sweden
+APTA.ST,Aptahem AB (publ),STO,,Sweden
+HIQ.ST,HiQ International AB (publ),STO,Business Services,Sweden
+ECO-B.ST,EcoRub AB,STO,,Sweden
+MVIR-B.ST,Medivir AB (publ),STO,Biotechnology,Sweden
+AGES-B.ST,AGES Industri AB (publ),STO,,Sweden
+MAXK.ST,Maxkompetens Sverige AB (publ),STO,,Sweden
+MYFC.ST,myFC Holding AB,STO,,Sweden
+LAGR-B.ST,Lagercrantz Group AB (publ),STO,Information Technology Services,Sweden
+CLX.ST,CLX Communications AB (publ),STO,,Sweden
+RAIL.ST,Railcare Group AB (publ),STO,,Sweden
+OASM.ST,Oasmia Pharmaceutical AB (publ),STO,Drug Manufacturers - Major,Sweden
+MIR.ST,Miris Holding AB,STO,,Sweden
+CASO.ST,Cassandra Oil AB (publ),STO,,Sweden
+BURE.ST,Bure Equity AB,STO,Conglomerates,Sweden
+ADDT-B.ST,Addtech AB (publ.),STO,Industrial Equipment Wholesale,Sweden
+SEZI.ST,Senzime AB,STO,Scientific & Technical Instruments,Sweden
+SWED-A.ST,Swedbank AB (publ),STO,Money Center Banks,Sweden
+POLY.ST,Polyplank AB (publ),STO,,Sweden
+INVE-A.ST,Investor AB,STO,Asset Management,Sweden
+PROF-B.ST,ProfilGruppen AB,STO,Metal Fabrication,Sweden
+DORO.ST,Doro AB (publ),STO,Communication Equipment,Sweden
+SHOT.ST,Scandic Hotels Group AB,STO,,Sweden
+AMNO.ST,Amnode AB (publ),STO,,Sweden
+CBTT-B.ST,Christian Berner Tech Trade AB (publ),STO,,Sweden
+PLUN.ST,ProstaLund AB (publ),STO,,Sweden
+RESP.ST,Respiratorius AB,STO,,Sweden
+HQ.ST,HQ AB (publ),STO,,Sweden
+PMED.ST,PEPTONIC medical AB (publ),STO,,Sweden
+VRG-B.ST,Venue Retail Group AB,STO,Apparel Stores,Sweden
+HOFI.ST,Hoist Finance AB (publ),STO,,Sweden
+EURI-B.ST,European Institute of Science AB,STO,,Sweden
+SAFE.ST,Safe at Sea AB,STO,,Sweden
+RAY-B.ST,RaySearch Laboratories AB (publ),STO,Technical & System Software,Sweden
+CLAV.ST,Clavister Holding AB (publ.),STO,,Sweden
+LEX.ST,The Lexington Company AB (publ),STO,,Sweden
+TETY.ST,Tethys Oil AB (publ),STO,Independent Oil & Gas,Sweden
+FPAR-PREF.ST,FastPartner AB (publ),STO,,Sweden
+GABA.ST,Gabather AB (publ),STO,,Sweden
+PRIME.ST,Prime Living AB (publ),STO,,Sweden
+ENVI-B.ST,Envirologic AB (publ).,STO,,Sweden
+CLS-B.ST,Clinical Laserthermia Systems AB (publ),STO,Medical Appliances & Equipment,Sweden
+PFAM.ST,Phone Family AB (publ),STO,,Sweden
+ORES.ST,Investment AB Öresund (publ),STO,Asset Management,Sweden
+SLEEP.ST,Sleepo AB,STO,,Sweden
+POLYG.ST,Polygiene AB (publ.),STO,,Sweden
+CAPAC.ST,Capacent Holding AB (publ),STO,,Sweden
+GENE.ST,Genesis IT AB (publ),STO,,Sweden
+MSAB-B.ST,Micro Systemation AB,STO,,Sweden
+KAN.ST,Kancera AB,STO,,Sweden
+MANG.ST,Mangold Fondkommission AB,STO,,Sweden
+OPUS.ST,Opus Group AB (publ),STO,Business Services,Sweden
+DEDI.ST,Dedicare AB,STO,,Sweden
+SAGA-A.ST,AB Sagax,STO,,Sweden
+KLOV-B.ST,Klövern AB (publ),STO,,Sweden
+RATO-A.ST,Ratos AB,STO,Asset Management,Sweden
+AXON.ST,Axonkids AB,STO,,Sweden
+CINN.ST,Cinnober Financial Technology AB (publ),STO,,Sweden
+PREV-B.ST,Prevas AB,STO,Information Technology Services,Sweden
+PALS-B.ST,Pallas Group AB (publ),STO,Shipping,Sweden
+SJR-B.ST,SJR In Scandinavia AB,STO,Staffing & Outsourcing Services,Sweden
+NTEK-B.ST,Novotek AB,STO,Technical & System Software,Sweden
+DENT.ST,Dentware Scandinavia AB (publ),STO,,Sweden
+HANZA.ST,Hanza Holding AB (publ),STO,,Sweden
+USE-B.ST,US Energy Group AB,STO,,Sweden
+NUE.ST,Nuevolution AB (publ),STO,,Sweden
+BAYN.ST,Bayn Europe AB (publ),STO,,Sweden
+KLAR.ST,Klaria Pharma Holding AB,STO,,Sweden
+SKF-A.ST,SKF AB,STO,Machine Tools & Accessories,Sweden
+OPTI.ST,OptiFreeze AB (publ),STO,,Sweden
+COMBI.ST,CombiGene AB (publ),STO,,Sweden
+MPOS.ST,Micropos Medical AB (publ),STO,,Sweden
+TOURN.ST,Tourn International AB (publ),STO,,Sweden
+TRI.ST,Tribona AB (publ),STO,,Sweden
+AROC.ST,Arocell AB (publ),STO,,Sweden
+RATO-B.ST,Ratos AB,STO,Asset Management,Sweden
+SF.ST,Stillfront Group AB (publ),STO,,Sweden
+NVP.ST,NeuroVive Pharmaceutical AB,STO,Drug Manufacturers - Major,Sweden
+SCST.ST,Scandi Standard AB (publ),STO,,Sweden
+SEB-C.ST,Skandinaviska Enskilda Banken AB (publ),STO,Money Center Banks,Sweden
+TRAN-A.ST,Transferator AB ser. A,STO,,Sweden
+ATT.ST,Attendo AB (publ),STO,,Sweden
+IMPC.ST,Impact Coatings AB,STO,Diversified Machinery,Sweden
+DGC.ST,DGC One AB,STO,,Sweden
+LIDDS.ST,LIDDS AB (publ),STO,,Sweden
+SKMO.ST,Skåne-möllan AB (publ),STO,Farm Products,Sweden
+DELARK.ST,Delarka Holding AB (publ),STO,,Sweden
+MULQ.ST,MultiQ International AB (publ),STO,Computer Based Systems,Sweden
+TCT.ST,TC TECH Sweden AB (publ),STO,,Sweden
+CAMX.ST,Camurus AB (publ),STO,,Sweden
+BOTX.ST,Botnia Exploration Holding AB (publ),STO,,Sweden
+OV.ST,Oncology Venture Sweden AB,STO,,Sweden
+HOME-B.ST,HomeMaid AB (publ),STO,,Sweden
+MTG-A.ST,Modern Times Group Mtg AB,STO,Broadcasting - TV,Sweden
+SVIK.ST,Studsvik AB,STO,Business Services,Sweden
+SPOR.ST,Sportamore AB (publ),STO,,Sweden
+ROOT.ST,Rootfruit Scandinavia AB (publ),STO,,Sweden
+EUCI.ST,Eurocine Vaccines AB,STO,,Sweden
+AMBI.ST,Ambia Trading Group AB (publ),STO,,Sweden
+ORTI-B.ST,Ortivus AB (publ),STO,Medical Instruments & Supplies,Sweden
+ORE.ST,Orezone AB (publ),STO,,Sweden
+NANEXA.ST,Nanexa AB,STO,,Sweden
+LAMM-B.ST,Lammhults Design Group AB (publ),STO,Home Furnishings & Fixtures,Sweden
+RECI-B.ST,Recipharm AB (publ),STO,,Sweden
+DIOS.ST,Diös Fastigheter AB (publ),STO,Property Management,Sweden
+CHER-B.ST,Cherry AB (publ).,STO,,Sweden
+BUFAB.ST,Bufab AB (publ),STO,,Sweden
+BRIG.ST,Brighter AB (publ),STO,,Sweden
+HELIO.ST,Heliospectra AB (publ),STO,,Sweden
+AXIC-A.ST,aXichem AB,STO,,Sweden
+ALON-B.ST,Archelon AB (publ),STO,,Sweden
+SYNT.ST,Synthetic MR AB (publ),STO,,Sweden
+KLOV-A.ST,Klövern AB (publ),STO,,Sweden
+AMH2-B.ST,Amhult 2 Ab,STO,,Sweden
+CANTA.ST,Cantargia AB,STO,,Sweden
+GWS.ST,GWS Production AB (publ),STO,,Sweden
+ALTE.ST,Alteco Medical AB,STO,,Sweden
+BIM.ST,BIMobject AB,STO,,Sweden
+NFO.ST,NFO Drives AB (publ),STO,,Sweden
+SAGA-B.ST,AB Sagax,STO,,Sweden
+ORTI-A.ST,Ortivus AB (publ),STO,Medical Instruments & Supplies,Sweden
+ORT-B.ST,Ortoma AB,STO,,Sweden
+HUFV-A.ST,Hufvudstaden AB (publ),STO,Property Management,Sweden
+SAPIAB.ST,Saltängen Property Invest AB (publ),STO,,Sweden
+DEMI-B.ST,Delta Minerals AB (publ),STO,,Sweden
+SAS-PREF.ST,SAS AB (publ),STO,,Sweden
+SES.ST,Scandinavian Enviro Systems AB (publ),STO,,Sweden
+INWI.ST,Inwido AB,STO,,Sweden
+BTS-B.ST,BTS Group AB (publ),STO,Staffing & Outsourcing Services,Sweden
+CEFO-B.ST,Cefour Wine & Beverage Partihandel AB (publ),STO,,Sweden
+SAGA-PREF.ST,AB Sagax,STO,,Sweden
+SBOK.ST,Scandbook Holding AB,STO,Business Services,Sweden
+AKEL-PREF.ST,Akelius Residential Property AB (publ),STO,,Sweden
+CAPE.ST,Caperio Holding AB,STO,,Sweden
+DRIL.ST,Drillcon AB,STO,Industrial Metals & Minerals,Sweden
+AMAST-PREF.ST,Amasten Holding AB (publ),STO,,Sweden
+BOUL.ST,Boule Diagnostics AB (publ),STO,,Sweden
+PLED.ST,PledPharma AB,STO,,Sweden
+COOR.ST,Coor Service Management Holding AB (publ),STO,,Sweden
+PHAL.ST,PharmaLundensis AB,STO,,Sweden
+MODI.ST,Motion Display Scandinavia AB,STO,,Sweden
+AVT-B.ST,AVTECH Sweden AB (publ),STO,,Sweden
+JLT.ST,JLT Mobile Computers AB (publ),STO,Computer Based Systems,Sweden
+MTG-B.ST,Modern Times Group Mtg AB,STO,Broadcasting - TV,Sweden
+HUM.ST,Humana AB,STO,,Sweden
+WTG.ST,Wonderful Times Group AB,STO,,Sweden
+HAV-B.ST,Havsfrun Investment AB (publ),STO,Investment Brokerage - National,Sweden
+NOBI.ST,Nobia AB (publ),STO,Home Furnishings & Fixtures,Sweden
+LATF-B.ST,Latvian Forest Company AB (publ),STO,,Sweden
+STIL.ST,Stille AB,STO,Medical Appliances & Equipment,Sweden
+GHP.ST,GHP Specialty Care AB (publ),STO,Hospitals,Sweden
+NP3.ST,NP3 Fastigheter AB (publ),STO,,Sweden
+GOIL.ST,Petrotarg AB (publ),STO,,Sweden
+DOXA.ST,Doxa AB (publ),STO,,Sweden
+PARA.ST,Parans Solar Lighting AB (publ),STO,,Sweden
+RAST.ST,RAST.ST,STO,,Sweden
+TEONE.ST,TargetEveryOne AB (publ),STO,,Sweden
+JOSA.ST,Josab International AB (publ),STO,,Sweden
+CSEC.ST,C Security Systems AB (Publ.),STO,,Sweden
+PCOM-B.ST,Precomp Solutions AB,STO,Metal Fabrication,Sweden
+AXAO.ST,Axactor AB (publ),STO,,Sweden
+FOLLI.ST,Follicum AB (publ),STO,,Sweden
+NNH.ST,New Nordic Healthbrands AB (publ),STO,Drugs - Generic,Sweden
+EMP-B.ST,Empire AB (publ),STO,,Sweden
+EMOT.ST,Emotra AB (publ),STO,,Sweden
+THULE.ST,Thule Group AB,STO,,Sweden
+ABSO.ST,Absolent Group AB (publ),STO,,Sweden
+BACTI-B.ST,Bactiguard Holding AB (publ),STO,,Sweden
+PB.ST,PromikBook AB (publ),STO,,Sweden
+AVEN.ST,Avensia AB (publ),STO,Information Technology Services,Sweden
+WAYS.ST,Waystream Holding AB (Publ),STO,,Sweden
+AVEG-B.ST,Avega Group AB (publ),STO,Information Technology Services,Sweden
+REDS.ST,Redsense Medical AB (publ),STO,,Sweden
+AXON-BTA.ST,Axonkids AB,STO,,Sweden
+VIT-B.ST,Vitec Software Group AB,STO,Technical & System Software,Sweden
+NICO.ST,Nicoccino Holding AB (publ),STO,,Sweden
+WNT.ST,WntResearch AB,STO,,Sweden
+MROX-B.ST,MediRox AB (publ),STO,,Sweden
+IS.ST,Image Systems AB,STO,,Sweden
+ELEC.ST,Electra Gruppen AB,STO,"Specialty Retail, Other",Sweden
+IDL-B.ST,IDL Biotech AB (publ),STO,,Sweden
+FNMA-PREF.ST,Ferronordic Machines AB,STO,,Sweden
+ACM.ST,A City Media AB (publ),STO,,Sweden
+IFS-B.ST,"Industrial and Financial Systems, IFS AB (publ)",STO,,Sweden
+GCOR.ST,Gaming Corps AB (publ),STO,,Sweden
+NOCH.ST,Clemondo Group AB (publ),STO,,Sweden
+SPIFFX.ST,SpiffX AB (publ),STO,,Sweden
+INTU.ST,Intuitive Aerial AB (publ),STO,,Sweden
+FOUT.ST,Fastout Int. AB (publ),STO,,Sweden
+KAPIAB.ST,Kallebäck Property Invest AB (publ),STO,,Sweden
+TIKS.ST,TiksPac AB (publ),STO,,Sweden
+HEGR.ST,Hedera Group AB (publ),STO,,Sweden
+DEX.ST,Dextech Medical AB (publ),STO,,Sweden
+ONG.ST,Oniva Online Group Europe AB (publ),STO,,Sweden
+BONG.ST,Bong AB (publ),STO,Packaging & Containers,Sweden
+GARO.ST,Garo Aktiebolag (publ),STO,,Sweden
+REJL-B.ST,Rejlers AB,STO,Business Services,Sweden
+ECOM.ST,ECOMB AB,STO,,Sweden
+ALM-PREF.ST,ALM Equity AB (publ),STO,,Sweden
+CTEC.ST,Fastilium Property Group AB,STO,,Sweden
+RATO-PREF.ST,Ratos AB,STO,,Sweden
+ENRO-PREF.ST,Eniro AB,STO,,Sweden
+PREC.ST,Precise Biometrics AB,STO,Security & Protection Services,Sweden
+BESQ.ST,Besqab AB (publ),STO,,Sweden
+NDX.ST,Nordax Group AB (publ),STO,,Sweden
+MOBI.ST,Mobile Loyalty Holding AB,STO,,Sweden
+OBOYA-B.ST,Oboya Horticulture Industries AB,STO,,Sweden
+ENEA.ST,Enea AB (publ),STO,Technical & System Software,Sweden
+ABE.ST,Abelco AB (publ),STO,,Sweden
+JAYS.ST,Jays AB (publ),STO,Electronic Equipment,Sweden
+MIND.ST,Irisity AB (publ),STO,,Sweden
+FAG.ST,AB Fagerhult,STO,Home Furnishings & Fixtures,Sweden
+EURO.ST,Eurocon Consulting AB (publ),STO,,Sweden
+SWMA.ST,Swedish Match AB (publ),STO,"Tobacco Products, Other",Sweden
+ABFAST-B.ST,Aktiebolaget Fastator (publ),STO,,Sweden
+DOME.ST,Dome Energy AB (publ),STO,,Sweden
+SERT.ST,Serstech AB,STO,,Sweden
+VSEC.ST,Vindico Group AB (publ),STO,,Sweden
+CAMP.ST,Nordic Camping & Resort AB (publ),STO,,Sweden
+POOL-B.ST,Poolia AB (publ),STO,Staffing & Outsourcing Services,Sweden
+SVOL-A.ST,Svolder AB,STO,Asset Management,Sweden
+NETI-B.ST,Net Insight AB (publ),STO,Communication Equipment,Sweden
+MEAB-B.ST,Malmbergs Elektriska AB (publ),STO,Diversified Electronics,Sweden
+RLS.ST,Rubicon Life Science AB (Publ),STO,,Sweden
+TRAC-B.ST,AB Traction,STO,Asset Management,Sweden
+VIG.ST,Vigmed Holding AB (publ),STO,,Sweden
+MROX-A.ST,MediRox AB (publ),STO,,Sweden
+MACK-B.ST,Mackmyra Svensk Whisky AB (publ),STO,,Sweden
+BIOG-B.ST,BioGaia AB,STO,Drug Manufacturers - Major,Sweden
+HUSQ-A.ST,Husqvarna AB (publ),STO,Machine Tools & Accessories,Sweden
+SPEC.ST,SpectraCure AB (publ),STO,,Sweden
+DIST.ST,DistIT AB (publ),STO,,Sweden
+COLL.ST,Collector AB,STO,,Sweden
+ARCT.ST,Arctic Gold AB (publ),STO,Gold,Sweden
+SPIRA.ST,DalsSpira Mejeri AB,STO,,Sweden
+IMMNOV.ST,Immunovia AB (publ),STO,,Sweden
+ORGC.ST,OrganoClick AB,STO,,Sweden
+NEXAM.ST,Nexam Chemical Holding AB (publ),STO,,Sweden
+MSON-B.ST,Midsona AB (publ),STO,Personal Products,Sweden
+CRED-A.ST,Creades AB,STO,,Sweden
+VIVO.ST,Vivoline Medical AB,STO,,Sweden
+EVO.ST,Evolution Gaming Group AB (publ),STO,,Sweden
+VICP-PREF.ST,Victoria Park AB (publ),STO,,Sweden
+ACRI.ST,Acrinova AB,STO,,Sweden
+CLBIO.ST,Corline Biomedical AB (publ),STO,,Sweden
+DUST.ST,Dustin Group AB (publ),STO,,Sweden
+SDOS.ST,ScandiDos AB (publ),STO,,Sweden
+KENH.ST,Kentima Holding AB (publ),STO,,Sweden
+TRANS.ST,Transtema Group AB,STO,,Sweden
+MEDR-B.ST,MediRätt AB (publ),STO,,Sweden
+SCIB.ST,SciBase Holding AB,STO,,Sweden
+ALPH.ST,AlphaHelix Molecular Diagnostics AB (publ),STO,,Sweden
+IPL.ST,Insplanet AB (publ),STO,Property & Casualty Insurance,Sweden
+CHAL-B.ST,Challenger Mobile AB (publ),STO,,Sweden
+SHEL-B.ST,Shelton Petroleum AB (publ),STO,,Sweden
+DURC-B.ST,Duroc AB (publ),STO,Diversified Machinery,Sweden
+IVSO.ST,INVISIO Communications AB (publ.),STO,Communication Equipment,Sweden
+CEAB.ST,Community Entertainment Svenska AB (publ),STO,,Sweden
+WIFOG.ST,Wifog Holding AB (publ),STO,,Sweden
+HOVD.ST,Hövding Sverige AB (publ),STO,,Sweden
+CORE-PREF.ST,Corem Property Group AB (publ),STO,Property Management,Sweden
+TRUE-B.ST,True Heading AB,STO,,Sweden
+WINT.ST,West International AB,STO,Computer Based Systems,Sweden
+CEVI.ST,CellaVision AB (publ),STO,Medical Laboratories & Research,Sweden
+ALM.ST,ALM Equity AB (publ),STO,,Sweden
+ELUX-B.ST,AB Electrolux (publ),STO,Electronic Equipment,Sweden
+HYCO.ST,Hybricon Bus Systems AB (Publ),STO,,Sweden
+PHI.ST,Phase Holographic Imaging PHI AB (publ),STO,,Sweden
+AHA.ST,ahaWorld AB (publ),STO,,Sweden
+NICA.ST,Nanologica AB (publ),STO,,Sweden
+ODEN.ST,Oden Control AB,STO,,Sweden
+HAMLET.ST,Hamlet Pharma AB (publ),STO,,Sweden
+MRG.ST,Mr Green & Co AB (publ),STO,,Sweden
+EQL.ST,EQL Pharma AB (publ),STO,,Sweden
+DMAB-B.ST,DMAB-B.ST,STO,,Sweden
+TWW.ST,Transcom WorldWide AB (publ),STO,,Sweden
+RTIM-B.ST,RTIM-B.ST,STO,,Sweden
+MAG.ST,Magnolia Bostad AB,STO,,Sweden
+AMAST.ST,Amasten Holding AB (publ),STO,,Sweden
+TOL.ST,Toleranzia AB,STO,,Sweden
+PIL.ST,Pilum AB (publ),STO,,Sweden
+IDOGEN.ST,Idogen AB (publ),STO,,Sweden
+NOBINA.ST,Nobina AB,STO,,Sweden
+LOVI.ST,Lovisagruvan AB (publ),STO,,Sweden
+AJA-B.ST,Byggmästare Anders J Ahlström Holding AB (publ),STO,,Sweden
+OP.ST,Oscar Properties Holding AB (publ),STO,,Sweden
+MIDW-B.ST,Midway Holding AB,STO,Conglomerates,Sweden
+CAT-B.ST,Catella AB (publ),STO,Asset Management,Sweden
+PROE-B.ST,Proffice AB (Publ),STO,,Sweden
+FABG.ST,Fabege AB (publ),STO,Real Estate Development,Sweden
+IMINT.ST,IMINT Image Intelligence AB (publ),STO,,Sweden
+UTG.ST,Unlimited Travel Group UTG AB (publ),STO,Personal Services,Sweden
+TORSAB.ST,Torslanda Property Investment AB (Publ),STO,,Sweden
+SGLD.ST,Stureguld Sverige AB (publ),STO,,Sweden
+NMGO.ST,Axactor AB (publ),STO,,Sweden
+GREAT.ST,Greater Than AB,STO,,Sweden
+BETT.ST,Betting Promotion Sweden AB (publ),STO,,Sweden
+AUTO.ST,VA Automotive i Hässleholm AB (publ),STO,,Sweden
+GJAB.ST,Gullberg & Jansson AB (publ),STO,,Sweden
+PHLOG.ST,Pharmacolog i Uppsala AB (publ),STO,,Sweden
+RBASE.ST,Raybased AB (publ),STO,,Sweden
+A1M.ST,A1M Pharma AB (publ),STO,,Sweden
+KABE-B.ST,KABE AB (publ.),STO,"Recreational Goods, Other",Sweden
+LLSW-B.ST,LightLab Sweden AB,STO,Electronic Equipment,Sweden
+TRAD.ST,Tradedoubler AB,STO,Internet Information Providers,Sweden
+LINKAB.ST,Link Prop Investment AB (publ),STO,,Sweden
+TOBIN-PREF.ST,Tobin Properties AB (publ),STO,,Sweden
+PREBON.ST,Prebona AB (publ),STO,,Sweden
+ABI.ST,AB Igrene (publ),STO,,Sweden
+BULTEN.ST,Bulten AB (publ),STO,,Sweden
+VICO.ST,Vicore Pharma Holding AB,STO,,Sweden
+BALD-PREF.ST,Fastighets AB Balder (publ),STO,,Sweden
+ENZY.ST,Enzymatica AB,STO,,Sweden
+SOLT.ST,SolTech Energy Sweden AB (publ),STO,,Sweden
+ACAN-B.ST,Acando AB (publ.),STO,Information Technology Services,Sweden
+PRIC-B.ST,Pricer AB (publ),STO,Business Equipment,Sweden
+PLAZ-B.ST,Platzer Fastigheter Holding AB (publ),STO,,Sweden
+BRAIN.ST,BrainCool AB (publ),STO,,Sweden
+STEF-B.ST,Stendörren Fastigheter AB (publ),STO,,Sweden
+G5EN.ST,G5 Entertainment AB (publ),STO,Multimedia & Graphics Software,Sweden
+HEART.ST,Scandinavian Real Heart AB (Publ),STO,,Sweden
+LEO.ST,LeoVegas AB (publ),STO,,Sweden
+HPOL-B.ST,Hexpol AB (Publ),STO,Specialty Chemicals,Sweden
+MINEST.ST,Minesto AB (publ),STO,,Sweden
+BONAS.ST,Bonäsudden Holding AB (publ),STO,,Sweden
+ALIF-B.ST,AddLife AB (publ),STO,,Sweden
+ANOD-B.ST,Addnode Group AB (publ),STO,Information Technology Services,Sweden
+ADDV-B.ST,ADDvise Group AB (publ),STO,,Sweden
+AFGO.ST,AF Gruppen ASA,STO,,Sweden
+AGORA-PREF.ST,A Group Of Retail Assets Sweden AB (publ),STO,,Sweden
+AGORA-B.ST,A Group Of Retail Assets Sweden AB (publ),STO,,Sweden
+TAGR.ST,Trigon Agri A/S,STO,,Sweden
+DDM.ST,DDM Holding AG,STO,,Sweden
+88867.ST,88867.ST,STO,,Sweden
+SCA-B.ST,Svenska Cellulosa Aktiebolaget SCA (publ),STO,Personal Products,Sweden
+SECT-B.ST,Sectra AB (publ),STO,Medical Appliances & Equipment,Sweden
+HOLM-B.ST,Holmen Aktiebolag (publ),STO,Paper & Paper Products,Sweden
+HOLM-A.ST,Holmen Aktiebolag (publ),STO,Paper & Paper Products,Sweden
+AKVAO.ST,AKVA Group ASA,STO,,Sweden
+INDU-C.ST,Aktiebolaget Industrivärden,STO,,Sweden
+ARP.ST,Arctic Paper S.A.,STO,,Sweden
+REHA-B.ST,Aktiebolaget Fastator (publ),STO,,Sweden
+SDET.ST,SensoDetect Aktiebolag (publ),STO,,Sweden
+KLED.ST,Kungsleden Aktiebolag,STO,Property Management,Sweden
+INDU-A.ST,Aktiebolaget Industrivärden,STO,,Sweden
+63624.ST,63624.ST,STO,,Sweden
+AKPSO.ST,Philly Shipyard ASA,STO,,Sweden
+63625.ST,63625.ST,STO,,Sweden
+ALIV.ST,ALIV.ST,STO,,Sweden
+ALNX.ST,ALNX.ST,STO,,Sweden
+ALLG-B.ST,Allgon AB (publ),STO,,Sweden
+ALIV-SDB.ST,"Autoliv, Inc.",STO,Auto Parts,Sweden
+ATEL-A.ST,AllTele Allmänna Svenska Telefonaktiebolaget (publ),STO,,Sweden
+AMSCO.ST,American Shipping Company ASA,STO,,Sweden
+AMNO-TR.ST,Amnode AB TR,STO,,Sweden
+ANGL.ST,Angler Gaming plc,STO,,Sweden
+AQUAO.ST,Aqualis ASA,STO,,Sweden
+ARISE.ST,Arise AB (publ),STO,,Sweden
+BONO.ST,Bonheur ASA,STO,,Sweden
+AZN.ST,AstraZeneca PLC,STO,Drug Manufacturers - Major,Sweden
+NANOO.ST,Nordic Nanovector ASA,STO,,Sweden
+MULTIO.ST,Multiconsult ASA,STO,,Sweden
+NOMO.ST,Nordic Mining ASA,STO,,Sweden
+ITXO.ST,Intex Resources ASA,STO,,Sweden
+RENOO.ST,RenoNorden ASA,STO,,Sweden
+SOFFO.ST,Solstad Offshore ASA,STO,,Sweden
+EIOFO.ST,Eidesvik Offshore ASA,STO,,Sweden
+GSFO.ST,Grieg Seafood ASA,STO,,Sweden
+AUSSO.ST,Austevoll Seafood ASA,STO,,Sweden
+LSGO.ST,Lerøy Seafood Group Asa,STO,,Sweden
+HAVIO.ST,Havila Shipping ASA,STO,,Sweden
+DATO.ST,Data Respons ASA,STO,,Sweden
+OLTO.ST,Olav Thon Eiendomsselskap ASA,STO,,Sweden
+THINO.ST,Thin Film Electronics ASA,STO,,Sweden
+SALMO.ST,SalMar ASA,STO,,Sweden
+WBULKO.ST,Bulk Invest ASA,STO,,Sweden
+PSIO.ST,StrongPoint ASA,STO,,Sweden
+FARO.ST,Farstad Shipping ASA,STO,,Sweden
+EPRO.ST,Europris ASA,STO,,Sweden
+PHOO.ST,PhotoCure ASA,STO,,Sweden
+NORO.ST,Norwegian Energy Company AS,STO,,Sweden
+HNBO.ST,Hafslund ASA,STO,,Sweden
+GODO.ST,Goodtech ASA,STO,,Sweden
+EKOO.ST,Ekornes ASA,STO,,Sweden
+BRGO.ST,Borregaard ASA,STO,,Sweden
+PROTCTO.ST,Protector Forsikring ASA,STO,,Sweden
+PENO.ST,Panoro Energy ASA,STO,,Sweden
+BLOO.ST,NRC Group ASA,STO,,Sweden
+STORMO.ST,Storm Real Estate ASA,STO,,Sweden
+VARDIAO.ST,Vardia Insurance Group ASA,STO,,Sweden
+DOFO.ST,DOF ASA,STO,,Sweden
+HEXO.ST,Hexagon Composites ASA,STO,,Sweden
+ENTRAO.ST,Entra ASA,STO,,Sweden
+CAM-B.ST,Consensus Asset Management AB B,STO,,Sweden
+IOXO.ST,InterOil Exploration & Production ASA,STO,,Sweden
+NELO.ST,NEL ASA,STO,,Sweden
+NEXTO.ST,NEXT Biometrics Group ASA,STO,,Sweden
+VEIO.ST,Veidekke ASA,STO,,Sweden
+KOGO.ST,Kongsberg Gruppen ASA,STO,,Sweden
+RECSOLO.ST,REC Solar ASA,STO,,Sweden
+VISTINO.ST,Vistin Pharma ASA,STO,,Sweden
+GROO.ST,Ganger Rolf ASA,STO,,Sweden
+WWIO.ST,Wilh. Wilhelmsen Holding ASA,STO,,Sweden
+KITO.ST,Kitron ASA,STO,,Sweden
+KIDO.ST,Kid ASA,STO,,Sweden
+TELIOO.ST,NextGenTel Holding ASA,STO,,Sweden
+RISHO.ST,GC Rieber Shipping ASA,STO,,Sweden
+HYARDO.ST,Havyard Group ASA,STO,,Sweden
+SBOO.ST,Selvaag Bolig ASA,STO,,Sweden
+KVAERO.ST,Kværner ASA,STO,,Sweden
+PCIBO.ST,PCI Biotech Holding ASA,STO,,Sweden
+BERGENO.ST,Bergen Group ASA,STO,,Sweden
+BIONORO.ST,Bionor Pharma ASA,STO,,Sweden
+ASETEKO.ST,Asetek A/S,STO,,Sweden
+WWIBO.ST,Wilh. Wilhelmsen Holding ASA,STO,,Sweden
+MCGO.ST,MultiClient Geophysical ASA,STO,,Sweden
+BOUVETO.ST,Bouvet ASA,STO,,Sweden
+SPUO.ST,Spectrum ASA,STO,,Sweden
+BIRDO.ST,Birdstep Technology ASA,STO,,Sweden
+ATCOA.ST,Atlas Copco AB,STO,,Sweden
+ATLA-NOKO.ST,P/F Atlantic Petroleum,STO,,Sweden
+ATRLJ-B.ST,Atrium Ljungberg AB (publ),STO,,Sweden
+71200.ST,71200.ST,STO,,Sweden
+AUR.ST,Auriant Mining AB (publ),STO,,Sweden
+AVMO.ST,Avocet Mining plc,STO,,Sweden
+AVANCEO.ST,Avance Gas Holding Ltd.,STO,,Sweden
+AWDRO.ST,Awilco Drilling Plc,STO,,Sweden
+AXIC-TR-A.ST,aXichem AB TR A,STO,,Sweden
+IBT-B.ST,Infant Bacterial Therapeutics AB (publ),STO,,Sweden
+NDA.ST,NDA.ST,STO,,Sweden
+BEO-SDB.ST,Beowulf Mining plc,STO,,Sweden
+KARO-TR.ST,Karo Pharma AB TR,STO,,Sweden
+BIOTECO.ST,Biotec Pharmacon ASA,STO,,Sweden
+BIGG-B.ST,Biotech-IgG AB,STO,,Sweden
+HBCO.ST,Hofseth BioCare ASA,STO,,Sweden
+PXXS-SDB.ST,BlackPearl Resources Inc.,STO,Independent Oil & Gas,Sweden
+BEF-SDB.ST,Black Earth Farming Limited,STO,Farm Products,Sweden
+JINO.ST,Jinhui Shipping & Transportation Ltd.,STO,,Sweden
+SNIO.ST,Stolt-Nielsen Limited,STO,,Sweden
+GOGLO.ST,Golden Ocean Group Limited,STO,,Sweden
+NOFO.ST,Northern Offshore Ltd,STO,,Sweden
+BWOO.ST,BW Offshore Limited,STO,,Sweden
+HLNGO.ST,Höegh LNG Holdings Ltd.,STO,,Sweden
+DBP-B.ST,Double Bond Pharmaceutical Int.,STO,,Sweden
+BRIN-B.ST,Brinova Fastigheter AB (publ),STO,Property Management,Sweden
+OBAB.ST,Online Brands Nordic AB,STO,,Sweden
+SNM.ST,ShaMaran Petroleum Corp,STO,,Sweden
+SMF.ST,SEMAFO Inc.,STO,,Sweden
+67272.ST,67272.ST,STO,,Sweden
+CCC.ST,Cavotec SA,STO,,Sweden
+CE.ST,Cortus Energy AB (publ),STO,,Sweden
+MIC-SDB.ST,Millicom International Cellular S.A.,STO,,Sweden
+SCAB.ST,Svenska Cellulosa Aktiebolaget SCA (publ),STO,,Sweden
+CLS-TR-B.ST,Clinical Laserthermia Systems A,STO,,Sweden
+CLS-BTA-B.ST,Clinical Laserthermia Systems A,STO,,Sweden
+CLINE-B.ST,Cline Scientific AB,STO,,Sweden
+CTM.ST,Catena Media p.l.c,STO,,Sweden
+DESSCO.ST,Deep Sea Supply Plc,STO,,Sweden
+CYBE.ST,Cybercom Group AB,STO,,Sweden
+PDRO.ST,Petrolia SE,STO,,Sweden
+SBXO.ST,SeaBird Exploration PLC,STO,,Sweden
+DCAR-B.ST,D. Carnegie & Co AB (publ),STO,Hospitals,Sweden
+LUC.ST,Lucara Diamond Corp.,STO,,Sweden
+NAPAO.ST,Napatech A/S,STO,,Sweden
+PCAT.ST,Photocat A/S,STO,,Sweden
+63626.ST,63626.ST,STO,,Sweden
+SEVDRO.ST,Sevan Drilling Limited,STO,,Sweden
+EASY-B.ST,EasyFill AB B,STO,,Sweden
+ELUXB.ST,AB Electrolux (publ),STO,,Sweden
+88833.ST,88833.ST,STO,,Sweden
+VEMF-SDB.ST,Vostok Emerging Finance Ltd,STO,,Sweden
+ENQ.ST,EnQuest PLC,STO,Independent Oil & Gas,Sweden
+EOS.ST,EOS Russia,STO,Electric Utilities,Sweden
+ERIC-A.ST,Telefonaktiebolaget LM Ericsson (publ),STO,Communication Equipment,Sweden
+NETG.ST,Net Gaming Europe AB (publ),STO,,Sweden
+EVERY-A.ST,Everysport Media Group AB ser.,STO,,Sweden
+STER.ST,Stora Enso Oyj,STO,,Sweden
+NXTMS.ST,Nexstim Plc,STO,,Sweden
+NOKIA-SEK.ST,Nokia Corporation,STO,,Sweden
+NFAB.ST,Nordic Flanges Group AB (publ),STO,,Sweden
+FOOT-PREF.ST,Footway Group AB (publ),STO,,Sweden
+81268.ST,81268.ST,STO,,Sweden
+STWK.ST,Stockwik Förvaltning AB (publ),STO,,Sweden
+BAKKAO.ST,P/F Bakkafrost,STO,,Sweden
+FROO.ST,Frontline Ltd.,STO,,Sweden
+SLOTT-B.ST,Slottsviken Fastighetsaktiebola,STO,,Sweden
+SLOTT-A.ST,Slottsviken Fastighetsaktiebola,STO,,Sweden
+FUNCOMO.ST,Funcom N.V.,STO,,Sweden
+NIOO.ST,Gaming Innovation Group Inc.,STO,,Sweden
+OLDM.ST,Old Mutual plc,STO,Life Insurance,Sweden
+GETIB.ST,Getinge AB,STO,,Sweden
+63648.ST,63648.ST,STO,,Sweden
+GPG-PREF.ST,Genova Property Group AB (publ),STO,,Sweden
+63635.ST,63635.ST,STO,,Sweden
+RLS-TR.ST,RLS Global AB TR,STO,,Sweden
+RLS-BTA.ST,RLS Global AB BTA,STO,,Sweden
+LUG.ST,Lundin Gold Inc.,STO,,Sweden
+GOGL-RO.ST,Golden Ocean Group Limited REG,STO,,Sweden
+KOPY-BTA-1.ST,KOPY-BTA-1.ST,STO,,Sweden
+SHBA.ST,Svenska Handelsbanken AB (publ),STO,,Sweden
+63631.ST,63631.ST,STO,,Sweden
+HANC-PREF-A.ST,Hancap AB (publ),STO,,Sweden
+SHB-B.ST,Svenska Handelsbanken AB (publ),STO,Money Center Banks,Sweden
+SHB-A.ST,Svenska Handelsbanken AB (publ),STO,Money Center Banks,Sweden
+HEIM-PREF.ST,Heimstaden AB (publ),STO,,Sweden
+HTRO-BTA.ST,HTRO-BTA.ST,STO,,Sweden
+SIVE-BTA.ST,Sivers IMA Holding AB BTA,STO,,Sweden
+SIVE-TR.ST,Sivers IMA Holding AB TR,STO,,Sweden
+HUBR-B.ST,hubbr AB (publ),STO,,Sweden
+HUSQB.ST,Husqvarna AB (publ),STO,,Sweden
+63632.ST,63632.ST,STO,,Sweden
+IDEXO.ST,IDEX ASA,STO,,Sweden
+IS-BTA.ST,IS-BTA.ST,STO,,Sweden
+IMS.ST,Invent Medic Sweden AB,STO,,Sweden
+IMNP.ST,"Immune Pharmaceuticals, Inc.",STO,,Sweden
+ITAL-SDB.ST,Italeaf S.p.A.,STO,,Sweden
+JOJK.ST,Jojka Communications AB (publ),STO,,Sweden
+KINV-A.ST,Kinnevik AB,STO,,Sweden
+KINB.ST,KINB.ST,STO,,Sweden
+K2A-PREF.ST,K2A Knaust & Andersson Fastigheter AB (Publ),STO,,Sweden
+89289.ST,89289.ST,STO,,Sweden
+SIOFFO.ST,Siem Offshore Inc.,STO,,Sweden
+NLAB.ST,Nordic Leisure AB (Publ),STO,,Sweden
+LUXO-SDB.ST,Luxonen SA,STO,,Sweden
+LUMI-SDB.ST,Lundin Mining Corporation,STO,,Sweden
+TAGM-BTA-B.ST,TagMaster AB BTA,STO,,Sweden
+TILO.ST,Tanker Investments Ltd.,STO,,Sweden
+MIR-BTA.ST,Miris Holding AB BTA,STO,,Sweden
+DEMI-BTA-B.ST,Delta Minerals AB BTA B,STO,,Sweden
+MTGB.ST,Modern Times Group Mtg AB,STO,,Sweden
+MUNK1S.ST,Ahlstrom-Munksjö Oyj,STO,,Sweden
+MYCR.ST,Mycronic AB (publ),STO,,Sweden
+NATTO.ST,NattoPharma ASA,STO,,Sweden
+NAVAO.ST,Navamedic ASA,STO,,Sweden
+NJOB.ST,NetJobs Group AB,STO,,Sweden
+NIL-B.ST,Nilörngruppen AB,STO,,Sweden
+NICO-BTA.ST,NICO-BTA.ST,STO,,Sweden
+63637.ST,63637.ST,STO,,Sweden
+OTSO.ST,Oceanteam ASA,STO,,Sweden
+ODFO.ST,Odfjell SE,STO,,Sweden
+88790.ST,88790.ST,STO,,Sweden
+63640.ST,63640.ST,STO,,Sweden
+75076.ST,75076.ST,STO,,Sweden
+NORTHO.ST,North Energy ASA,STO,,Sweden
+63642.ST,63642.ST,STO,,Sweden
+63647.ST,63647.ST,STO,,Sweden
+63634.ST,63634.ST,STO,,Sweden
+71203.ST,71203.ST,STO,,Sweden
+110075.ST,110075.ST,STO,,Sweden
+PPG-PREFO.ST,Pioneer Property Group ASA Pref,STO,,Sweden
+TTSO.ST,TTS Group ASA,STO,,Sweden
+REACHO.ST,Reach Subsea ASA,STO,,Sweden
+63644.ST,63644.ST,STO,,Sweden
+ODFBO.ST,Odfjell SE,STO,,Sweden
+88881.ST,88881.ST,STO,,Sweden
+SRBANKO.ST,SpareBank 1 SR-Bank,STO,,Sweden
+SCIO.ST,Scana Industrier ASA,STO,,Sweden
+OASM-BTA.ST,OASM-BTA.ST,STO,,Sweden
+ORT-TR-B.ST,Ortoma AB TR B,STO,,Sweden
+ORT-BTA-B.ST,Ortoma AB BTA B,STO,,Sweden
+PAPI.ST,Papilly AB (publ),STO,,Sweden
+PNDX-B.ST,Pandox AB (publ),STO,,Sweden
+VICP-A.ST,Victoria Park AB (publ),STO,,Sweden
+RAKPO.ST,RAK Petroleum plc,STO,,Sweden
+PEXA-B.ST,PExA AB,STO,,Sweden
+PEGRO-PREF.ST,Pegroco Invest AB (publ),STO,,Sweden
+PMED-BTA.ST,PEPTONIC Medical AB BTA,STO,,Sweden
+PMED-TR.ST,PEPTONIC Medical AB TR,STO,,Sweden
+TETY-IL.ST,Tethys Oil AB IL,STO,,Sweden
+PIL-BTA.ST,Pilum AB (publ),STO,,Sweden
+PIL-TR.ST,Pilum AB TR,STO,,Sweden
+PLED-BTA.ST,PledPharma AB BTA,STO,,Sweden
+PLUN-BTA.ST,ProstaLund AB BTA,STO,,Sweden
+VOLO-PREF.ST,Volati AB,STO,,Sweden
+PRIME-PREF-B.ST,Prime Living AB (publ),STO,,Sweden
+RHOVAC.ST,RhoVac AB,STO,,Sweden
+DEFL-TR-B.ST,Deflamo AB TR B,STO,,Sweden
+TAGM-TR-B.ST,TagMaster AB TR B,STO,,Sweden
+SAVOS-TR.ST,Savo-Solar Oyj TR,STO,,Sweden
+MIR-TR.ST,Miris Holding AB TR,STO,,Sweden
+WESC-TR.ST,WeSC AB TR,STO,,Sweden
+PLED-TR.ST,PledPharma AB TR,STO,,Sweden
+RXS-PREF.ST,RXS-PREF.ST,STO,,Sweden
+SDOS-BTA.ST,ScandiDos AB BTA,STO,,Sweden
+SCC-B.ST,SCC-B.ST,STO,,Sweden
+SDIP-PREF.ST,Sdiptech AB (publ),STO,,Sweden
+SWEDA.ST,Swedbank AB (publ),STO,,Sweden
+SKAB.ST,Skanska AB (publ),STO,,Sweden
+SKFB.ST,SKF AB,STO,,Sweden
+SNTC.ST,SNTC.ST,STO,,Sweden
+SSABA.ST,SSAB AB,STO,,Sweden
+STORY-B.ST,Storytel AB ser. B,STO,,Sweden
+VSSAB-B.ST,Viking Supply Ships AB (publ),STO,,Sweden
+TAUR-B.ST,Taurus Energy AB,STO,,Sweden
+TBDY.ST,TBDY.ST,STO,,Sweden
+TIEN.ST,Tieto Oyj,STO,Information Technology Services,Sweden
+TRELB.ST,Trelleborg AB,STO,,Sweden
+TWW-SDB-A.ST,TWW-SDB-A.ST,STO,,Sweden
+VSD-B.ST,Vibrosense Dynamics AB,STO,,Sweden
+VOLVB.ST,AB Volvo (publ),STO,,Sweden
+203.ST,203 Web Group AB (publ),STO,,Sweden
+WESC-BTA.ST,WeSC AB BTA 1,STO,,Sweden
+TWW-SDB-B.ST,TWW-SDB-B.ST,STO,,Sweden
+ADDV-A.ST,ADDvise Group AB (publ),STO,,Sweden
+SEBA.ST,Skandinaviska Enskilda Banken AB (publ),STO,,Sweden
+63641.ST,63641.ST,STO,,Sweden
+COPP-B.ST,Copperstone Resources AB,STO,,Sweden
+HOGK-PREF-A.ST,Aktiebolaget Hogkullen (Publ),STO,,Sweden
+INISS-B.ST,Inission AB (publ),STO,,Sweden
+INVEB.ST,Investor AB,STO,,Sweden
+PLAY.ST,Future Gaming Group International AB,STO,,Sweden
+SAS-NOKO.ST,SAS AB,STO,,Sweden
+SAVOS-BTA.ST,Savo-Solar Oyj,STO,,Sweden
+SECUB.ST,Securitas AB,STO,,Sweden
+SEZI-BTA.ST,Senzime AB,STO,,Sweden
+STAR-A.ST,Starbreeze AB (publ),STO,,Sweden
+STAR-B.ST,Starbreeze AB (publ),STO,,Sweden

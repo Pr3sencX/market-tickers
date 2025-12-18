@@ -1,0 +1,767 @@
+ticker,name,exchange,category name,country
+ASURB.MX,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",MEX,"Air Services, Other",Mexico
+WALMEX.MX,"Wal-Mart de México, S.A.B. de C.V.",MEX,"Discount, Variety Stores",Mexico
+MTN.MX,ArcelorMittal,MEX,,Mexico
+GOOG.MX,Alphabet Inc.,MEX,Internet Information Providers,Mexico
+AMXL.MX,"América Móvil, S.A.B. de C.V.",MEX,Wireless Communications,Mexico
+AAPL.MX,Apple Inc.,MEX,Electronic Equipment,Mexico
+LALAB.MX,"Grupo Lala, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico
+AZTECACPO.MX,TV Azteca SAB de CV,MEX,Broadcasting - TV,Mexico
+ALFAA.MX,"Alfa, S. A. B. de C. V.",MEX,Specialty Chemicals,Mexico
+ADSK.MX,"Autodesk, Inc.",MEX,Technical & System Software,Mexico
+BIMBOA.MX,"Grupo Bimbo, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico
+GRUMAB.MX,"Gruma, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico
+FEMSAUBD.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",MEX,Beverages - Soft Drinks,Mexico
+DIS.MX,The Walt Disney Company,MEX,Entertainment - Diversified,Mexico
+KOFL.MX,"Coca-Cola FEMSA, S.A.B. de C.V.",MEX,Beverages - Soft Drinks,Mexico
+ELEKTRA.MX,"Grupo Elektra, S.A.B. de C.V.",MEX,Department Stores,Mexico
+RDSB.MX,Royal Dutch Shell plc,MEX,Major Integrated Oil & Gas,Mexico
+GMEXICOB.MX,"Grupo México, S.A.B. de C.V.",MEX,Industrial Metals & Minerals,Mexico
+CEMEXCPO.MX,"CEMEX, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+RDSA.MX,Royal Dutch Shell plc,MEX,Major Integrated Oil & Gas,Mexico
+PINFRA.MX,"Promotora y Operadora de Infraestructura, S. A. B. de C. V.",MEX,General Contractors,Mexico
+MEXCHEM.MX,"Mexichem, S.A.B. de C.V.",MEX,Chemicals - Major Diversified,Mexico
+MASECAB.MX,"Grupo Industrial Maseca, SAB de CV",MEX,Food - Major Diversified,Mexico
+LABB.MX,"Genomma Lab Internacional, S.A.B. de C.V.",MEX,Drugs - Generic,Mexico
+ICHB.MX,"Industrias CH, S. A. B. de C. V.",MEX,Steel & Iron,Mexico
+ICA.MX,"Empresas ICA, S.A.B. de C.V.",MEX,General Contractors,Mexico
+HOMEX.MX,"Desarrolladora Homex, S.A.B. de C.V.",MEX,Residential Construction,Mexico
+HERDEZ.MX,"Grupo Herdez, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico
+HD.MX,"The Home Depot, Inc.",MEX,Home Improvement Stores,Mexico
+GPH1.MX,"Grupo Palacio de Hierro, S.A.B. de C.V.",MEX,Department Stores,Mexico
+GIGANTE.MX,"Grupo Gigante, S. A. B. de C. V.",MEX,"Discount, Variety Stores",Mexico
+GBMO.MX,"Corporativo GBM, S.A.B. de C.V.",MEX,Investment Brokerage - National,Mexico
+FIBRAMQ12.MX,FIBRA Macquarie México,MEX,REIT - Industrial,Mexico
+CMOCTEZ.MX,"Corporación Moctezuma, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+CHDRAUIB.MX,"Grupo Comercial Chedraui, S.A.B. DE C.V.",MEX,Grocery Stores,Mexico
+BAFARB.MX,"Grupo Bafar, S.A.B. de C.V.",MEX,Farm Products,Mexico
+AMD.MX,"Advanced Micro Devices, Inc.",MEX,Semiconductor - Broad Line,Mexico
+VALUEGFO.MX,Value Grupo Financiero SAB de CV,MEX,Investment Brokerage - National,Mexico
+SIMECB.MX,"Grupo Simec, S.A.B. de C.V.",MEX,Steel & Iron,Mexico
+SIEN.MX,Siemens Aktiengesellschaft,MEX,Diversified Machinery,Mexico
+RCENTROA.MX,"Grupo Radio Centro, S.A.B. de C.V.",MEX,Broadcasting - Radio,Mexico
+OMAB.MX,"Grupo Aeroportuario del Centro Norte, S. A. B. de C. V.",MEX,"Air Services, Other",Mexico
+ODP.MX,"Office Depot, Inc.",MEX,"Specialty Retail, Other",Mexico
+LIVEPOL1.MX,"El Puerto de Liverpool, SAB de CV",MEX,Department Stores,Mexico
+INVEXA.MX,"INVEX Controladora, S.A.B. de C.V.",MEX,Investment Brokerage - National,Mexico
+IDEALB-1.MX,"Impulsora del Desarrollo y el Empleo en América Latina, S.A.B. de C.V.",MEX,Heavy Construction,Mexico
+HOGARB.MX,"Consorcio Hogar, S.A.B. de C.V.",MEX,,Mexico
+GMD.MX,"Grupo Mexicano de Desarrollo, S.A.B.",MEX,Heavy Construction,Mexico
+GFNORTEO.MX,"Grupo Financiero Banorte, S.A.B. de C.V.",MEX,Money Center Banks,Mexico
+GEOB.MX,Corporacion Geo SAB de CV,MEX,Residential Construction,Mexico
+GCARSOA1.MX,"Grupo Carso, S.A.B. de C.V.",MEX,Department Stores,Mexico
+FINN13.MX,Fibra Inn,MEX,REIT - Hotel/Motel,Mexico
+FINAMEXO.MX,Casa de Bolsa Finamex S.A.B. de C.V.,MEX,Investment Brokerage - National,Mexico
+NEMAKA.MX,"Nemak, S. A. B. de C. V.",MEX,Auto Parts,Mexico
+XOM.MX,Exxon Mobil Corporation,MEX,Major Integrated Oil & Gas,Mexico
+PRU.MX,"Prudential Financial, Inc.",MEX,Life Insurance,Mexico
+FSLR.MX,"First Solar, Inc.",MEX,Diversified Utilities,Mexico
+KHC.MX,The Kraft Heinz Company,MEX,Food - Major Diversified,Mexico
+CVS.MX,CVS Health Corporation,MEX,Health Care Plans,Mexico
+BHI.MX,"Baker Hughes, a GE company, LLC",MEX,,Mexico
+JPM.MX,JPMorgan Chase & Co.,MEX,Money Center Banks,Mexico
+JNJ.MX,Johnson & Johnson,MEX,Drug Manufacturers - Major,Mexico
+JCP.MX,"J. C. Penney Company, Inc.",MEX,Department Stores,Mexico
+GLENN.MX,Glencore Plc,MEX,Industrial Metals & Minerals,Mexico
+STJN.MX,St. James's Place plc,MEX,,Mexico
+JCI.MX,Johnson Controls International plc,MEX,,Mexico
+JAH.MX,Jarden Corp.,MEX,,Mexico
+DECN.MX,JCDecaux SA,MEX,,Mexico
+JDN.MX,"JD.com, Inc.",MEX,Internet Information Providers,Mexico
+SINAN.MX,SINA Corporation,MEX,Internet Information Providers,Mexico
+KO.MX,The Coca-Cola Company,MEX,Beverages - Soft Drinks,Mexico
+KUOA.MX,"Grupo Kuo, S.A.B. de C.V.",MEX,Conglomerates,Mexico
+SLBN.MX,Schlumberger Limited,MEX,Oil & Gas Equipment & Services,Mexico
+MMM.MX,3M Company,MEX,Diversified Machinery,Mexico
+SITESL.MX,"Telesites, S.A.B. de C.V.",MEX,,Mexico
+NFLX.MX,"Netflix, Inc.",MEX,Entertainment - Diversified,Mexico
+TELN.MX,TE Connectivity Ltd.,MEX,Diversified Electronics,Mexico
+SIDN.MX,Companhia Siderúrgica Nacional,MEX,Steel & Iron,Mexico
+RIGN.MX,Transocean Ltd.,MEX,Oil & Gas Drilling & Exploration,Mexico
+NVSN.MX,Novartis AG,MEX,Drug Manufacturers - Major,Mexico
+NVDA.MX,NVIDIA Corporation,MEX,Semiconductor - Broad Line,Mexico
+NOKN.MX,Nokia Corporation,MEX,Communication Equipment,Mexico
+NKE.MX,"NIKE, Inc.",MEX,Textile - Apparel Footwear & Accessories,Mexico
+POTN.MX,Potash Corporation of Saskatchewan Inc.,MEX,Agricultural Chemicals,Mexico
+ORCL.MX,Oracle Corporation,MEX,Business Software & Services,Mexico
+CULTIBAB.MX,"Organización Cultiba, S.A.B. de C.V.",MEX,Beverages - Soft Drinks,Mexico
+BAC.MX,Bank of America Corporation,MEX,Money Center Banks,Mexico
+HOTEL.MX,"Grupo Hotelero Santa Fe, S.A.B. de C.V.",MEX,Lodging,Mexico
+TEMGBIAA.MX,"Templeton Global Bond Funds, S.A. C.V. de S.I.I.D",MEX,,Mexico
+ORN.MX,L'Oréal S.A.,MEX,Personal Products,Mexico
+PINFRAL.MX,"Promotora y Operadora de Infraestructura, S. A. B. de C. V.",MEX,General Contractors,Mexico
+OHLMEX.MX,"OHL México, S.A.B. de C.V.",MEX,Heavy Construction,Mexico
+QSRN.MX,Restaurant Brands International Inc.,MEX,Restaurants,Mexico
+QIHUN.MX,Qihoo 360 Technology Co. Ltd.,MEX,,Mexico
+QCOM.MX,QUALCOMM Incorporated,MEX,Semiconductor - Broad Line,Mexico
+Q.MX,"Quálitas Controladora, S.A.B. de C.V.",MEX,Property & Casualty Insurance,Mexico
+CREAL.MX,"Crédito Real, S.A.B. de C.V., Sociedad Financiera de Objeto Múltiple, Entidad Regulada",MEX,Credit Services,Mexico
+SNEN.MX,Sony Corporation,MEX,Electronic Equipment,Mexico
+TWX.MX,Time Warner Inc.,MEX,Entertainment - Diversified,Mexico
+TOTN.MX,TOTAL S.A.,MEX,Major Integrated Oil & Gas,Mexico
+COST.MX,Costco Wholesale Corporation,MEX,"Discount, Variety Stores",Mexico
+YHOO.MX,Yahoo! Inc.,MEX,,Mexico
+X.MX,United States Steel Corporation,MEX,Steel & Iron,Mexico
+VALEN.MX,Vale S.A.,MEX,Industrial Metals & Minerals,Mexico
+UAL.MX,"United Continental Holdings, Inc.",MEX,Major Airlines,Mexico
+UA.MX,"Under Armour, Inc.",MEX,,Mexico
+SCCO.MX,Southern Copper Corporation,MEX,Copper,Mexico
+INTC.MX,Intel Corporation,MEX,Semiconductor - Broad Line,Mexico
+GPS.MX,"The Gap, Inc.",MEX,Apparel Stores,Mexico
+GILD.MX,"Gilead Sciences, Inc.",MEX,Biotechnology,Mexico
+CSCO.MX,"Cisco Systems, Inc.",MEX,Communication Equipment,Mexico
+CMG.MX,"Chipotle Mexican Grill, Inc.",MEX,Restaurants,Mexico
+C.MX,Citigroup Inc.,MEX,Money Center Banks,Mexico
+BIDUN.MX,"Baidu, Inc.",MEX,Internet Information Providers,Mexico
+BCSN.MX,Barclays PLC,MEX,Money Center Banks,Mexico
+BBY.MX,"Best Buy Co., Inc.",MEX,"Specialty Retail, Other",Mexico
+BBBY.MX,Bed Bath & Beyond Inc.,MEX,"Specialty Retail, Other",Mexico
+BA.MX,The Boeing Company,MEX,Aerospace/Defense - Major Diversified,Mexico
+ATVI.MX,"Activision Blizzard, Inc.",MEX,Multimedia & Graphics Software,Mexico
+AMZN.MX,"Amazon.com, Inc.",MEX,"Specialty Retail, Other",Mexico
+ALUN.MX,Alcatel-Lucent,MEX,,Mexico
+AIG.MX,"American International Group, Inc.",MEX,Property & Casualty Insurance,Mexico
+ABBN.MX,ABB Ltd,MEX,Diversified Machinery,Mexico
+AA.MX,Arconic Inc.,MEX,,Mexico
+WU.MX,The Western Union Company,MEX,Credit Services,Mexico
+WHR.MX,Whirlpool Corporation,MEX,Home Furnishings & Fixtures,Mexico
+V.MX,Visa Inc.,MEX,Credit Services,Mexico
+UTX.MX,United Technologies Corporation,MEX,Aerospace/Defense - Major Diversified,Mexico
+ULN.MX,Unilever PLC,MEX,Personal Products,Mexico
+TWTR.MX,"Twitter, Inc.",MEX,Internet Information Providers,Mexico
+TSO.MX,Andeavor,MEX,,Mexico
+TSLA.MX,"Tesla, Inc.",MEX,Auto Manufacturers - Major,Mexico
+TRV.MX,"The Travelers Companies, Inc.",MEX,Property & Casualty Insurance,Mexico
+TMN.MX,Toyota Motor Corporation,MEX,Auto Manufacturers - Major,Mexico
+TIN.MX,Telecom Italia S.p.A.,MEX,Wireless Communications,Mexico
+TGT.MX,Target Corporation,MEX,"Discount, Variety Stores",Mexico
+TEVAN.MX,Teva Pharmaceutical Industries Limited,MEX,Drugs - Generic,Mexico
+SYTN.MX,Syngenta AG,MEX,,Mexico
+STT.MX,State Street Corporation,MEX,Asset Management,Mexico
+SNDK.MX,SanDisk Corp.,MEX,,Mexico
+RGC.MX,Regal Entertainment Group,MEX,Entertainment - Diversified,Mexico
+PUKN.MX,Prudential plc,MEX,Life Insurance,Mexico
+PLD.MX,"Prologis, Inc.",MEX,REIT - Industrial,Mexico
+PHM.MX,"PulteGroup, Inc.",MEX,Residential Construction,Mexico
+PFE.MX,Pfizer Inc.,MEX,Drug Manufacturers - Major,Mexico
+PBRN.MX,Petróleo Brasileiro S.A. - Petrobras,MEX,Major Integrated Oil & Gas,Mexico
+MU.MX,"Micron Technology, Inc.",MEX,Semiconductor- Memory Chips,Mexico
+MS.MX,Morgan Stanley,MEX,Investment Brokerage - National,Mexico
+MON.MX,Monsanto Company,MEX,Agricultural Chemicals,Mexico
+MO.MX,"Altria Group, Inc.",MEX,"Tobacco Products, Other",Mexico
+MGM.MX,MGM Resorts International,MEX,Resorts & Casinos,Mexico
+MELIN.MX,"Mercadolibre, Inc.",MEX,"Specialty Retail, Other",Mexico
+MCD.MX,McDonald's Corporation,MEX,Restaurants,Mexico
+MA.MX,Mastercard Incorporated,MEX,Credit Services,Mexico
+LYGN.MX,Lloyds Banking Group plc,MEX,Money Center Banks,Mexico
+IP.MX,International Paper Company,MEX,Packaging & Containers,Mexico
+ILMN.MX,"Illumina, Inc.",MEX,Medical Instruments & Supplies,Mexico
+HYUDN.MX,Hyundai Motor Company,MEX,Auto Manufacturers - Major,Mexico
+GS.MX,"The Goldman Sachs Group, Inc.",MEX,Investment Brokerage - National,Mexico
+GOOGL.MX,Alphabet Inc.,MEX,Internet Information Providers,Mexico
+GM.MX,General Motors Company,MEX,Auto Manufacturers - Major,Mexico
+GGBN.MX,Gerdau S.A.,MEX,Steel & Iron,Mexico
+FCFS.MX,"FirstCash, Inc.",MEX,,Mexico
+EN.MX,Eni S.p.A.,MEX,Major Integrated Oil & Gas,Mexico
+EMR.MX,Emerson Electric Co.,MEX,Diversified Machinery,Mexico
+EBAY.MX,eBay Inc.,MEX,"Specialty Retail, Other",Mexico
+DLTR.MX,"Dollar Tree, Inc.",MEX,"Discount, Variety Stores",Mexico
+DISH.MX,DISH Network Corporation,MEX,CATV Systems,Mexico
+CVX.MX,Chevron Corporation,MEX,Major Integrated Oil & Gas,Mexico
+CPLN.MX,CPFL Energia S.A.,MEX,Electric Utilities,Mexico
+COP.MX,ConocoPhillips,MEX,Independent Oil & Gas,Mexico
+CL.MX,Colgate-Palmolive Company,MEX,Personal Products,Mexico
+CHK.MX,Chesapeake Energy Corporation,MEX,Independent Oil & Gas,Mexico
+CBPX.MX,"Continental Building Products, Inc.",MEX,,Mexico
+CAR.MX,"Avis Budget Group, Inc.",MEX,Rental & Leasing Services,Mexico
+BSBRN.MX,Banco Santander (Brasil) S.A.,MEX,Money Center Banks,Mexico
+BRFSN.MX,BRF S.A.,MEX,Food - Major Diversified,Mexico
+BMY.MX,Bristol-Myers Squibb Company,MEX,Drug Manufacturers - Major,Mexico
+BBDN.MX,Banco Bradesco S.A.,MEX,Money Center Banks,Mexico
+AZNN.MX,AstraZeneca PLC,MEX,Drug Manufacturers - Major,Mexico
+AXP.MX,American Express Company,MEX,Credit Services,Mexico
+AMGN.MX,Amgen Inc.,MEX,Biotechnology,Mexico
+VRXN.MX,"Valeant Pharmaceuticals International, Inc.",MEX,Drugs - Generic,Mexico
+VASCONI.MX,"Grupo Vasconia, S.A.B.",MEX,Home Furnishings & Fixtures,Mexico
+BOLSAA.MX,"Bolsa Mexicana de Valores, S.A.B. de C.V.",MEX,Asset Management,Mexico
+BBDBN.MX,Bombardier Inc.,MEX,Aerospace/Defense - Major Diversified,Mexico
+VPKN.MX,Koninklijke Vopak N.V.,MEX,,Mexico
+SAVBMX1B.MX,"Siefore Banamex de Aportaciones Voluntarias, S.A. de C.V.",MEX,,Mexico
+BBVA.MX,"Banco Bilbao Vizcaya Argentaria, S.A.",MEX,Money Center Banks,Mexico
+SLN.MX,Standard Life plc,MEX,,Mexico
+VESTA.MX,"Corporación Inmobiliaria Vesta, S.A.B. de C.V.",MEX,Real Estate Development,Mexico
+DGN.MX,VINCI SA,MEX,General Contractors,Mexico
+BOKAN.MX,Royal Boskalis Westminster N.V.,MEX,General Contractors,Mexico
+WMT.MX,"Wal-Mart Stores, Inc.",MEX,"Discount, Variety Stores",Mexico
+WFTN.MX,Weatherford International plc,MEX,Oil & Gas Equipment & Services,Mexico
+WINN.MX,DIEBOLD NIXDORF AG,MEX,,Mexico
+WEIRN.MX,The Weir Group PLC,MEX,Diversified Machinery,Mexico
+WRLD.MX,World Acceptance Corp.,MEX,,Mexico
+AXTELCPO.MX,"Axtel, S.A.B. de C.V.",MEX,Wireless Communications,Mexico
+XLNX.MX,"Xilinx, Inc.",MEX,Semiconductor - Broad Line,Mexico
+AGNN.MX,Allergan plc,MEX,Drugs - Generic,Mexico
+MCMN.MX,"Miquel y Costas & Miquel, S.A.",MEX,Paper & Paper Products,Mexico
+YOKUN.MX,YOUKU TUDOU INC,MEX,,Mexico
+BMEN.MX,"Bolsas y Mercados Españoles, Sociedad Holding de Mercados y Sistemas Financieros, S.A.",MEX,Asset Management,Mexico
+YPFN.MX,YPF Sociedad Anonima,MEX,Major Integrated Oil & Gas,Mexico
+GRAMN.MX,Graña y Montero S.A.A.,MEX,General Contractors,Mexico
+YGEN.MX,Yingli Green Energy Holding Company Limited,MEX,Diversified Utilities,Mexico
+RYAN.MX,Ryanair Holdings plc,MEX,,Mexico
+ZINCQ.MX,ZINCQ.MX,MEX,,Mexico
+JMATN.MX,JOHNSON MATTHEY PLC,MEX,,Mexico
+AAL.MX,American Airlines Group Inc.,MEX,Major Airlines,Mexico
+AAUN.MX,Almaden Minerals Ltd.,MEX,Gold,Mexico
+ABT.MX,Abbott Laboratories,MEX,Medical Appliances & Equipment,Mexico
+ABEVN.MX,Ambev S.A.,MEX,Beverages - Brewers,Mexico
+ABXN.MX,Barrick Gold Corporation,MEX,Gold,Mexico
+0R87N.MX,ASSA ABLOY AB (publ),MEX,Security & Protection Services,Mexico
+ABBV.MX,AbbVie Inc.,MEX,Drug Manufacturers - Major,Mexico
+ABI.MX,Anheuser-Busch InBev SA/NV,MEX,,Mexico
+ACI.MX,Arch Coal Inc.,MEX,,Mexico
+ACCN.MX,Accor SA,MEX,Lodging,Mexico
+ACOFN.MX,Atlas Copco AB,MEX,Diversified Machinery,Mexico
+ACTIPATB.MX,"Actipat - Actipatrimonial, S.A. de C.V.",MEX,,Mexico
+ACTIPATA.MX,"Actipat - Actipatrimonial, S.A. de C.V.",MEX,,Mexico
+ACHN.MX,Aluminum Corporation Of China Limited,MEX,Aluminum,Mexico
+ACTINVRB.MX,Corporación Actinver S.A.B. de C.V.,MEX,Investment Brokerage - National,Mexico
+AC.MX,"Arca Continental, S. A. B. de C. V.",MEX,Beverages - Soft Drinks,Mexico
+FIBRAHD15.MX,"FIBRA HD Servicios, S.C.",MEX,REIT - Diversified,Mexico
+ACXN.MX,"Acerinox, S.A.",MEX,Steel & Iron,Mexico
+HISN.MX,"Hispania Activos Inmobiliarios SOCIMI, S.A.",MEX,,Mexico
+ACCELSAB.MX,"Accel, S.A.B. de C.V.",MEX,Business Services,Mexico
+ACNN.MX,Accenture plc,MEX,Information Technology Services,Mexico
+ACTIPATFF.MX,"Actipat - Actipatrimonial, S.A. de C.V.",MEX,,Mexico
+ADM.MX,Archer-Daniels-Midland Company,MEX,Farm Products,Mexico
+ADBE.MX,Adobe Systems Incorporated,MEX,Technical & System Software,Mexico
+FPAFYN.MX,First Pacific Company Limited,MEX,Asset Management,Mexico
+EDUN.MX,New Oriental Education & Technology Group Inc.,MEX,Education & Training Services,Mexico
+SHPGN.MX,Shire plc,MEX,Biotechnology,Mexico
+CRHN.MX,CRH plc,MEX,General Building Materials,Mexico
+CEON.MX,CNOOC Limited,MEX,Independent Oil & Gas,Mexico
+STON.MX,Statoil ASA,MEX,Major Integrated Oil & Gas,Mexico
+ADSN.MX,Adidas AG,MEX,Textile - Apparel Footwear & Accessories,Mexico
+SIMON.MX,Silicon Motion Technology Corporation,MEX,Semiconductor - Broad Line,Mexico
+MRN.MX,Mindray Medical International Limited,MEX,,Mexico
+CHTN.MX,"CHUNGHWA TELECOM CO., LTD",MEX,,Mexico
+CTRPN.MX,"Ctrip.com International, Ltd.",MEX,"Recreational Goods, Other",Mexico
+LFCN.MX,China Life Insurance Company Limited,MEX,Life Insurance,Mexico
+PNGAYN.MX,"Ping An Insurance (Group) Company of China, Ltd.",MEX,Life Insurance,Mexico
+DRDN.MX,DRDGOLD Limited,MEX,Gold,Mexico
+LKODN.MX,PJSC LUKOIL,MEX,,Mexico
+AEGN.MX,AEGON N.V.,MEX,,Mexico
+NBGGYN.MX,National Bank of Greece S.A.,MEX,Money Center Banks,Mexico
+CNCON.MX,Cencosud S.A.,MEX,,Mexico
+VIPSN.MX,Vipshop Holdings Limited,MEX,"Specialty Retail, Other",Mexico
+JKSN.MX,"JinkoSolar Holding Co., Ltd.",MEX,Diversified Utilities,Mexico
+TCEHYN.MX,Tencent Holdings Limited,MEX,Internet Information Providers,Mexico
+CCUN.MX,Compañía Cervecerías Unidas S.A.,MEX,Beverages - Brewers,Mexico
+CHUN.MX,China Unicom (Hong Kong) Limited,MEX,Wireless Communications,Mexico
+ECN.MX,Ecopetrol SA,MEX,,Mexico
+BAKN.MX,Braskem S.A.,MEX,Chemicals - Major Diversified,Mexico
+ORANN.MX,Orange S.A.,MEX,Wireless Communications,Mexico
+ARMHN.MX,ARM Holdings plc,MEX,,Mexico
+ASXN.MX,"Advanced Semiconductor Engineering, Inc.",MEX,Semiconductor - Broad Line,Mexico
+VIVN.MX,Telefônica Brasil S.A.,MEX,Wireless Communications,Mexico
+JASON.MX,"JA Solar Holdings Co., Ltd.",MEX,Diversified Utilities,Mexico
+PBRAN.MX,Petróleo Brasileiro S.A. - Petrobras,MEX,Major Integrated Oil & Gas,Mexico
+OIBRN.MX,Oi S.A.,MEX,,Mexico
+ENIN.MX,ENIN.MX,MEX,,Mexico
+HQCLN.MX,"Hanwha Q CELLS Co., Ltd.",MEX,Diversified Utilities,Mexico
+NTTN.MX,Nippon Telegraph and Telephone Corporation,MEX,,Mexico
+NTESN.MX,"NetEase, Inc.",MEX,Internet Information Providers,Mexico
+SPILN.MX,"Siliconware Precision Industries Co., Ltd.",MEX,,Mexico
+SNPN.MX,China Petroleum & Chemical Corporation,MEX,Major Integrated Oil & Gas,Mexico
+SOLN.MX,RENESOLA LTD.,MEX,,Mexico
+TSLN.MX,Trina Solar Limited,MEX,,Mexico
+KBN.MX,KB Financial Group Inc.,MEX,Money Center Banks,Mexico
+SSLN.MX,Sasol Limited,MEX,Major Integrated Oil & Gas,Mexico
+SBSN.MX,Companhia de Saneamento BÃ¡sico do Estado de SÃ£o Paulo - SABESP,MEX,Water Utilities,Mexico
+MTXN.MX,MTU Aero Engines AG,MEX,Aerospace/Defense - Major Diversified,Mexico
+GAPB.MX,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",MEX,"Air Services, Other",Mexico
+AEROMEX.MX,Grupo Aeroméxico S. A . B. de C. V.,MEX,Major Airlines,Mexico
+DBN.MX,Deutsche Bank Aktiengesellschaft,MEX,Money Center Banks,Mexico
+AGUA.MX,"Grupo Rotoplas, S. A . B. de C. V.",MEX,Pollution & Treatment Controls,Mexico
+AGKN.MX,Aggreko plc,MEX,Rental & Leasing Services,Mexico
+AGLN.MX,Anglo American plc,MEX,Industrial Metals & Minerals,Mexico
+AGNC.MX,AGNC Investment Corp.,MEX,REIT - Residential,Mexico
+CSN.MX,Credit Suisse Group AG,MEX,Money Center Banks,Mexico
+DAIN.MX,Daimler AG,MEX,Auto Manufacturers - Major,Mexico
+UBSN.MX,UBS GROUP AG,MEX,,Mexico
+AHN.MX,KONINKLIJKE AHOLD NV,MEX,,Mexico
+DAL.MX,"Delta Air Lines, Inc.",MEX,Major Airlines,Mexico
+LUV.MX,Southwest Airlines Co.,MEX,Major Airlines,Mexico
+AIN.MX,"Air Liquide, société anonyme",MEX,Chemicals - Major Diversified,Mexico
+JBLU.MX,JetBlue Airways Corporation,MEX,Major Airlines,Mexico
+ATSG.MX,"Air Transport Services Group, Inc.",MEX,"Air Services, Other",Mexico
+GOLN.MX,GOL Linhas AÃ©reas Inteligentes S.A.,MEX,Major Airlines,Mexico
+AKS.MX,AK Steel Holding Corporation,MEX,Steel & Iron,Mexico
+AKEN.MX,ARKEMA,MEX,,Mexico
+ALSEA.MX,"Alsea, S.A.B. De C.V.",MEX,Restaurants,Mexico
+ALLEN.MX,Allegion plc,MEX,,Mexico
+ALSN.MX,ALTIUS MINERALS CORPORATION,MEX,,Mexico
+ALPEKA.MX,"ALPEK, S.A.B. de C.V.",MEX,Chemicals - Major Diversified,Mexico
+BABAN.MX,Alibaba Group Holding Limited,MEX,"Specialty Retail, Other",Mexico
+ALVN.MX,Allianz SE,MEX,Property & Casualty Insurance,Mexico
+AMXA.MX,"América Móvil, S.A.B. de C.V.",MEX,Wireless Communications,Mexico
+PASAB.MX,"Promotora Ambiental, S.A.B. de C.V.",MEX,Waste Management,Mexico
+AMFWN.MX,Amec Foster Wheeler plc,MEX,,Mexico
+APH.MX,Amphenol Corporation,MEX,Diversified Electronics,Mexico
+VRSK.MX,"Verisk Analytics, Inc.",MEX,,Mexico
+DWA.MX,DreamWorks Animation SKG Inc.,MEX,,Mexico
+ANTM.MX,"Anthem, Inc.",MEX,Health Care Plans,Mexico
+APC.MX,Anadarko Petroleum Corporation,MEX,Independent Oil & Gas,Mexico
+LLY.MX,Eli Lilly and Company,MEX,Drug Manufacturers - Major,Mexico
+APOL.MX,"Apollo Education Group, Inc.",MEX,,Mexico
+APOLO10E.MX,"Apolo 10, S.A De C.V. Siid",MEX,,Mexico
+APPSN.MX,"Applus Services, S.A.",MEX,,Mexico
+APA.MX,Apache Corporation,MEX,Independent Oil & Gas,Mexico
+ARTCK13-2.MX,"CIBANCO,S.A. INSTITUCION DE BAN",MEX,,Mexico
+ARTCK13.MX,"CIBANCO,S.A. INSTITUCION DE BAN",MEX,,Mexico
+ARYNN.MX,ARYZTA AG,MEX,Food - Major Diversified,Mexico
+ARISTOSA.MX,"CONSORCIO ARISTOS, S.A.B. DE C.",MEX,,Mexico
+ARA.MX,"Consorcio ARA, S. A. B. de C. V.",MEX,Residential Construction,Mexico
+ARCON.MX,Arcos Dorados Holdings Inc.,MEX,,Mexico
+ASMLN.MX,ASML Holding N.V.,MEX,Semiconductor Equipment & Materials,Mexico
+ASCN.MX,ASOS Plc,MEX,"Specialty Retail, Other",Mexico
+T.MX,AT&T Inc.,MEX,Wireless Communications,Mexico
+EBON.MX,Erste Group Bank AG,MEX,Money Center Banks,Mexico
+AVN.MX,Aviva plc,MEX,Property & Casualty Insurance,Mexico
+AVP.MX,"Avon Products, Inc.",MEX,Personal Products,Mexico
+AXBN.MX,Axis Bank Limited,MEX,,Mexico
+AXAN.MX,AXA SA,MEX,,Mexico
+AXIAN.MX,"Axiare Patrimonio Socimi, S.A.",MEX,REIT - Diversified,Mexico
+SAN.MX,"Banco Santander, S.A.",MEX,Money Center Banks,Mexico
+GFREGIOO.MX,"Banregio Grupo Financiero, S.A.B de C.V.",MEX,Asset Management,Mexico
+BNS.MX,The Bank of Nova Scotia,MEX,Money Center Banks,Mexico
+DANHOS13.MX,"Concentradora Fibra Danhos, S.A. de C.V.",MEX,REIT - Diversified,Mexico
+USB.MX,U.S. Bancorp,MEX,Regional - Midwest Banks,Mexico
+BACHOCOB.MX,"Industrias Bachoco, S.A.B. de C.V.",MEX,Farm Products,Mexico
+BBRYN.MX,BlackBerry Limited,MEX,Communication Equipment,Mexico
+BCHN.MX,Banco de Chile,MEX,Money Center Banks,Mexico
+BEVIDESB.MX,"Farmacias Benavides, S.A.B. de C.V.",MEX,Drug Delivery,Mexico
+BEVIDESA.MX,"Farmacias Benavides, S.A.B. de C.V.",MEX,,Mexico
+BRKB.MX,Berkshire Hathaway Inc.,MEX,Property & Casualty Insurance,Mexico
+INVEXCOBE.MX,Invex Operadora S.A. de C.V.,MEX,,Mexico
+BKGN.MX,The Berkeley Group Holdings plc,MEX,Residential Construction,Mexico
+INVEXCOBF.MX,Zcob Zcoba,MEX,,Mexico
+BG.MX,Bunge Limited,MEX,Farm Products,Mexico
+BHPN.MX,BHP Billiton Limited,MEX,Industrial Metals & Minerals,Mexico
+BIIB.MX,Biogen Inc.,MEX,Biotechnology,Mexico
+CBPO.MX,"China Biologic Products, Inc.",MEX,,Mexico
+PAPPEL.MX,"Bio Pappel, S.A.B. de C.V.",MEX,Paper & Paper Products,Mexico
+FUNO11.MX,Fibra UNO,MEX,REIT - Diversified,Mexico
+FIHO12.MX,"Concentradora Fibra Hotelera Mexicana, S.A. de C.V.",MEX,REIT - Hotel/Motel,Mexico
+FIBRAPL14.MX,FIBRA Prologis,MEX,REIT - Industrial,Mexico
+BKIAN.MX,"Bankia, S.A.",MEX,Money Center Banks,Mexico
+BLK.MX,"BlackRock, Inc.",MEX,Asset Management,Mexico
+BLD.MX,TopBuild Corp.,MEX,General Building Materials,Mexico
+BMWM5N.MX,Bayerische Motoren Werke Aktiengesellschaft,MEX,Auto Manufacturers - Major,Mexico
+NCLHN.MX,Norwegian Cruise Line Holdings Ltd.,MEX,"Recreational Goods, Other",Mexico
+INVEXCOBM.MX,Invex Operadora S.A. de C.V.,MEX,,Mexico
+BAPN.MX,Credicorp Ltd.,MEX,Money Center Banks,Mexico
+BNPN.MX,BNP Paribas SA,MEX,Money Center Banks,Mexico
+BNRN.MX,Brenntag AG,MEX,Specialty Chemicals,Mexico
+BNN.MX,Danone,MEX,Food - Major Diversified,Mexico
+DB1N.MX,Deutsche Börse Aktiengesellschaft,MEX,Asset Management,Mexico
+WBA.MX,"Walgreens Boots Alliance, Inc.",MEX,Drug Delivery,Mexico
+BOSSN.MX,Hugo Boss AG,MEX,Textile - Apparel Clothing,Mexico
+BPN.MX,BP p.l.c.,MEX,Major Integrated Oil & Gas,Mexico
+CST.MX,"CST Brands, Inc.",MEX,,Mexico
+BTN.MX,BT Group plc,MEX,Wireless Communications,Mexico
+BURL.MX,"Burlington Stores, Inc.",MEX,"Discount, Variety Stores",Mexico
+BVNN.MX,CompaÃ±Ã­a de Minas Buenaventura S.A.A.,MEX,Industrial Metals & Minerals,Mexico
+IBM.MX,International Business Machines Corporation,MEX,Information Technology Services,Mexico
+BXLT.MX,BAXALTA INCORPORATED,MEX,,Mexico
+PROCORPA.MX,"Procorp, S.A. de C.V., Sociedad de Inversión de Capitales",MEX,,Mexico
+TCPTFN.MX,TCPTFN.MX,MEX,,Mexico
+PROCORPB.MX,"Procorp, S.A.B. de C.V.",MEX,Investment Brokerage - National,Mexico
+CBDN.MX,Companhia Brasileira de Distribuição,MEX,Department Stores,Mexico
+CBKN.MX,Commerzbank AG,MEX,Money Center Banks,Mexico
+CC.MX,The Chemours Company,MEX,Specialty Chemicals,Mexico
+CCRN.MX,C & C GROUP PLC,MEX,,Mexico
+CDIN.MX,Christian Dior SE,MEX,Jewelry Stores,Mexico
+CERAMICB.MX,"Internacional de Cerámica, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+CLNXN.MX,"Cellnex Telecom, S.A.",MEX,,Mexico
+CELG.MX,Celgene Corporation,MEX,Biotechnology,Mexico
+FBRN.MX,Fibria Celulose S.A.,MEX,Paper & Paper Products,Mexico
+CERAMICD.MX,"Internacional de Cerámica, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+GCC.MX,"Grupo Cementos de Chihuahua, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+FOX.MX,"Twenty-First Century Fox, Inc.",MEX,Entertainment - Diversified,Mexico
+CFHSN.MX,"Cathay Financial Holding Co., Ltd.",MEX,,Mexico
+CFRIN.MX,Compagnie Financière Richemont SA,MEX,Jewelry Stores,Mexico
+CGGN.MX,CGG,MEX,,Mexico
+DOW.MX,The Dow Chemical Company,MEX,Chemicals - Major Diversified,Mexico
+LISPN.MX,Chocoladefabriken Lindt & Sprüngli AG,MEX,Confectioners,Mexico
+CHS.MX,"Chico's FAS, Inc.",MEX,Apparel Stores,Mexico
+SCHW.MX,The Charles Schwab Corporation,MEX,Investment Brokerage - National,Mexico
+ROGN.MX,Roche Holding AG,MEX,Drug Manufacturers - Major,Mexico
+CIDMEGA.MX,"Grupe, S.A.B. de C.V.",MEX,Resorts & Casinos,Mexico
+CIEB.MX,"Corporación Interamericana de Entretenimiento, S.A.B. de C.V.",MEX,"Recreational Goods, Other",Mexico
+KSU.MX,Kansas City Southern,MEX,Railroads,Mexico
+CTXS.MX,"Citrix Systems, Inc.",MEX,Business Software & Services,Mexico
+CIEAN.MX,"CIE Automotive, S.A.",MEX,Auto Parts,Mexico
+HCITY.MX,"Hoteles City Express, S.A.B. de C.V.",MEX,Lodging,Mexico
+CIGN.MX,Companhia Energética de Minas Gerais,MEX,Diversified Utilities,Mexico
+FSHOP13.MX,Fibra Shop,MEX,REIT - Retail,Mexico
+TERRA13.MX,Terrafina,MEX,REIT - Industrial,Mexico
+KIMBERB.MX,"Kimberly-Clark de México, S. A. B. de C. V.",MEX,Personal Products,Mexico
+KIMBERA.MX,"Kimberly-Clark de México, S. A. B. de C. V.",MEX,Personal Products,Mexico
+CLF.MX,Cleveland-Cliffs Inc.,MEX,Industrial Metals & Minerals,Mexico
+CMRB.MX,"CMR, S.A.B. de C.V.",MEX,Restaurants,Mexico
+CMCSA.MX,Comcast Corporation,MEX,CATV Systems,Mexico
+CMCN.MX,Capstone Mining Corp,MEX,,Mexico
+PROF-CPA1.MX,Fondo Profuturo CP S.A. DE C.V. Siefore,MEX,,Mexico
+TEAKCPO.MX,"Proteak Uno, S.A.B. de C.V.",MEX,"Lumber, Wood Production",Mexico
+LACOMERUBC.MX,La Comer S.A.B. De C.V.,MEX,Department Stores,Mexico
+LACOMERUB.MX,LA COMER S.A.B. DE C.V.,MEX,,Mexico
+CPIN.MX,Capita plc,MEX,,Mexico
+CPAN.MX,"Copa Holdings, S.A.",MEX,Major Airlines,Mexico
+PROF-CPA2.MX,Fondo Profuturo CP S.A. DE C.V. Siefore,MEX,,Mexico
+PROF-CPB2.MX,Fondo Profuturo CP S.A. DE C.V. Siefore,MEX,,Mexico
+RCL.MX,Royal Caribbean Cruises Ltd.,MEX,"Recreational Goods, Other",Mexico
+NTE-IB1C.MX,"NORTEFP, S.A. DE C.V., SIIDPM",MEX,,Mexico
+CRM.MX,"Salesforce.com, inc.",MEX,Technical & System Software,Mexico
+CTSH.MX,Cognizant Technology Solutions Corporation,MEX,Information Technology Services,Mexico
+CONVERA.MX,"Convertidora Industrial, S.A.B. de C.V.",MEX,Packaging & Containers,Mexico
+FEMSAUB.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",MEX,,Mexico
+GFAMSAA.MX,"Grupo Famsa, S.A.B. de C.V.",MEX,Department Stores,Mexico
+VITROCPO.MX,VITROCPO.MX,MEX,,Mexico
+SORIANAB.MX,"Organización Soriana, S. A. B. de C. V.",MEX,Department Stores,Mexico
+SAREB.MX,"Sare Holding, S.A.B. de C.V.",MEX,Residential Construction,Mexico
+EDOARDOB.MX,"EDOARDOS MARTIN, S.A.B. DE C.V.",MEX,,Mexico
+FINDEP.MX,"Financiera Independencia, S.A.B. de C.V.,Sociedad Financiera de Objeto Múltiple, Entidad No Regulada",MEX,Credit Services,Mexico
+COMERCIUB.MX,CONTROLADORA COMERCIAL MEXICANA,MEX,,Mexico
+DINEB.MX,"DINE, S.A.B. de C.V.",MEX,Property Management,Mexico
+COMERCIUBC.MX,Controladora Comercial Mexicana SAB DE CV,MEX,,Mexico
+CABLECPO.MX,"Empresas Cablevisión, S.A.B. de C.V.",MEX,,Mexico
+GFINBURO.MX,"Grupo Financiero Inbursa, S.A.B. de C.V.",MEX,Money Center Banks,Mexico
+VITROA.MX,"Vitro, S.A.B. de C.V.",MEX,Packaging & Containers,Mexico
+MAXCOMCPO.MX,MAXCOMCPO.MX,MEX,,Mexico
+MEDICAB.MX,"Médica Sur, S.A.B. de C.V.",MEX,Medical Laboratories & Research,Mexico
+URBI.MX,"Urbi, Desarrollos Urbanos, S.A.B. de C.V.",MEX,Residential Construction,Mexico
+GISSAA.MX,"Grupo Industrial Saltillo, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+AUTLANB.MX,"Compañía Minera Autlán, S.A.B. de C.V.",MEX,Industrial Metals & Minerals,Mexico
+SANMEXB.MX,"Grupo Financiero Santander México, S.A.B. de C.V.",MEX,Money Center Banks,Mexico
+COLLADO.MX,"G Collado, S.A.B. de C.V.",MEX,Industrial Equipment Wholesale,Mexico
+GPROFUT.MX,"Grupo Profuturo, S.A.B. de C.V.",MEX,Asset Management,Mexico
+DINEA.MX,"DINE, S.A.B. de C.V.",MEX,Property Management,Mexico
+LAMOSA.MX,"Grupo Lamosa, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+MINSAB.MX,"Grupo Minsa, S.A.B. de C.V.",MEX,Food - Major Diversified,Mexico
+MEGACPO.MX,"Megacable Holdings, S. A. B. de C. V.",MEX,Entertainment - Diversified,Mexico
+HILASALA.MX,"Hilasal Mexicana, S.A.B. de C.V.",MEX,Textile - Apparel Clothing,Mexico
+POCHTECB.MX,"Grupo Pochteca, S.A.B. de C.V.",MEX,Chemicals - Major Diversified,Mexico
+FRAGUAB.MX,"Corporativo Fragua, S.A.B. De C.V.",MEX,Drug Delivery,Mexico
+CYDSASAA.MX,"Cydsa, S.A.B. de C.V.",MEX,Chemicals - Major Diversified,Mexico
+GFINTERO.MX,"Grupo Financiero Interacciones, S.A. de C.V.",MEX,Asset Management,Mexico
+POSADASA.MX,"Grupo Posadas, S.A.B. de C.V.",MEX,Lodging,Mexico
+SAB.MX,"GRUPO CASA SABA, S.A.B. DE C.V.",MEX,,Mexico
+KUOB.MX,"Grupo Kuo, S.A.B. de C.V.",MEX,Conglomerates,Mexico
+DATA.MX,"Tableau Software, Inc.",MEX,Technical & System Software,Mexico
+DSYN.MX,Dassault Systèmes SE,MEX,Technical & System Software,Mexico
+DHR.MX,Danaher Corporation,MEX,Medical Laboratories & Research,Mexico
+DD.MX,E. I. du Pont de Nemours and Company,MEX,Agricultural Chemicals,Mexico
+DDD.MX,3D Systems Corporation,MEX,Computer Based Systems,Mexico
+FMEN.MX,Fresenius Medical Care AG & Co. KGAA,MEX,Hospitals,Mexico
+DIDAN.MX,"Distribuidora Internacional de Alimentación, S.A.",MEX,"Discount, Variety Stores",Mexico
+DO.MX,"Diamond Offshore Drilling, Inc.",MEX,Oil & Gas Drilling & Exploration,Mexico
+DEON.MX,Diageo plc,MEX,Beverages - Wineries & Distillers,Mexico
+WDC.MX,Western Digital Corporation,MEX,Data Storage Devices,Mexico
+0QBON.MX,Coloplast A/S,MEX,Medical Instruments & Supplies,Mexico
+0JN9N.MX,DSV A/S,MEX,Air Delivery & Freight Services,Mexico
+DNOW.MX,NOW Inc.,MEX,Oil & Gas Equipment & Services,Mexico
+DPWN.MX,Deutsche Post AG,MEX,Air Delivery & Freight Services,Mexico
+RDYN.MX,Dr. Reddy's Laboratories Ltd.,MEX,,Mexico
+DTEN.MX,Deutsche Telekom AG,MEX,Wireless Communications,Mexico
+DUFNN.MX,Dufry AG,MEX,"Specialty Retail, Other",Mexico
+DVN.MX,Devon Energy Corporation,MEX,Independent Oil & Gas,Mexico
+STLD.MX,"Steel Dynamics, Inc.",MEX,Steel & Iron,Mexico
+GD.MX,General Dynamics Corporation,MEX,Aerospace/Defense - Major Diversified,Mexico
+EBRON.MX,"Ebro Foods, S.A.",MEX,,Mexico
+ECL.MX,Ecolab Inc.,MEX,Specialty Chemicals,Mexico
+EIN.MX,Essilor International Société Anonyme,MEX,Medical Instruments & Supplies,Mexico
+LIVEPOLC-1.MX,"El Puerto de Liverpool, SAB de CV",MEX,Department Stores,Mexico
+REEN.MX,"Red Eléctrica Corporación, S.A.",MEX,,Mexico
+EL.MX,The Estée Lauder Companies Inc.,MEX,Personal Products,Mexico
+ELEMENT.MX,"Elementia, S.A.B. de C.V.",MEX,General Building Materials,Mexico
+GE.MX,General Electric Company,MEX,Diversified Machinery,Mexico
+SUN.MX,Schneider Electric S.E.,MEX,Diversified Machinery,Mexico
+ELPN.MX,Companhia Paranaense de Energia - COPEL,MEX,Diversified Utilities,Mexico
+ERJN.MX,Embraer S.A.,MEX,Aerospace/Defense - Major Diversified,Mexico
+EMC.MX,Dell EMC,MEX,,Mexico
+ENELN.MX,Enel SpA,MEX,Diversified Utilities,Mexico
+SN.MX,Sanchez Energy Corporation,MEX,Independent Oil & Gas,Mexico
+ENGI.MX,ENGI.MX,MEX,,Mexico
+EOANN.MX,E.ON SE,MEX,Diversified Utilities,Mexico
+ERICN.MX,Telefonaktiebolaget LM Ericsson (publ),MEX,Communication Equipment,Mexico
+CAFEN.MX,"Construcciones y Auxiliar de Ferrocarriles, S.A.",MEX,Diversified Machinery,Mexico
+ITXN.MX,"Industria de Diseño Textil, S.A.",MEX,Apparel Stores,Mexico
+ESNTN.MX,Essentra plc,MEX,Rubber & Plastics,Mexico
+COLN.MX,"Inmobiliaria Colonial, S.A.",MEX,Property Management,Mexico
+FAEN.MX,"Faes Farma, S.A.",MEX,Medical Instruments & Supplies,Mexico
+MRLN.MX,"MERLIN PROPERTIES, SOCIMI, S.A.",MEX,,Mexico
+GRFPN.MX,"Grifols, S.A.",MEX,Biotechnology,Mexico
+ESRX.MX,Express Scripts Holding Company,MEX,Health Care Plans,Mexico
+IBEN.MX,"Iberdrola, S.A.",MEX,Diversified Utilities,Mexico
+TREN.MX,"Técnicas Reunidas, S.A.",MEX,General Contractors,Mexico
+VISCN.MX,"Viscofan, S.A.",MEX,Food - Major Diversified,Mexico
+FERN.MX,"Ferrovial, S.A.",MEX,Heavy Construction,Mexico
+MAPN.MX,Mapfre SA,MEX,,Mexico
+TUBN.MX,"Tubacex, S.A.",MEX,Steel & Iron,Mexico
+POPN.MX,"Banco Popular Español, S.A.",MEX,,Mexico
+GCON.MX,"Grupo Catalana Occidente, S.A.",MEX,Property & Casualty Insurance,Mexico
+REPSN.MX,"Repsol, S.A.",MEX,Major Integrated Oil & Gas,Mexico
+IDRN.MX,"INDRA SISTEMAS, S.A.",MEX,,Mexico
+OHLN.MX,"Obrascón Huarte Lain, S.A.",MEX,General Contractors,Mexico
+GASN.MX,"Gas Natural SDG, S.A.",MEX,,Mexico
+ENGN.MX,"Enagás, S.A.",MEX,,Mexico
+NHHN.MX,"NH Hotel Group, S.A.",MEX,Lodging,Mexico
+ETLN.MX,Eutelsat Communications S.A.,MEX,Communication Equipment,Mexico
+EVR.MX,Evercore Partners Inc.,MEX,Investment Brokerage - National,Mexico
+HEEN.MX,HELLENIC EXCHANGES-ATHENS STOCK,MEX,,Mexico
+PREN.MX,Pacific Exploration & Production Corporation,MEX,,Mexico
+EXON.MX,Exor N.V.,MEX,,Mexico
+EXC.MX,Exelon Corporation,MEX,Diversified Utilities,Mexico
+FB.MX,"Facebook, Inc.",MEX,Internet Information Providers,Mexico
+FFHN.MX,Fairfax Financial Holdings Limited,MEX,,Mexico
+WFC.MX,Wells Fargo & Company,MEX,Money Center Banks,Mexico
+FCAN.MX,Fiat Chrysler Automobiles N.V.,MEX,Auto Manufacturers - Major,Mexico
+FCX.MX,Freeport-McMoRan Inc.,MEX,Copper,Mexico
+FDX.MX,FedEx Corporation,MEX,Air Delivery & Freight Services,Mexico
+RACEN.MX,Ferrari N.V.,MEX,Auto Manufacturers - Major,Mexico
+FFIV.MX,"F5 Networks, Inc.",MEX,Business Software & Services,Mexico
+FGEN.MX,"FibroGen, Inc.",MEX,Biotechnology,Mexico
+FHIPO14.MX,Fideicomiso Irrevocable F/2061 Fhipo,MEX,Money Center Banks,Mexico
+GFMULTIO.MX,"Grupo Financiero Multiva, S.A.B. de C.V.",MEX,Money Center Banks,Mexico
+UNIFINA.MX,"Unifin Financiera, S.A.B. de C.V., Sociedad Financiera de Objeto Múltiple, Entidad No Regulada",MEX,Credit Services,Mexico
+PNC.MX,"The PNC Financial Services Group, Inc.",MEX,Regional - Midwest Banks,Mexico
+COF.MX,Capital One Financial Corporation,MEX,Credit Services,Mexico
+FLEXN.MX,Flex Ltd.,MEX,,Mexico
+FLR.MX,Fluor Corporation,MEX,General Contractors,Mexico
+FMTY14.MX,"FIBRA MTY, S.A.P.I. de C.V.",MEX,Money Center Banks,Mexico
+FIG.MX,Fortress Investment Group LLC,MEX,,Mexico
+WFM.MX,"Whole Foods Market, Inc.",MEX,Grocery Stores,Mexico
+F.MX,Ford Motor Company,MEX,Auto Manufacturers - Major,Mexico
+FVIN.MX,Fortuna Silver Mines Inc.,MEX,Silver,Mexico
+MFRISCOA-1.MX,"Minera Frisco, S.A.B. de C.V.",MEX,Industrial Metals & Minerals,Mexico
+KERN.MX,Kering S.A.,MEX,Textile - Apparel Footwear & Accessories,Mexico
+TECN.MX,TECHNIP SA,MEX,,Mexico
+GLEN.MX,Societe Generale Group,MEX,Money Center Banks,Mexico
+UGN.MX,Peugeot S.A.,MEX,Auto Manufacturers - Major,Mexico
+MLN.MX,Compagnie Générale des Etablissements Michelin,MEX,Rubber & Plastics,Mexico
+PUBN.MX,Publicis Groupe S.A.,MEX,Advertising Agencies,Mexico
+VALOFN.MX,Valeo SA,MEX,,Mexico
+COG.MX,Cabot Oil & Gas Corporation,MEX,Independent Oil & Gas,Mexico
+GFAN.MX,Gafisa S.A.,MEX,Residential Construction,Mexico
+GALPN.MX,"Galp Energia, SGPS, S.A.",MEX,Major Integrated Oil & Gas,Mexico
+PG.MX,The Procter & Gamble Company,MEX,Personal Products,Mexico
+GASIN.MX,Assicurazioni Generali S.p.A.,MEX,,Mexico
+IT.MX,"Gartner, Inc.",MEX,Information Technology Services,Mexico
+KGFN.MX,Kingfisher plc,MEX,Home Improvement Stores,Mexico
+FRES.MX,Fresnillo PLC,MEX,Industrial Metals & Minerals,Mexico
+TSCON.MX,Tesco PLC,MEX,Grocery Stores,Mexico
+GBX.MX,"The Greenbrier Companies, Inc.",MEX,Railroads,Mexico
+MGGTN.MX,Meggitt PLC,MEX,,Mexico
+SMSNN.MX,"Samsung Electronics Co., Ltd.",MEX,Electronic Equipment,Mexico
+GENTERA.MX,"Gentera, S.A. B. de C. V.",MEX,Money Center Banks,Mexico
+GENSEG.MX,"General de Seguros, S.A.B.",MEX,,Mexico
+GNW.MX,"Genworth Financial, Inc.",MEX,Property & Casualty Insurance,Mexico
+GGAN.MX,Goldgroup Mining Inc.,MEX,Gold,Mexico
+GGN.MX,Goldcorp Inc.,MEX,Gold,Mexico
+GICSAB.MX,"Grupo Gicsa, S.A. de C.V.",MEX,Property Management,Mexico
+GIVNN.MX,Givaudan SA,MEX,Specialty Chemicals,Mexico
+GSKN.MX,GlaxoSmithKline plc,MEX,Drug Manufacturers - Major,Mexico
+HTZ.MX,"Hertz Global Holdings, Inc.",MEX,Rental & Leasing Services,Mexico
+GLW.MX,Corning Incorporated,MEX,Diversified Electronics,Mexico
+GNP.MX,"Grupo Nacional Provincial, S.A.B.",MEX,Property & Casualty Insurance,Mexico
+GT.MX,The Goodyear Tire & Rubber Company,MEX,Rubber & Plastics,Mexico
+TMMA.MX,"Grupo TMM, S.A.B.",MEX,Shipping,Mexico
+TLEVISACPO.MX,"Grupo Televisa, S.A.B.",MEX,Broadcasting - TV,Mexico
+GSANBORB-1.MX,"GRUPO SANBORNS, S.A.B. DE C.V.",MEX,,Mexico
+HAL.MX,Halliburton Company,MEX,Oil & Gas Equipment & Services,Mexico
+HBCN.MX,HSBC Holdings plc,MEX,Money Center Banks,Mexico
+HEIN.MX,HeidelbergCement AG,MEX,,Mexico
+HPQ.MX,HP Inc.,MEX,Computer Based Systems,Mexico
+RMSN.MX,Hermès International Société en commandite par actions,MEX,,Mexico
+HGGN.MX,Henderson Group plc,MEX,,Mexico
+OPK.MX,"Opko Health, Inc.",MEX,Drugs - Generic,Mexico
+HILASALB.MX,HILASAL MEXICANA S.A.B. DE C.V.,MEX,,Mexico
+SCHPN.MX,Schindler Holding AG,MEX,Diversified Machinery,Mexico
+HMCN.MX,"Honda Motor Co., Ltd.",MEX,Auto Manufacturers - Major,Mexico
+HON.MX,Honeywell International Inc.,MEX,Diversified Machinery,Mexico
+HPE.MX,Hewlett Packard Enterprise Company,MEX,Communication Equipment,Mexico
+HSBCAHOA.MX,"HSBC-D7, S.A. De C.V., S.I.I.D.",MEX,,Mexico
+IENOVA.MX,"Infraestructura Energética Nova, S.A.B. de C.V.",MEX,Gas Utilities,Mexico
+MDTN.MX,Medtronic plc,MEX,Medical Appliances & Equipment,Mexico
+SSYSN.MX,Stratasys Ltd.,MEX,Computer Based Systems,Mexico
+CALLN.MX,magicJack VocalTec Ltd.,MEX,,Mexico
+CHKPN.MX,Check Point Software Technologies Ltd.,MEX,Technical & System Software,Mexico
+IMTN.MX,IMPERIAL BRANDS PLC,MEX,,Mexico
+IM.MX,Ingram Micro Inc.,MEX,,Mexico
+IPON.MX,IP Group Plc,MEX,,Mexico
+ISPN.MX,Intesa Sanpaolo S.p.A.,MEX,Money Center Banks,Mexico
+UCGN.MX,UniCredit S.p.A.,MEX,,Mexico
+ITUBN.MX,Itaú Unibanco Holding S.A.,MEX,Money Center Banks,Mexico
+SFLN.MX,Safilo Group S.p.A.,MEX,,Mexico
+PIAN.MX,Piaggio & C. SpA,MEX,,Mexico
+SRGN.MX,Snam S.p.A.,MEX,Gas Utilities,Mexico
+JAVER.MX,"Servicios Corporativos Javer, S.A.B. de C.V.",MEX,Property Management,Mexico
+KBR.MX,"KBR, Inc.",MEX,,Mexico
+KBH.MX,KB Home,MEX,Residential Construction,Mexico
+KGXN.MX,KION GROUP AG,MEX,,Mexico
+KMX.MX,CarMax Inc.,MEX,Auto Dealerships,Mexico
+KPNN.MX,Koninklijke KPN N.V.,MEX,Wireless Communications,Mexico
+KSS.MX,Kohl's Corporation,MEX,Department Stores,Mexico
+UTSI.MX,UTStarcom Holdings Corp.,MEX,Wireless Communications,Mexico
+MANUN.MX,Manchester United plc,MEX,"Recreational Goods, Other",Mexico
+LVS.MX,Las Vegas Sands Corp.,MEX,Resorts & Casinos,Mexico
+LB.MX,"L Brands, Inc.",MEX,Apparel Stores,Mexico
+LEN.MX,Lennar Corporation,MEX,Residential Construction,Mexico
+LRN.MX,Legrand SA,MEX,Diversified Machinery,Mexico
+LEA.MX,Lear Corporation,MEX,Auto Parts,Mexico
+LUK.MX,Leucadia National Corporation,MEX,Food - Major Diversified,Mexico
+LMT.MX,Lockheed Martin Corporation,MEX,Aerospace/Defense - Major Diversified,Mexico
+LNKD.MX,LinkedIn Corporation,MEX,,Mexico
+TS.MX,Tenaris S.A.,MEX,Steel & Iron,Mexico
+LUPEN.MX,Lundin Petroleum AB (publ),MEX,Independent Oil & Gas,Mexico
+STAN.MX,Stabilus S.A.,MEX,Diversified Machinery,Mexico
+MCN.MX,LVMH Moët Hennessy Louis Vuitton S.E.,MEX,Jewelry Stores,Mexico
+LYBN.MX,LyondellBasell Industries N.V.,MEX,Specialty Chemicals,Mexico
+MPC.MX,Marathon Petroleum Corporation,MEX,Oil & Gas Refining & Marketing,Mexico
+MLM.MX,"Martin Marietta Materials, Inc.",MEX,General Building Materials,Mexico
+TSMN.MX,Taiwan Semiconductor Manufacturing Company Limited,MEX,Semiconductor - Broad Line,Mexico
+MRO.MX,Marathon Oil Corporation,MEX,Independent Oil & Gas,Mexico
+MBTN.MX,Public Joint-Stock Company Mobile TeleSystems,MEX,Wireless Communications,Mexico
+MCK.MX,McKesson Corporation,MEX,Medical Equipment Wholesale,Mexico
+MUX.MX,McEwen Mining Inc.,MEX,Industrial Metals & Minerals,Mexico
+MD.MX,"MEDNAX, Inc.",MEX,Hospitals,Mexico
+MDLZ.MX,"Mondelez International, Inc.",MEX,Confectioners,Mexico
+MRK.MX,"Merck & Co., Inc.",MEX,Drug Manufacturers - Major,Mexico
+MTG.MX,MGIC Investment Corporation,MEX,Accident & Health Insurance,Mexico
+MGAN.MX,Magna International Inc.,MEX,Auto Parts,Mexico
+MSFT.MX,Microsoft Corporation,MEX,Business Software & Services,Mexico
+MKSN.MX,Marks and Spencer Group plc,MEX,Department Stores,Mexico
+MKL.MX,Markel Corporation,MEX,Property & Casualty Insurance,Mexico
+MOS.MX,The Mosaic Company,MEX,Agricultural Chemicals,Mexico
+CHLN.MX,China Mobile Limited,MEX,Wireless Communications,Mexico
+MONEXB.MX,"Monex, S.A.B. de C.V.",MEX,Investment Brokerage - National,Mexico
+MSI.MX,"Motorola Solutions, Inc.",MEX,,Mexico
+NSANYN.MX,"Nissan Motor Co., Ltd.",MEX,Auto Manufacturers - Major,Mexico
+MRWN.MX,Wm Morrison Supermarkets PLC,MEX,Grocery Stores,Mexico
+MTUN.MX,"Mitsubishi UFJ Financial Group, Inc.",MEX,Money Center Banks,Mexico
+MUV2N.MX,Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft,MEX,Property & Casualty Insurance,Mexico
+SITESA.MX,"Telesites, S.A.B. de C.V.",MEX,,Mexico
+SBRAICP1.MX,Siefore Bancom Sa- Ahorro Individual Bancomerica Fund,MEX,,Mexico
+INVEXCOA.MX,Zcob Zcoba,MEX,,Mexico
+MIFIPCB.MX,MIFIPC B,MEX,,Mexico
+INTERS2A.MX,"Fondo Interacciones 2, S.A. De C.V.",MEX,,Mexico
+VOLARA.MX,"Controladora Vuela Compañía de Aviación, S.A.B. de C.V.",MEX,Major Airlines,Mexico
+PE&OLES.MX,"Industrias Peñoles, S.A.B. de C.V.",MEX,Industrial Metals & Minerals,Mexico
+SBRAICPA2.MX,Siefore Bancom Sa- Ahorro Individual Bancomerica Fund,MEX,,Mexico
+RLHA.MX,"RLH Properties, S.A.B. de C.V.",MEX,Property Management,Mexico
+VECTMDA.MX,VECTMD A,MEX,,Mexico
+INTERS2M.MX,INTERS2 M,MEX,,Mexico
+VALOR1FA.MX,"Valorum Uno, SA de CV., S.I.I.D.",MEX,,Mexico
+INBUREXA.MX,"Inburex, S.A. De C.V. SIIDPM",MEX,,Mexico
+CADUA.MX,"Corpovael, S.A. de C.V.",MEX,Real Estate Development,Mexico
+INTERS2B.MX,"Fondo Interacciones 2, S.A. De C.V.",MEX,,Mexico
+SBRAICPB2.MX,Siefore Bancom Sa- Ahorro Individual Bancomerica Fund,MEX,,Mexico
+INBUREXB.MX,"Inburex, S.A. De C.V. SIIDPM",MEX,,Mexico
+SAVBMX1A.MX,"Siefore Banamex de Aportaciones Voluntarias, S.A. de C.V.",MEX,,Mexico
+VALUEV6B.MX,VALUEV6 B,MEX,,Mexico
+RASSINIA.MX,"Rassini, S.A.B. de C.V.",MEX,Auto Parts,Mexico
+SPORTS.MX,"Grupo Sports World, S.A.B. de C.V.",MEX,"Recreational Goods, Other",Mexico
+VALOR3MB.MX,"Valorum Tres, S.A. de C.V., S.I.I.D.P.M.",MEX,,Mexico
+PV.MX,"Peña Verde, S.A.B.",MEX,Property & Casualty Insurance,Mexico
+VALUEV6A.MX,"Fondo Value Crecimiento, S.A. de C.V.",MEX,,Mexico
+RASSINICPO.MX,"Rassini, S.A.B. de C.V.",MEX,Auto Parts,Mexico
+MIFIPCA.MX,MIFIPC A,MEX,,Mexico
+NTE+USAA.MX,"Norteus, S.A. DE C.V., S.I.R.V.",MEX,,Mexico
+VALOR3MA.MX,"Valorum Tres, S.A. de C.V., S.I.I.D.P.M.",MEX,,Mexico
+VALOR1FB.MX,"Valorum Uno, SA de CV., S.I.I.D.",MEX,,Mexico
+NOV.MX,"National Oilwell Varco, Inc.",MEX,Oil & Gas Equipment & Services,Mexico
+NESNN.MX,Nestlé S.A.,MEX,Food - Major Diversified,Mexico
+NGN.MX,NovaGold Resources Inc.,MEX,,Mexico
+RANDN.MX,Randstad Holding NV,MEX,Staffing & Outsourcing Services,Mexico
+NOEJN.MX,NORMA Group SE,MEX,,Mexico
+NVON.MX,Novo Nordisk A/S,MEX,Biotechnology,Mexico
+NUE.MX,Nucor Corporation,MEX,Steel & Iron,Mexico
+INGN.MX,ING Groep N.V.,MEX,Money Center Banks,Mexico
+RYN.MX,Royal Bank of Canada,MEX,Money Center Banks,Mexico
+ORLY.MX,"O'Reilly Automotive, Inc.",MEX,"Specialty Retail, Other",Mexico
+TSUN.MX,TIM Participações S.A.,MEX,Wireless Communications,Mexico
+UNP.MX,Union Pacific Corporation,MEX,Railroads,Mexico
+UGPN.MX,Ultrapar Participações S.A.,MEX,Oil & Gas Refining & Marketing,Mexico
+UPS.MX,"United Parcel Service, Inc.",MEX,Air Delivery & Freight Services,Mexico
+PCLN.MX,The Priceline Group Inc.,MEX,"Recreational Goods, Other",Mexico
+PFCN.MX,Petrofac Limited,MEX,,Mexico
+PTRN.MX,PetroChina Company Limited,MEX,Major Integrated Oil & Gas,Mexico
+PEP.MX,"Pepsico, Inc.",MEX,Beverages - Soft Drinks,Mexico
+REGN.MX,"Regeneron Pharmaceuticals, Inc.",MEX,Biotechnology,Mexico
+VRTX.MX,Vertex Pharmaceuticals Incorporated,MEX,Biotechnology,Mexico
+PII.MX,Polaris Industries Inc.,MEX,Recreational Vehicles,Mexico
+PKXN.MX,POSCO,MEX,Steel & Iron,Mexico
+PPG.MX,"PPG Industries, Inc.",MEX,Specialty Chemicals,Mexico
+PSMT.MX,"PRICESMART, INC.",MEX,,Mexico
+SEMN.MX,SEMAPA - Sociedade de Investimento e Gestao SGPS SA,MEX,,Mexico
+PYPL.MX,"PayPal Holdings, Inc.",MEX,Credit Services,Mexico
+RDN.MX,Radian Group Inc.,MEX,Accident & Health Insurance,Mexico
+RBN.MX,Reckitt Benckiser Group plc,MEX,Personal Products,Mexico
+RCFN.MX,TELEPERFORMANCE SE,MEX,,Mexico
+RION.MX,Rio Tinto plc,MEX,Industrial Metals & Minerals,Mexico
+ROST.MX,"Ross Stores, Inc.",MEX,Apparel Stores,Mexico
+SAPN.MX,SAP SE,MEX,Technical & System Software,Mexico
+SNYN.MX,Sanofi,MEX,Drug Manufacturers - Major,Mexico
+SBUX.MX,Starbucks Corporation,MEX,Restaurants,Mexico
+SBRYN.MX,J Sainsbury plc,MEX,Grocery Stores,Mexico
+TMO.MX,Thermo Fisher Scientific Inc.,MEX,Medical Laboratories & Research,Mexico
+SCTY.MX,SolarCity Corporation,MEX,,Mexico
+SHW.MX,The Sherwin-Williams Company,MEX,Specialty Chemicals,Mexico
+SKYN.MX,Sky plc,MEX,,Mexico
+S.MX,Sprint Corporation,MEX,Wireless Communications,Mexico
+SXSN.MX,Spectris plc,MEX,Scientific & Technical Instruments,Mexico
+SRE.MX,Sempra Energy,MEX,Diversified Utilities,Mexico
+SRENN.MX,Swiss Re Ltd,MEX,,Mexico
+SSE.MX,SSE.MX,MEX,,Mexico
+SWC.MX,Stillwater Mining Company,MEX,,Mexico
+STZ.MX,"Constellation Brands, Inc.",MEX,Beverages - Wineries & Distillers,Mexico
+SVU.MX,SUPERVALU Inc.,MEX,Grocery Stores,Mexico
+SVLCN.MX,SVLCN.MX,MEX,,Mexico
+UHRN.MX,The Swatch Group AG,MEX,Jewelry Stores,Mexico
+SY1N.MX,Symrise AG,MEX,Specialty Chemicals,Mexico
+TCKN.MX,Teck Resources Limited,MEX,,Mexico
+TIF.MX,Tiffany & Co.,MEX,Jewelry Stores,Mexico
+TIME.MX,Time Inc.,MEX,Publishing - Newspapers,Mexico
+TJX.MX,"The TJX Companies, Inc.",MEX,Apparel Stores,Mexico
+TXN.MX,Texas Instruments Incorporated,MEX,Semiconductor - Broad Line,Mexico
+TX.MX,Ternium S.A.,MEX,Steel & Iron,Mexico
+TXT.MX,Textron Inc.,MEX,Aerospace/Defense - Major Diversified,Mexico
+UNH.MX,UnitedHealth Group Incorporated,MEX,Health Care Plans,Mexico
+VLO.MX,Valero Energy Corporation,MEX,Oil & Gas Refining & Marketing,Mexico
+VRTV.MX,Veritiv Corporation,MEX,,Mexico
+VZ.MX,Verizon Communications Inc.,MEX,Wireless Communications,Mexico
+VODN.MX,VODAFONE GROUP PLC,MEX,,Mexico
+VOW3N.MX,Volkswagen Aktiengesellschaft,MEX,Auto Manufacturers - Major,Mexico
+WRK.MX,WestRock Company,MEX,,Mexico
+WTBN.MX,Whitbread PLC,MEX,Restaurants,Mexico
+WITN.MX,Wipro Limited,MEX,Information Technology Services,Mexico
+WYNN.MX,"Wynn Resorts, Limited",MEX,Resorts & Casinos,Mexico
+ADPN.MX,Aéroports de Paris SA,MEX,"Air Services, Other",Mexico
+BASN.MX,BASF SE,MEX,Chemicals - Major Diversified,Mexico
+BAX.MX,Baxter International Inc.,MEX,Medical Instruments & Supplies,Mexico
+BAYNN.MX,Bayer Aktiengesellschaft,MEX,Drug Manufacturers - Major,Mexico
+CAJN.MX,Canon Inc.,MEX,Business Equipment,Mexico
+CNEN.MX,Canacol Energy Ltd,MEX,Independent Oil & Gas,Mexico
+CAN.MX,Carrefour SA,MEX,Grocery Stores,Mexico
+CAT.MX,Caterpillar Inc.,MEX,Farm & Construction Machinery,Mexico
+COO.MX,"The Cooper Companies, Inc.",MEX,Medical Instruments & Supplies,Mexico
+FRC.MX,First Republic Bank,MEX,Regional - Midwest Banks,Mexico
+FISV.MX,"Fiserv, Inc.",MEX,Business Services,Mexico
+TRN.MX,"Trinity Industries, Inc.",MEX,Railroads,Mexico
+INTU.MX,Intuit Inc.,MEX,Technical & System Software,Mexico
+LINN.MX,Linde Aktiengesellschaft,MEX,Chemicals - Major Diversified,Mexico
+M.MX,"Macy's, Inc.",MEX,Department Stores,Mexico
+MAS.MX,Masco Corporation,MEX,General Building Materials,Mexico
+MET.MX,"MetLife, Inc.",MEX,Life Insurance,Mexico
+PLL.MX,PLL.MX,MEX,,Mexico
+TEFN.MX,"Telefónica, S.A.",MEX,Wireless Communications,Mexico
+INCHN.MX,Inchcape plc,MEX,,Mexico

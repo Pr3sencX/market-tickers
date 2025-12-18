@@ -1,58 +1,68 @@
 # market_tickers/core.py
 
 from market_tickers.loaders import (
-    load_india_stocks,
-    load_usa_stocks,
+    load_stocks,
     load_indices,
+    load_etfs,
+    load_currencies,
 )
 
 
-def _normalize(text):
-    return (
-        text.lower()
-        .replace("&", "and")
-        .replace("-", "")
-        .replace(" ", "")
-    )
+# -----------------------------
+# Public API
+# -----------------------------
 
+def get_ticker(name: str, country: str | None = None, category: str = "stock"):
+    """
+    Get Yahoo Finance ticker by human-readable name.
+    """
+    name = name.lower().strip()
 
-def _build_india_ticker(symbol, exchange):
-    return f"{symbol}.NS" if exchange == "NSE" else f"{symbol}.BO"
+    if category == "stock":
+        if not country:
+            raise ValueError("country is required for stock lookup")
+        rows = load_stocks(country)
 
+    elif category == "index":
+        rows = load_indices()
 
-# Load once (fast)
-_INDIA_STOCKS = load_india_stocks()
-_USA_STOCKS = load_usa_stocks()
-_INDICES = load_indices()
+    elif category == "etf":
+        rows = load_etfs()
 
+    elif category == "currency":
+        rows = load_currencies()
 
-def get_ticker(name: str) -> str:
-    norm = _normalize(name)
+    else:
+        raise ValueError(f"Unknown category: {category}")
 
-    # Indices
-    for row in _INDICES:
-        if _normalize(row["name"]) == norm:
+    # 1️⃣ Exact match
+    for row in rows:
+        if row["name"].lower() == name:
             return row["ticker"]
 
-    # India stocks
-    for row in _INDIA_STOCKS:
-        if _normalize(row["name"]) == norm:
-            return _build_india_ticker(row["symbol"], row["exchange"])
+    # 2️⃣ Startswith match
+    for row in rows:
+        if row["name"].lower().startswith(name):
+            return row["ticker"]
 
-    # USA stocks
-    for row in _USA_STOCKS:
-        if _normalize(row["name"]) == norm:
-            return row["symbol"]
+    # 3️⃣ Contains match
+    for row in rows:
+        if name in row["name"].lower():
+            return row["ticker"]
 
-    raise ValueError(f"Ticker not found for: {name}")
+    raise KeyError(f"Ticker not found for: {name}")
 
 
-def get_default_index(stock_name: str) -> str:
-    norm = _normalize(stock_name)
 
-    for row in _INDIA_STOCKS + _USA_STOCKS:
-        if _normalize(row["name"]) == norm:
-            index_name = row["default_index"]
-            return get_ticker(index_name)
+def get_default_index(stock_name: str, country: str = "india"):
+    """
+    Return default index for a stock (simple heuristic).
+    """
+    country = country.lower()
 
-    raise ValueError(f"No default index found for: {stock_name}")
+    if country == "india":
+        return "^NSEI"   # NIFTY 50
+    if country in ("united_states", "usa", "us"):
+        return "^GSPC"  # S&P 500
+
+    raise ValueError(f"No default index defined for country: {country}")
