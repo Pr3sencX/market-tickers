@@ -30,8 +30,8 @@ INDEX_ALIASES = {
     "sensex": "^BSESN",
     "bse": "^BSESN",
     "sp500": "^GSPC",
-    "s&p500": "^GSPC",
     "sandp500": "^GSPC",
+    "s&p500": "^GSPC",
     "dow": "^DJI",
     "nasdaq": "^IXIC",
 }
@@ -76,7 +76,6 @@ def get_ticker(
         rows = load_stocks(country)
 
     elif category == "index":
-        # alias short-circuit
         if norm_name in INDEX_ALIASES:
             return INDEX_ALIASES[norm_name]
         rows = load_indices()
@@ -87,8 +86,8 @@ def get_ticker(
     elif category == "currency":
         rows = load_currencies()
 
-        # 🔥 Guaranteed FX fallback (Yahoo Finance standard)
-        # Covers cases where dataset does not contain explicit mapping
+        # Guaranteed Yahoo Finance FX fallback
+        # Example: USDINR → USDINR=X
         if len(norm_name) == 6 and norm_name.isalpha():
             return f"{norm_name.upper()}=X"
 
@@ -99,10 +98,14 @@ def get_ticker(
     # Defensive filtering
     # -----------------------------
 
-    valid_rows: List[Dict[str, str]] = []
-    for row in rows:
-        if "name" in row and "ticker" in row:
-            valid_rows.append(row)
+    valid_rows: List[Dict[str, str]] = [
+        row for row in rows
+        if isinstance(row, dict)
+        and "name" in row
+        and "ticker" in row
+        and row["name"]
+        and row["ticker"]
+    ]
 
     # -----------------------------
     # 1️⃣ Exact match (name OR ticker)
@@ -119,14 +122,8 @@ def get_ticker(
     if len(exact_matches) == 1:
         return exact_matches[0]["ticker"]
 
-    if len(exact_matches) > 1:
-        raise KeyError(
-            f"Multiple tickers found for '{raw_name}'. "
-            f"Please refine your query."
-        )
-
     # -----------------------------
-    # 2️⃣ Startswith match (name only)
+    # 2️⃣ Startswith match
     # -----------------------------
 
     startswith_matches = [
@@ -138,7 +135,7 @@ def get_ticker(
         return startswith_matches[0]["ticker"]
 
     # -----------------------------
-    # 3️⃣ Contains match (name only)
+    # 3️⃣ Contains match
     # -----------------------------
 
     contains_matches = [
@@ -149,11 +146,22 @@ def get_ticker(
     if len(contains_matches) == 1:
         return contains_matches[0]["ticker"]
 
+    # -----------------------------
+    # 4️⃣ Smart disambiguation (NEW)
+    # -----------------------------
+
     if len(contains_matches) > 1:
-        raise KeyError(
-            f"Multiple tickers found for '{raw_name}'. "
-            f"Please refine your query."
-        )
+        # Prefer NSE over BSE for India
+        if country == "india":
+            nse = [r for r in contains_matches if r["ticker"].endswith(".NS")]
+            if len(nse) == 1:
+                return nse[0]["ticker"]
+            if nse:
+                contains_matches = nse
+
+        # Prefer shortest name (usually main listing)
+        contains_matches.sort(key=lambda r: len(r["name"]))
+        return contains_matches[0]["ticker"]
 
     # -----------------------------
     # Final fallback
