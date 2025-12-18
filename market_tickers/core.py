@@ -15,16 +15,11 @@ from market_tickers.loaders import (
 # -----------------------------
 
 def _normalize(text: str) -> str:
-    """
-    Normalize text for matching:
-    - lowercase
-    - remove spaces, punctuation, symbols
-    """
     return re.sub(r"[^a-z0-9]", "", text.lower())
 
 
 # -----------------------------
-# Index aliases (UX-first)
+# Index aliases
 # -----------------------------
 
 INDEX_ALIASES = {
@@ -43,7 +38,7 @@ INDEX_ALIASES = {
 
 
 # -----------------------------
-# Public API
+# Core resolver
 # -----------------------------
 
 def get_ticker(
@@ -51,158 +46,115 @@ def get_ticker(
     country: Optional[str] = None,
     category: Optional[str] = None,
 ):
-    """
-    Get Yahoo Finance ticker by human-readable name or code.
-
-    Smart defaults:
-    - Index aliases auto-detected ("Nifty", "Sensex", "SP500")
-    - Currency codes auto-detected ("USDINR" → "USDINR=X")
-    - Stocks default to NSE for India
-
-    Parameters
-    ----------
-    name : str
-        Human-readable name or code
-    country : str | None
-        Optional; required only when stock ambiguity exists
-    category : str | None
-        Optional; auto-detected if omitted
-    """
     if not name or not isinstance(name, str):
         raise ValueError("name must be a non-empty string")
 
     raw_name = name.strip()
     norm_name = _normalize(raw_name.replace("=x", ""))
 
-    # -----------------------------
-    # 0️⃣ Hard short-circuits (NO ERRORS)
-    # -----------------------------
-
-    # Index aliases (work even if category not provided)
+    # ---- shortcuts ----
     if norm_name in INDEX_ALIASES:
         return INDEX_ALIASES[norm_name]
 
-    # FX auto-detection (USDINR, EURUSD, etc.)
     if len(norm_name) == 6 and norm_name.isalpha():
         return f"{norm_name.upper()}=X"
 
-    # -----------------------------
-    # Category auto-detection
-    # -----------------------------
-
     if category is None:
-        # If looks like an index keyword
-        if any(k in norm_name for k in INDEX_ALIASES):
-            category = "index"
-        else:
-            category = "stock"
+        category = "stock"
 
-    # Normalize country
     country = country.lower() if isinstance(country, str) else None
 
-    # -----------------------------
-    # Load data
-    # -----------------------------
-
+    # ---- load data ----
     if category == "index":
         rows = load_indices()
-
     elif category == "etf":
         rows = load_etfs()
-
     elif category == "currency":
         rows = load_currencies()
-
     elif category == "stock":
-        # Default to India if not specified (UX decision)
-        if not country:
-            country = "india"
+        country = country or "india"
         rows = load_stocks(country)
-
     else:
         raise ValueError(f"Unknown category: {category}")
 
-    # -----------------------------
-    # Defensive filtering
-    # -----------------------------
-
     valid_rows: List[Dict[str, str]] = [
-        row for row in rows
-        if isinstance(row, dict)
-        and row.get("name")
-        and row.get("ticker")
+        r for r in rows
+        if isinstance(r, dict) and r.get("name") and r.get("ticker")
     ]
 
-    # -----------------------------
-    # 1️⃣ Exact match (name OR ticker)
-    # -----------------------------
-
-    exact = []
-    for row in valid_rows:
-        if (
-            norm_name == _normalize(row["name"])
-            or norm_name == _normalize(row["ticker"].replace("=x", ""))
-        ):
-            exact.append(row)
+    # ---- exact match ----
+    exact = [
+        r for r in valid_rows
+        if norm_name == _normalize(r["name"])
+        or norm_name == _normalize(r["ticker"].replace("=x", ""))
+    ]
 
     if len(exact) == 1:
         return exact[0]["ticker"]
 
-    # -----------------------------
-    # 2️⃣ Startswith match
-    # -----------------------------
+    if len(exact) > 1:
+        if country == "india":
+            nse = [r for r in exact if r["ticker"].endswith(".NS")]
+            if len(nse) == 1:
+                return nse[0]["ticker"]
 
+        raise KeyError(
+            f"'{raw_name}' is ambiguous. "
+            f"Please use full company name (e.g. 'Reliance Industries')."
+        )
+
+    # ---- startswith ----
     starts = [
-        row for row in valid_rows
-        if _normalize(row["name"]).startswith(norm_name)
+        r for r in valid_rows
+        if _normalize(r["name"]).startswith(norm_name)
     ]
 
     if len(starts) == 1:
         return starts[0]["ticker"]
 
-    # -----------------------------
-    # 3️⃣ Contains match
-    # -----------------------------
-
+    # ---- contains ----
     contains = [
-        row for row in valid_rows
-        if norm_name in _normalize(row["name"])
+        r for r in valid_rows
+        if norm_name in _normalize(r["name"])
     ]
 
     if len(contains) == 1:
         return contains[0]["ticker"]
 
-    # -----------------------------
-    # 4️⃣ Smart disambiguation (SAFE DEFAULTS)
-    # -----------------------------
-
     if len(contains) > 1:
-        # Prefer NSE for India
         if country == "india":
             nse = [r for r in contains if r["ticker"].endswith(".NS")]
             if nse:
-                contains = nse
+                return nse[0]["ticker"]
 
-        # Prefer shortest name (usually main listing)
-        contains.sort(key=lambda r: len(r["name"]))
-        return contains[0]["ticker"]
-
-    # -----------------------------
-    # Final fallback
-    # -----------------------------
+        raise KeyError(
+            f"'{raw_name}' is ambiguous. "
+            f"Please use full company name (e.g. 'Reliance Industries')."
+        )
 
     raise KeyError(f"Ticker not found for: {raw_name}")
 
 
+# -----------------------------
+# Defaults
+# -----------------------------
+
 def get_default_index(stock_name: str, country: str = "india"):
-    """
-    Return default index for a stock.
-    """
-    country = country.lower()
-
-    if country == "india":
+    if country.lower() == "india":
         return "^NSEI"
-    if country in ("us", "usa", "united_states"):
+    if country.lower() in ("us", "usa", "united_states"):
         return "^GSPC"
-
     raise ValueError(f"No default index defined for country: {country}")
+
+
+# -----------------------------
+# Smart wrapper
+# -----------------------------
+
+def get(name: str, country: Optional[str] = None):
+    for cat in ("index", "currency", "etf", "stock"):
+        try:
+            return get_ticker(name, country=country, category=cat)
+        except Exception:
+            pass
+    raise KeyError(f"Ticker not found for: {name}")
