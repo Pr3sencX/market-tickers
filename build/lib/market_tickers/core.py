@@ -1,5 +1,3 @@
-# market_tickers/core.py
-
 import re
 from typing import List, Dict, Optional
 
@@ -10,11 +8,13 @@ from market_tickers.loaders import (
     load_currencies,
 )
 
+
 # -----------------------------
 # Helpers
 # -----------------------------
 
 def _normalize(text: str) -> str:
+    """Must match loaders normalization."""
     return re.sub(r"[^a-z0-9]", "", text.lower())
 
 
@@ -72,14 +72,12 @@ def get_ticker(
     elif category == "currency":
         rows = load_currencies()
     elif category == "stock":
-        country = country or "india"
-        rows = load_stocks(country)
+        rows = load_stocks(country or "india")
     else:
         raise ValueError(f"Unknown category: {category}")
 
     valid_rows: List[Dict[str, str]] = [
-        r for r in rows
-        if isinstance(r, dict) and r.get("name") and r.get("ticker")
+        r for r in rows if r.get("name") and r.get("ticker")
     ]
 
     # ---- exact match ----
@@ -152,9 +150,44 @@ def get_default_index(stock_name: str, country: str = "india"):
 # -----------------------------
 
 def get(name: str, country: Optional[str] = None):
-    for cat in ("stock", "index", "currency", "etf"):
+    """
+    Smart ticker resolver.
+    Priority:
+    1. Index (only if name looks like index)
+    2. Currency (only if looks like FX code)
+    3. Stock (DEFAULT and PRIMARY)
+    4. ETF (last fallback)
+    """
+
+    name_norm = _normalize(name)
+
+    # 1️⃣ Index keywords
+    if name_norm in INDEX_ALIASES or any(
+        k in name_norm for k in ("nifty", "sensex", "dow", "nasdaq", "sp")
+    ):
         try:
-            return get_ticker(name, country=country, category=cat)
+            return get_ticker(name, category="index")
         except Exception:
             pass
+
+    # 2️⃣ Currency pattern (USDINR, EURUSD, etc.)
+    if len(name_norm) == 6 and name_norm.isalpha():
+        try:
+            return get_ticker(name, category="currency")
+        except Exception:
+            pass
+
+    # 3️⃣ STOCK FIRST (most important)
+    try:
+        return get_ticker(name, country=country, category="stock")
+    except Exception:
+        pass
+
+    # 4️⃣ ETF fallback
+    try:
+        return get_ticker(name, category="etf")
+    except Exception:
+        pass
+
     raise KeyError(f"Ticker not found for: {name}")
+

@@ -1,0 +1,457 @@
+ticker,name,exchange,category name,country
+TRAN.BA,Compañía de Transporte de Energía Eléctrica en Alta Tensión Transener S.A.,BUE,Electric Utilities,Argentina
+APBR.BA,Petróleo Brasileiro S.A. - Petrobras,BUE,Major Integrated Oil & Gas,Argentina
+CSCO.BA,"Cisco Systems, Inc.",BUE,Communication Equipment,Argentina
+COME.BA,Sociedad Comercial del Plata S.A.,BUE,Conglomerates,Argentina
+BHIP.BA,Banco Hipotecario S.A.,BUE,Money Center Banks,Argentina
+RIGO.BA,Rigolleau S.A.,BUE,Personal Products,Argentina
+LEDE.BA,Ledesma Sociedad Anónima Agrícola Industrial,BUE,Farm Products,Argentina
+GCLA.BA,Grupo Clarín S.A.,BUE,Entertainment - Diversified,Argentina
+APBRA.BA,Petróleo Brasileiro S.A. - Petrobras,BUE,,Argentina
+ABX.BA,Barrick Gold Corporation,BUE,Gold,Argentina
+MOLI.BA,Molinos Rio de la Plata S.A.,BUE,Food - Major Diversified,Argentina
+TGNO4.BA,Transportadora de Gas del Norte S.A.,BUE,Gas Utilities,Argentina
+PSUR.BA,Petrolera del Conosur S.A.,BUE,Oil & Gas Drilling & Exploration,Argentina
+KOFM.BA,Coca-Cola FEMSA S.A.B de C.V.,BUE,,Argentina
+HD.BA,"The Home Depot, Inc.",BUE,Home Improvement Stores,Argentina
+FERR.BA,Ferrum Sociedad Anonima de Ceramica y Metalurgia,BUE,General Building Materials,Argentina
+FNMA.BA,Federal National Mortgage Association,BUE,Mortgage Investment,Argentina
+FRAN.BA,BBVA Banco Francés S.A.,BUE,Money Center Banks,Argentina
+SAMI.BA,S.A. San Miguel A.G.I.C.I. y F.,BUE,Farm Products,Argentina
+SEMI.BA,Molinos Juan Semino S.A.,BUE,Farm Products,Argentina
+JMIN.BA,Holcim (Argentina) S.A.,BUE,General Building Materials,Argentina
+PATY.BA,Quickfood Sociedad Anonima,BUE,Food - Major Diversified,Argentina
+KO.BA,The Coca-Cola Company,BUE,Beverages - Soft Drinks,Argentina
+KMB.BA,Kimberly-Clark Corporation,BUE,Personal Products,Argentina
+TS.BA,Tenaris S.A.,BUE,Steel & Iron,Argentina
+YPCZO.BA,YPF SA 2% NTS 10/03/2017 USD1,BUE,,Argentina
+NEM.BA,Newmont Mining Corporation,BUE,Gold,Argentina
+OYP19.BA,YPF SA 1.29% GTD NTS 04/2017 US,BUE,,Argentina
+NKE.BA,"NIKE, Inc.",BUE,Textile - Apparel Footwear & Accessories,Argentina
+BRIO6.BA,Banco Santander Rio S.A.,BUE,Money Center Banks,Argentina
+BRIO.BA,Banco Santander Rio S.A.,BUE,Money Center Banks,Argentina
+DIY0.BA,Argentina,BUE,,Argentina
+AY24.BA,Argentina,BUE,,Argentina
+AS17.BA,Argentina,BUE,,Argentina
+AGRO.BA,Agrometal S.A.I.,BUE,Farm & Construction Machinery,Argentina
+DICE.BA,Argentina,BUE,,Argentina
+OVO3P.BA,OVOPROT INTERNATIO FRN 05/06/20,BUE,,Argentina
+AO20.BA,Argentina,BUE,,Argentina
+AO17.BA,Argentina,BUE,,Argentina
+AF17.BA,ARGENTINA(REP OF) 0.75% 22/02/2,BUE,,Argentina
+OAEY1.BA,OAEY1.BA,BUE,,Argentina
+OVOP.BA,Ovoprot International S.A.,BUE,Food - Major Diversified,Argentina
+CTIO.BA,Consultatio S.A.,BUE,Property Management,Argentina
+OIRY7.BA,OIRY7.BA,BUE,,Argentina
+TVPP.BA,Argentina,BUE,,Argentina
+CO17.BA,Cordoba (Province of),BUE,,Argentina
+PMD18.BA,Mendoza (Province of),BUE,,Argentina
+SNP.BA,China Petroleum & Chemical Corp.,BUE,,Argentina
+QCOM.BA,QUALCOMM Incorporated,BUE,Semiconductor - Broad Line,Argentina
+QCC8O.BA,QCC8O.BA,BUE,,Argentina
+VALE.BA,VALE S.A. CEDEAR (EACH REP 0.5,BUE,,Argentina
+TGLT.BA,TGLT S.A.,BUE,Property Management,Argentina
+T.BA,AT&T Inc.,BUE,Wireless Communications,Argentina
+YPCNO.BA,YPF Sociedad Anonima,BUE,,Argentina
+UTX.BA,United Technologies Corporation,BUE,Aerospace/Defense - Major Diversified,Argentina
+ERAR.BA,Ternium Siderar,BUE,Steel & Iron,Argentina
+WMT.BA,"Wal-Mart Stores, Inc.",BUE,"Discount, Variety Stores",Argentina
+DISN.BA,The Walt Disney Company,BUE,Entertainment - Diversified,Argentina
+WFC.BA,Wells Fargo & Company,BUE,Money Center Banks,Argentina
+XOM.BA,Exxon Mobil Corporation,BUE,Major Integrated Oil & Gas,Argentina
+YPCPO.BA,YPF Sociedad Anonima,BUE,,Argentina
+BDED.BA,BUENOS AIRES(PROV) 9.25% NTS 15,BUE,,Argentina
+GJ17.BA,Argentina,BUE,,Argentina
+BPLD.BA,Buenos Aires (Province of),BUE,,Argentina
+XNC4O.BA,XNC4O.BA,BUE,,Argentina
+XNC6O.BA,XNC6O.BA,BUE,,Argentina
+XNC5O.BA,XNC5O.BA,BUE,,Argentina
+XNC3O.BA,XNC3O.BA,BUE,,Argentina
+XNC2O.BA,XNC2O.BA,BUE,,Argentina
+PBJ21.BA,Buenos Aires (Province of),BUE,,Argentina
+TSC10.BA,Fideicomiso Financiero Cedulas Hipotecarias Argentinas Serie X 2009-2,BUE,,Argentina
+AUY.BA,Yamana Gold Inc.,BUE,Gold,Argentina
+YPFD.BA,YPF Sociedad Anonima,BUE,Major Integrated Oil & Gas,Argentina
+YHOO.BA,Altaba Inc.,BUE,,Argentina
+IRSA.BA,IRSA Inversiones y Representaciones Sociedad Anónima,BUE,Real Estate Development,Argentina
+DOME.BA,DOMEC Compañía de Artefactos Domésticos S.A.I.C.y F.,BUE,Home Furnishings & Fixtures,Argentina
+CRES.BA,"Cresud Sociedad Anónima Comercial, Inmobiliaria, Financiera y Agropecuaria",BUE,Farm Products,Argentina
+YZC.BA,Yanzhou Coal Mining Co. Ltd.,BUE,,Argentina
+YCA5O.BA,YCA5O.BA,BUE,,Argentina
+YCA2O.BA,YPF Sociedad Anonima,BUE,,Argentina
+PATA.BA,Sociedad Anónima Importadora y Exportadora de la Patagonia,BUE,Department Stores,Argentina
+YCA7O.BA,YCA7O.BA,BUE,,Argentina
+YCABO.BA,YCABO.BA,BUE,,Argentina
+YCA4O.BA,YPF SA 27.5% NTS 10/02/2017 ARS,BUE,,Argentina
+YCA8O.BA,YPF Sociedad Anonima,BUE,,Argentina
+ESTR.BA,Angel Estrada y Compania S.A.,BUE,,Argentina
+YPCUC.BA,YPCUC.BA,BUE,,Argentina
+YPCUO.BA,YPF Sociedad Anonima,BUE,,Argentina
+OIRX6.BA,IRSA INVERSIONES Y 8.5% NTS 02/,BUE,,Argentina
+YPCRO.BA,YPF Sociedad Anonima,BUE,,Argentina
+OIRX7.BA,OIRX7.BA,BUE,,Argentina
+YCA6O.BA,YCA6O.BA,BUE,,Argentina
+OYPF0.BA,YPF SA 6.25% NTS 19/10/2016 USD,BUE,,Argentina
+YCAAO.BA,YPF Sociedad Anonima,BUE,,Argentina
+GARO.BA,Garovaglio y Zorraquín S.A.,BUE,Conglomerates,Argentina
+AAPL.BA,Apple Inc.,BUE,Electronic Equipment,Argentina
+AA17D.BA,AA17D.BA,BUE,,Argentina
+AA17C.BA,AA17C.BA,BUE,,Argentina
+AA.BA,Alcoa Inc.,BUE,,Argentina
+AA17Z.BA,AA17Z.BA,BUE,,Argentina
+AA17.BA,ARGENTINA(REP OF) 7% BDS 17/04/,BUE,,Argentina
+AA17X.BA,AA17X.BA,BUE,,Argentina
+ABT.BA,Abbott Laboratories,BUE,Medical Appliances & Equipment,Argentina
+MBT.BA,MTS PJSC EACH CEDEAR REP 0.5 AD,BUE,,Argentina
+BP.BA,BP CEDEAR EACH REPR 1/5 ADR(AR,BUE,,Argentina
+AD16X.BA,AD16X.BA,BUE,,Argentina
+AD16D.BA,AD16D.BA,BUE,,Argentina
+AEN.BA,Andes Energia PLC,BUE,,Argentina
+AF17D.BA,AF17D.BA,BUE,,Argentina
+CS.BA,CREDIT SUISSE GP CEDEAR EACH RE,BUE,,Argentina
+NVS.BA,NOVARTIS AG CEDEAR EACH REP 0.5,BUE,,Argentina
+SIEGY.BA,SIEMENS AG CEDEAR EACH 3 REP 1,BUE,,Argentina
+INAG.BA,Insumos Agroquímicos S.A.,BUE,Agricultural Chemicals,Argentina
+VALO.BA,Grupo Financiero Valores S.A.,BUE,Asset Management,Argentina
+INTR.BA,Compañía Introductora de Buenos Aires Sociedad Anónima,BUE,Food - Major Diversified,Argentina
+BD2C9.BA,Buenos Aires (City of),BUE,,Argentina
+AIG.BA,"American International Group, Inc.",BUE,"Specialty Retail, Other",Argentina
+BBO16.BA,BUENOS AIRES(PROV) FRN GTD 13/1,BUE,,Argentina
+AJ17X.BA,AJ17X.BA,BUE,,Argentina
+AJ17.BA,ARGENTINA(REP OF) 0.75% NTS 09/,BUE,,Argentina
+GOOGL.BA,Alphabet Inc.,BUE,Internet Information Providers,Argentina
+MO.BA,"Altria Group, Inc.",BUE,,Argentina
+AL16X.BA,AL16X.BA,BUE,,Argentina
+ALUA.BA,Aluar Aluminio Argentino S.A.I.C.,BUE,Aluminum,Argentina
+AL16.BA,ARGENTINA(REP OF) FRN 12/07/201,BUE,,Argentina
+AXP.BA,American Express Company,BUE,Independent Oil & Gas,Argentina
+AM20.BA,Argentina,BUE,,Argentina
+AMGN.BA,Amgen Inc.,BUE,,Argentina
+AM18X.BA,AM18X.BA,BUE,,Argentina
+AM17.BA,ARGENTINA(REP OF) FRN 03/2017 A,BUE,,Argentina
+AMX9.BA,ARGENTINA(REP OF) FR BDS 11/03/,BUE,,Argentina
+BA-C.BA,BK OF AMERICA CORP CEDEAR REP 1,BUE,,Argentina
+AM20D.BA,AM20D.BA,BUE,,Argentina
+AM17X.BA,AM17X.BA,BUE,,Argentina
+AMX8.BA,Argentina,BUE,,Argentina
+AM18.BA,Argentina,BUE,,Argentina
+AMX9X.BA,AMX9X.BA,BUE,,Argentina
+DYCA.BA,DYCASA Sociedad Anónima,BUE,General Contractors,Argentina
+AN18X.BA,AN18X.BA,BUE,,Argentina
+AN18.BA,Argentina,BUE,,Argentina
+AN18D.BA,AN18D.BA,BUE,,Argentina
+AO16D.BA,AO16D.BA,BUE,,Argentina
+AO20D.BA,AO20D.BA,BUE,,Argentina
+AO20C.BA,AO20C.BA,BUE,,Argentina
+AO20X.BA,AO20X.BA,BUE,,Argentina
+AO17X.BA,AO17X.BA,BUE,,Argentina
+AO16X.BA,AO16X.BA,BUE,,Argentina
+APSA.BA,IRSA Propiedades Comerciales S.A.,BUE,,Argentina
+PETR.BA,Petrolera Pampa S.A.,BUE,Electric Utilities,Argentina
+INTC.BA,Intel Corporation,BUE,Semiconductor - Broad Line,Argentina
+IBM.BA,International Business Machines Corporation,BUE,Information Technology Services,Argentina
+CARC.BA,Carboclor S.A.,BUE,Chemicals - Major Diversified,Argentina
+CAPU.BA,Caputo S.A.I.C. y F.,BUE,General Contractors,Argentina
+C.BA,Citigroup Inc.,BUE,Money Center Banks,Argentina
+BPAT.BA,Banco Patagonia S.A.,BUE,Money Center Banks,Argentina
+TRVV.BA,"The Travelers Companies, Inc.",BUE,Property & Casualty Insurance,Argentina
+PEP.BA,"Pepsico, Inc.",BUE,,Argentina
+POLL.BA,Polledo S.A.I.C. y F.,BUE,General Contractors,Argentina
+PG.BA,The Procter & Gamble Company,BUE,Personal Products,Argentina
+PESA.BA,Petrobras Argentina S.A.,BUE,Major Integrated Oil & Gas,Argentina
+PAMP.BA,Pampa Energía S.A.,BUE,Electric Utilities,Argentina
+MORI.BA,Morixe Hermanos S.A.C. e I.,BUE,Food - Major Diversified,Argentina
+MMM.BA,3M Company,BUE,Diversified Machinery,Argentina
+MIRG.BA,Mirgor S.A.C.I.F.I.A.,BUE,Auto Parts,Argentina
+HSBC.BA,HSBC HOLDINGS PLC CEDEAR EACH R,BUE,,Argentina
+GG.BA,Goldcorp Inc.,BUE,,Argentina
+GFI.BA,Gold Fields Ltd.,BUE,,Argentina
+FIPL.BA,Fiplasto S.A.,BUE,Home Furnishings & Fixtures,Argentina
+DGCU2.BA,Distribuidora de Gas Cuyana S.A.,BUE,Gas Utilities,Argentina
+CVX.BA,Chevron Corporation,BUE,Major Integrated Oil & Gas,Argentina
+COLO.BA,Colorin Industria de Materiales Sinteticos S.A.,BUE,Specialty Chemicals,Argentina
+BNG.BA,Bunge Limited,BUE,Farm Products,Argentina
+BMA.BA,Banco Macro S.A.,BUE,Money Center Banks,Argentina
+BBRY.BA,BlackBerry Limited,BUE,,Argentina
+CEPU.BA,Central Puerto S.A.,BUE,Electric Utilities,Argentina
+CAT.BA,Caterpillar Inc.,BUE,Farm & Construction Machinery,Argentina
+FMX.BA,FOMENTO ECON MEXIC CEDEAR 2 REP,BUE,,Argentina
+TSM.BA,TAIWAN SEMICON MAN CEDEAR REP 3,BUE,,Argentina
+CX.BA,CEMEX SAB DE CV CEDEAR EACH REP,BUE,,Argentina
+TSCH9.BA,Fideicomiso Financiero Cedulas Hipotecarias Argentinas Serie IX 2009-1,BUE,,Argentina
+BDC18.BA,Buenos Aires (City of),BUE,,Argentina
+AY16.BA,ARGENTINA(REP OF) FRN 09/05/201,BUE,,Argentina
+MRK.BA,"Merck & Co., Inc.",BUE,Drug Manufacturers - Major,Argentina
+FCX.BA,Freeport-McMoRan Inc.,BUE,Copper,Argentina
+TI.BA,TELECOM ITALIA SPA CEDEAR EACH,BUE,,Argentina
+GRIM.BA,Grimoldi S.A.,BUE,Textile - Apparel Footwear & Accessories,Argentina
+MVIA.BA,METROVIAS SA ARS1 CLASS'B',BUE,,Argentina
+NDG21.BA,Province Of Neuquen,BUE,,Argentina
+DD.BA,E. I. du Pont de Nemours and Company,BUE,Agricultural Chemicals,Argentina
+BUN16.BA,PROV DEL CHUBUT FR GTD NTS 24/1,BUE,,Argentina
+AVP.BA,"Avon Products, Inc.",BUE,,Argentina
+EBAY.BA,eBay Inc.,BUE,"Specialty Retail, Other",Argentina
+PHG.BA,KONINKLIJKE PHILIP CEDEAR EACH,BUE,,Argentina
+DICY.BA,Argentina,BUE,,Argentina
+MCD.BA,McDonald's Corporation,BUE,Restaurants,Argentina
+PUM21.BA,Provincia De Chubut,BUE,,Argentina
+JPM.BA,JPMorgan Chase & Co.,BUE,Money Center Banks,Argentina
+NOKA.BA,NOKIA OYJ CEDEAR EACH REP 1/5 A,BUE,,Argentina
+INVJ.BA,Inversora Juramento S.A.,BUE,Farm Products,Argentina
+OCR14.BA,"Cresud Sociedad Anónima Comercial, Inmobiliaria, Financiera y Agropecuaria",BUE,,Argentina
+OGZD.BA,GAZPROM PJSC CEDEAR EACH REP 0.,BUE,,Argentina
+CELU.BA,Celulosa Argentina S.A.,BUE,Paper & Paper Products,Argentina
+ORCL.BA,Oracle Corporation,BUE,Business Software & Services,Argentina
+SNE.BA,SONY CORP CED REP 1/2 ADR(CNV 1,BUE,,Argentina
+GNCEO.BA,GENNEIA S.A. 4.75% NT 16/01/201,BUE,,Argentina
+PAA0.BA,Argentina,BUE,,Argentina
+EDN.BA,Empresa Distribuidora y Comercializadora Norte Sociedad Anónima,BUE,Electric Utilities,Argentina
+TXN.BA,Texas Instruments Incorporated,BUE,Semiconductor - Broad Line,Argentina
+BMA-5.BA,BANCO MACRO S.A. 'A'ARS1 MUL-VT,BUE,,Argentina
+EMC.BA,EMC Corporation,BUE,,Argentina
+CECO2.BA,Central Costanera S.A.,BUE,Electric Utilities,Argentina
+MOLI5.BA,Molinos Rio de la Plata S.A.,BUE,Food - Major Diversified,Argentina
+FORM3.BA,Provincia De Formosa,BUE,,Argentina
+CHL.BA,CHINA MOBILE LTD CEDEAR EACH 6,BUE,,Argentina
+RNG21.BA,Province of Rio Negro,BUE,,Argentina
+MPC7O.BA,MOLINOS RIO PLATA 4% NT 11/07/2,BUE,,Argentina
+BA.BA,The Boeing Company,BUE,Mortgage Investment,Argentina
+FMCC.BA,Federal Home Loan Mortgage Corporation,BUE,,Argentina
+MDC4O.BA,MEDANITO S.A. 4% NT 28/02/2017,BUE,,Argentina
+PARP.BA,Argentina,BUE,,Argentina
+MELI.BA,"Mercadolibre, Inc.",BUE,"Specialty Retail, Other",Argentina
+PTR.BA,PETROCHINA CO EACH CEDEAR REP 0,BUE,,Argentina
+TUCS1.BA,Tucuman Province,BUE,,Argentina
+ERG16.BA,PROV DE ENTRE RIOS 4.8% NTS 06/,BUE,,Argentina
+DEO.BA,DIAGEO CEDEAR EACH REP 0.5 ADR,BUE,,Argentina
+BHP.BA,BHP BILLITON LTD CEDEAR REP 1 A,BUE,,Argentina
+BBD.BA,BCO BRADESCO SA CEDEAR EACH REP,BUE,,Argentina
+PR15.BA,Argentina,BUE,,Argentina
+NGG.BA,NATIONAL GRID CEDEAR EACH REP 1,BUE,,Argentina
+VZ.BA,Verizon Communications Inc.,BUE,Wireless Communications,Argentina
+LONG.BA,Longvie S.A.,BUE,Home Furnishings & Fixtures,Argentina
+PARY.BA,Argentina,BUE,,Argentina
+TECO2.BA,Telecom Argentina S.A.,BUE,Wireless Communications,Argentina
+NF18.BA,Banco de la Nacion Argentina S.A.,BUE,,Argentina
+BCS.BA,BARCLAYS PLC CEDEAR EACH 6 REPR,BUE,,Argentina
+BNN16.BA,NEUQUEN (PROVINCE) 2.89% GTD NT,BUE,,Argentina
+H04Y6.BA,BCO CENT DE LA ARG 0% TB 04/05/,BUE,,Argentina
+PUO19.BA,Provincia De Chubut,BUE,,Argentina
+MON.BA,Monsanto Company,BUE,Agricultural Chemicals,Argentina
+TVPA.BA,Argentina,BUE,,Argentina
+ERD16.BA,PROV DE ENTRE RIOS 2.25% NTS 27,BUE,,Argentina
+TVPY.BA,Argentina,BUE,,Argentina
+BADER.BA,ARGENTINA(REP OF) 4% NTS 17/07/,BUE,,Argentina
+LMT.BA,Lockheed Martin Corporation,BUE,Aerospace/Defense - Major Diversified,Argentina
+PR13.BA,Argentina,BUE,,Argentina
+CL.BA,Colgate-Palmolive Co.,BUE,,Argentina
+OEST.BA,Grupo Concesionario del Oeste S.A.,BUE,Heavy Construction,Argentina
+BDC19.BA,Buenos Aires (City of),BUE,,Argentina
+GBAN.BA,"Gas Natural Ban, S.A.",BUE,Gas Utilities,Argentina
+BOLT.BA,Boldt S.A.,BUE,Information Technology Services,Argentina
+INDU.BA,Unipar Indupa S.A.I.C.,BUE,Chemicals - Major Diversified,Argentina
+HMY.BA,HARMONY GOLD MNG CEDEAR EACH RE,BUE,,Argentina
+OCK2P.BA,CENTRO CARD S.A. FRN GTD 27/02/,BUE,,Argentina
+NORT6.BA,Nortel Inversora S.A.,BUE,Wireless Communications,Argentina
+PFE.BA,Pfizer Inc.,BUE,Drug Manufacturers - Major,Argentina
+BBV.BA,BBVA(BILB-VIZ-ARG) CEDEAR EACH,BUE,,Argentina
+HPQ.BA,HP Inc.,BUE,,Argentina
+AUSO.BA,Autopistas Del Sol SA,BUE,Heavy Construction,Argentina
+PARA.BA,Argentina,BUE,,Argentina
+BSBR.BA,BANCO SANTANDER(BR CEDEAR EACH,BUE,,Argentina
+SLB.BA,Schlumberger Limited,BUE,Oil & Gas Equipment & Services,Argentina
+VOD.BA,VODAFONE GROUP CEDEAR EA REP 1/,BUE,,Argentina
+PMO18.BA,Mendoza (Province of),BUE,,Argentina
+REGE.BA,"Garcia Reguera Sociedad Anonima Comercial, Industrial, Financiera e Inmobiliaria",BUE,,Argentina
+ERJ17.BA,PROV DE ENTRE RIOS FR GTD NT 30,BUE,,Argentina
+DIA0.BA,Argentina,BUE,,Argentina
+AD16.BA,ARGENTINA(REP OF) 6% NTS 29/12/,BUE,,Argentina
+RDS.BA,ROYAL DUTCH SHELL CEDEAR EACH R,BUE,,Argentina
+TXR.BA,TERNIUM SA CEDEAR EACH REP 0.5,BUE,,Argentina
+DICP.BA,Argentina,BUE,,Argentina
+IBN.BA,ICICI BANK CEDEAR EACH REPR 1 A,BUE,,Argentina
+HMC.BA,HONDA MOTOR CO CEDEAR EACH REP,BUE,,Argentina
+BD6C6.BA,BUENOS AIRES CITY 4.8% NTS 20/1,BUE,,Argentina
+BC2N6.BA,BUENOS AIRES CITY FRN 17/11/201,BUE,,Argentina
+BMY.BA,Bristol-Myers Squibb Company,BUE,Drug Manufacturers - Major,Argentina
+CUAP.BA,Argentina,BUE,,Argentina
+E.BA,E.BA,BUE,,Argentina
+METR.BA,MetroGAS S.A.,BUE,Gas Utilities,Argentina
+JNJ.BA,Johnson & Johnson,BUE,Business Services,Argentina
+BNN17.BA,Province Of Neuquen,BUE,,Argentina
+UN.BA,UN.BA,BUE,,Argentina
+GGAL.BA,Grupo Financiero Galicia S.A.,BUE,Money Center Banks,Argentina
+TM.BA,TOYOTA MOTOR CORP CEDEAR EACH 5,BUE,,Argentina
+BAO17.BA,Cordoba (Province of),BUE,,Argentina
+MSFT.BA,Microsoft Corporation,BUE,Business Software & Services,Argentina
+TOT.BA,TOTAL CEDEAR EACH 3 REP 1 ADR,BUE,,Argentina
+SBUX.BA,Starbucks Corporation,BUE,,Argentina
+ROSE.BA,Instituto Rosenbusch S.A.,BUE,Drugs - Generic,Argentina
+MTU.BA,MTU.BA,BUE,,Argentina
+GE.BA,General Electric Company,BUE,Diversified Machinery,Argentina
+CGPA2.BA,Camuzzi Gas Pampeana S.A.,BUE,Oil & Gas Equipment & Services,Argentina
+BDC20.BA,Buenos Aires (City of),BUE,,Argentina
+PAP0.BA,Argentina,BUE,,Argentina
+GSK.BA,GLAXOSMITHKLINE CEDEAR EACH REP,BUE,,Argentina
+DIP0.BA,Argentina,BUE,,Argentina
+TGSU2.BA,Transportadora de Gas Del Sur S.A.,BUE,Gas Utilities,Argentina
+ESME.BA,Bodegas Esmeralda S.A.,BUE,Beverages - Wineries & Distillers,Argentina
+GN10Q.BA,GRANCOOP X,BUE,,Argentina
+DICA.BA,Argentina,BUE,,Argentina
+ORAN.BA,ORANGE CEDEAR EACH 7 REPR 1 ADR,BUE,,Argentina
+AZN.BA,ASTRAZENECA CEDEAR EACH REP 0.5,BUE,,Argentina
+SAP.BA,SAP.BA,BUE,,Argentina
+CADO.BA,Carlos Casado S.A.,BUE,Conglomerates,Argentina
+CAPX.BA,Capex S.A.,BUE,Diversified Utilities,Argentina
+AS17X.BA,AS17X.BA,BUE,,Argentina
+AS16X.BA,AS16X.BA,BUE,,Argentina
+AY24X.BA,AY24X.BA,BUE,,Argentina
+AY24C.BA,AY24C.BA,BUE,,Argentina
+AY24D.BA,AY24D.BA,BUE,,Argentina
+STD.BA,"Banco Santander, S.A.",BUE,Money Center Banks,Argentina
+BARY1.BA,BARY1.BA,BUE,,Argentina
+BCG16.BA,BCG16.BA,BUE,,Argentina
+BCN16.BA,CIUDAD AUTONOMA DE FRN 17/11/20,BUE,,Argentina
+BD2C0.BA,Buenos Aires (City of),BUE,,Argentina
+BD4C6.BA,BD4C6.BA,BUE,,Argentina
+BDEDD.BA,BDEDD.BA,BUE,,Argentina
+BD7C6.BA,CIUDAD AUTONOMA DE FRN 20/07/20,BUE,,Argentina
+BARX1.BA,Mendoza (Province of),BUE,,Argentina
+BDC16.BA,BDC16.BA,BUE,,Argentina
+BD2C6.BA,BD2C6.BA,BUE,,Argentina
+BFCGO.BA,BFCGO.BA,BUE,,Argentina
+BFCHO.BA,BFCHO.BA,BUE,,Argentina
+BFCBO.BA,BFCBO.BA,BUE,,Argentina
+BHCDO.BA,BHCDO.BA,BUE,,Argentina
+BHCXO.BA,BHCXO.BA,BUE,,Argentina
+TSC1O.BA,Transportadora de Gas Del Sur S.A.,BUE,,Argentina
+BNL17.BA,NEUQUEN (PROVINCE) 28.5% GTD NT,BUE,,Argentina
+BNM17.BA,NEUQUEN (PROVINCE) 26.75% GTD N,BUE,,Argentina
+BNJ16.BA,BNJ16.BA,BUE,,Argentina
+BPLE.BA,BPLE.BA,BUE,,Argentina
+BPMD.BA,BPMD.BA,BUE,,Argentina
+BP21D.BA,BP21D.BA,BUE,,Argentina
+BPLDD.BA,BPLDD.BA,BUE,,Argentina
+BP18.BA,BP18.BA,BUE,,Argentina
+BP28.BA,BP28.BA,BUE,,Argentina
+BP21.BA,BP21.BA,BUE,,Argentina
+BR00P.BA,BR00P.BA,BUE,,Argentina
+IRCP.BA,IRSA Propiedades Comerciales S.A.,BUE,Property Management,Argentina
+BWS6V.BA,BWS6V.BA,BUE,,Argentina
+BY08C.BA,BY08C.BA,BUE,,Argentina
+CEDI.BA,CEDI.BA,BUE,,Argentina
+CG27C.BA,CG27C.BA,BUE,,Argentina
+CG26B.BA,CG26B.BA,BUE,,Argentina
+CG27B.BA,CG27B.BA,BUE,,Argentina
+CG26C.BA,CG26C.BA,BUE,,Argentina
+CLCEO.BA,CLCEO.BA,BUE,,Argentina
+CL4OD.BA,CL4OD.BA,BUE,,Argentina
+CLC4O.BA,CLC4O.BA,BUE,,Argentina
+CN15Q.BA,CENTROCARD XV,BUE,,Argentina
+CN16Q.BA,CENTROCARD XVI,BUE,,Argentina
+CPC6O.BA,CPC6O.BA,BUE,,Argentina
+CPC2O.BA,CPC2O.BA,BUE,,Argentina
+CPC4O.BA,CPC4O.BA,BUE,,Argentina
+CSBNO.BA,CSBNO.BA,BUE,,Argentina
+CS9JO.BA,CS9JO.BA,BUE,,Argentina
+CSBMO.BA,CSBMO.BA,BUE,,Argentina
+CS8HO.BA,CS8HO.BA,BUE,,Argentina
+CUAPX.BA,CUAPX.BA,BUE,,Argentina
+CZ12B.BA,CZ12B.BA,BUE,,Argentina
+DICYC.BA,DICYC.BA,BUE,,Argentina
+DICAX.BA,DICAX.BA,BUE,,Argentina
+DICAC.BA,DICAC.BA,BUE,,Argentina
+DIA0D.BA,DIA0D.BA,BUE,,Argentina
+DICAD.BA,DICAD.BA,BUE,,Argentina
+DIE0.BA,DIE0.BA,BUE,,Argentina
+DICPX.BA,DICPX.BA,BUE,,Argentina
+DICYD.BA,DICYD.BA,BUE,,Argentina
+ER2D6.BA,ER2D6.BA,BUE,,Argentina
+REP.BA,"Repsol, S.A.",BUE,Major Integrated Oil & Gas,Argentina
+TEF.BA,"Telefónica, S.A.",BUE,Wireless Communications,Argentina
+GJ17C.BA,GJ17C.BA,BUE,,Argentina
+GJ17D.BA,GJ17D.BA,BUE,,Argentina
+GL08Q.BA,AGL VIII,BUE,,Argentina
+GLW.BA,Corning Incorporated,BUE,,Argentina
+GL08C.BA,GL08C.BA,BUE,,Argentina
+LB2A6.BA,LB2A6.BA,BUE,,Argentina
+LCY16.BA,LCY16.BA,BUE,,Argentina
+LDC3O.BA,LDC3O.BA,BUE,,Argentina
+LEY16.BA,LEY16.BA,BUE,,Argentina
+LG72O.BA,LG72O.BA,BUE,,Argentina
+MBCOO.BA,MBCOO.BA,BUE,,Argentina
+MDC6O.BA,MDC6O.BA,BUE,,Argentina
+ML09B.BA,ML09B.BA,BUE,,Argentina
+ML10B.BA,ML10B.BA,BUE,,Argentina
+MTALO.BA,MTALO.BA,BUE,,Argentina
+MTAUO.BA,MTAUO.BA,BUE,,Argentina
+NF18X.BA,NF18X.BA,BUE,,Argentina
+NF18C.BA,NF18C.BA,BUE,,Argentina
+NJC3O.BA,NJC3O.BA,BUE,,Argentina
+NLC2V.BA,NLC2V.BA,BUE,,Argentina
+NO20.BA,NO20.BA,BUE,,Argentina
+NRH2.BA,NRH2.BA,BUE,,Argentina
+NS00A.BA,NS00A.BA,BUE,,Argentina
+NVC3O.BA,INVAP S.E.,BUE,,Argentina
+OAOY2.BA,OAOY2.BA,BUE,,Argentina
+OCEY1.BA,OCEY1.BA,BUE,,Argentina
+ODNY9.BA,ODNY9.BA,BUE,,Argentina
+OGBY1.BA,OGBY1.BA,BUE,,Argentina
+ONY13.BA,ONY13.BA,BUE,,Argentina
+OPNY1.BA,OPNY1.BA,BUE,,Argentina
+OROY5.BA,OROY5.BA,BUE,,Argentina
+OROY4.BA,OROY4.BA,BUE,,Argentina
+PAC.BA,GPO AERO PACIFICO CEDEAR EACH R,BUE,,Argentina
+PARAC.BA,Argentina,BUE,,Argentina
+PARAX.BA,PARAX.BA,BUE,,Argentina
+PAA0D.BA,PAA0D.BA,BUE,,Argentina
+PARE.BA,ARGENTINA(REP OF) 2.26%-VAR SNR,BUE,,Argentina
+PAY0.BA,Argentina,BUE,,Argentina
+PARAD.BA,PARAD.BA,BUE,,Argentina
+PBM24.BA,PBM24.BA,BUE,,Argentina
+PNC7O.BA,PNC7O.BA,BUE,,Argentina
+PNC8O.BA,PNC8O.BA,BUE,,Argentina
+PNC4O.BA,PNC4O.BA,BUE,,Argentina
+PR15X.BA,PR15X.BA,BUE,,Argentina
+RAC2O.BA,RAC2O.BA,BUE,,Argentina
+RCC8O.BA,RCC8O.BA,BUE,,Argentina
+RICLO.BA,RICLO.BA,BUE,,Argentina
+RICGO.BA,RICGO.BA,BUE,,Argentina
+RIK4O.BA,RIK4O.BA,BUE,,Argentina
+RICMO.BA,RICMO.BA,BUE,,Argentina
+RIK2O.BA,RIK2O.BA,BUE,,Argentina
+RIK2P.BA,RIK2P.BA,BUE,,Argentina
+RIH2P.BA,RIH2P.BA,BUE,,Argentina
+RIH1O.BA,RIH1O.BA,BUE,,Argentina
+RICFO.BA,RICFO.BA,BUE,,Argentina
+RIK1O.BA,RIK1O.BA,BUE,,Argentina
+RIJ2P.BA,RIJ2P.BA,BUE,,Argentina
+RIK3O.BA,RIK3O.BA,BUE,,Argentina
+RIH2O.BA,RIH2O.BA,BUE,,Argentina
+RICOO.BA,RICOO.BA,BUE,,Argentina
+RIJ1O.BA,RIJ1O.BA,BUE,,Argentina
+RICNO.BA,RICNO.BA,BUE,,Argentina
+RNG22.BA,RNG22.BA,BUE,,Argentina
+SCCO.BA,Southern Copper Corp.,BUE,,Argentina
+SD13B.BA,SD13B.BA,BUE,,Argentina
+SNS1O.BA,SNS1O.BA,BUE,,Argentina
+SSC5V.BA,SSC5V.BA,BUE,,Argentina
+SV3GO.BA,SV3GO.BA,BUE,,Argentina
+TSC11.BA,TSC11.BA,BUE,,Argentina
+TSC12.BA,TSC12.BA,BUE,,Argentina
+TSCH7.BA,TSCH7.BA,BUE,,Argentina
+TSCH8.BA,Fideicomiso Financiero Cedulas Hipotecarias Argentinas Serie VIII 2007-1,BUE,,Argentina
+TUBB1.BA,TUBB1.BA,BUE,,Argentina
+TVPYD.BA,TVPYD.BA,BUE,,Argentina
+TVY0.BA,TVY0.BA,BUE,,Argentina
+TVPPX.BA,TVPPX.BA,BUE,,Argentina
+TVPYX.BA,TVPYX.BA,BUE,,Argentina
+TVPE.BA,TVPE.BA,BUE,,Argentina
+VC05A.BA,VC05A.BA,BUE,,Argentina
+VC03B.BA,VC03B.BA,BUE,,Argentina
+BAE17.BA,MUNIC DE LA CIUDAD FR GTD MUN N,BUE,,Argentina
+COLOX.BA,COLORIN SA 'B'SHS ARS1 (S/R 05/,BUE,,Argentina
+PARPX.BA,PARPX.BA,BUE,,Argentina
+PRO9.BA,PRO9.BA,BUE,,Argentina
+SARH.BA,SARH.BA,BUE,,Argentina
+TRCNO.BA,TRCNO.BA,BUE,,Argentina

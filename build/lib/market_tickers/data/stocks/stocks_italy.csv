@@ -1,0 +1,520 @@
+ticker,name,exchange,category name,country
+AZM.MI,Azimut Holding S.p.A.,MIL,Asset Management,Italy
+AST.MI,Astaldi S.p.A.,MIL,General Contractors,Italy
+AE.MI,Aedes SIIQ S.p.A.,MIL,Real Estate Development,Italy
+A2A.MI,A2A S.p.A.,MIL,Diversified Utilities,Italy
+BMPS.MI,Banca Monte dei Paschi di Siena S.p.A.,MIL,,Italy
+UBI.MI,Unione di Banche Italiane S.p.A.,MIL,Money Center Banks,Italy
+PMI.MI,Banca Popolare di Milano Scarl,MIL,,Italy
+BZU.MI,Buzzi Unicem SpA,MIL,General Building Materials,Italy
+EOAN.MI,E.ON SE,MIL,Diversified Utilities,Italy
+DNN.MI,Danone,MIL,Food - Major Diversified,Italy
+DMN.MI,Damiani S.p.A.,MIL,Jewelry Stores,Italy
+DAL.MI,Datalogic S.p.A.,MIL,Diversified Electronics,Italy
+SPO.MI,BCA POP DI SPOLETO,MIL,,Italy
+SIE.MI,Siemens Aktiengesellschaft,MIL,Diversified Machinery,Italy
+SAP.MI,SAP SE,MIL,Technical & System Software,Italy
+DBK.MI,Deutsche Bank Aktiengesellschaft,MIL,Money Center Banks,Italy
+DAI.MI,Daimler AG,MIL,Auto Manufacturers - Major,Italy
+CPR.MI,Davide Campari-Milano S.p.A.,MIL,Beverages - Wineries & Distillers,Italy
+BPSO.MI,Banca Popolare di Sondrio S.C.p.A.,MIL,Money Center Banks,Italy
+BIM.MI,Banca Intermobiliare di Investimenti e Gestioni SpA,MIL,Money Center Banks,Italy
+ALV.MI,Allianz SE,MIL,Property & Casualty Insurance,Italy
+TKAG-U.TI,THYSSENKRUPP,TLO,,Italy
+TAS.MI,TAS Tecnologia Avanzata dei Sistemi S.p.A.,MIL,Business Software & Services,Italy
+PEL.MI,Banca Popolare dell'Etruria e del Lazio - SocietÃ Cooperativa,MIL,,Italy
+MUV2.MI,Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft,MIL,Property & Casualty Insurance,Italy
+MEOG-U.TI,CECONOMY,TLO,,Italy
+LD.MI,La Doria SpA,MIL,Food - Major Diversified,Italy
+ENEL.MI,Enel SpA,MIL,Diversified Utilities,Italy
+MN.MI,Arnoldo Mondadori Editore S.p.A.,MIL,Publishing - Newspapers,Italy
+EXO.MI,Exor N.V.,MIL,Asset Management,Italy
+CED.MI,Caltagirone Editore SpA,MIL,Publishing - Newspapers,Italy
+BPE.MI,BPER Banca S.p.A.,MIL,Money Center Banks,Italy
+PRT.MI,Esprinet S.p.A.,MIL,Electronics Wholesale,Italy
+FILA.MI,F.I.L.A. - Fabbrica Italiana Lapis ed Affini S.p.A.,MIL,Business Equipment,Italy
+FDE.MI,Frendy Energy S.p.A.,MIL,Diversified Utilities,Italy
+EUK.MI,EuKedos S.p.A.,MIL,Medical Appliances & Equipment,Italy
+ERG.MI,ERG S.p.A.,MIL,Major Integrated Oil & Gas,Italy
+ENI.MI,Eni S.p.A.,MIL,Major Integrated Oil & Gas,Italy
+EGPW.MI,Enel Green Power S.p.A.,MIL,,Italy
+VITA.MI,Vita Società Editoriale S.p.A.,MIL,,Italy
+TOT.MI,TOTAL S.A.,MIL,Major Integrated Oil & Gas,Italy
+FNC.MI,Leonardo - Finmeccanica S.p.a.,MIL,,Italy
+VIV.MI,Vivendi SA,MIL,Broadcasting - TV,Italy
+MTF.MI,Mondo Tv France Société Anonyme,MIL,Entertainment - Diversified,Italy
+JUVE.MI,Juventus Football Club S.p.A.,MIL,"Recreational Goods, Other",Italy
+FDA.MI,Fidia S.p.A.,MIL,Diversified Machinery,Italy
+ALU.MI,Alcatel-Lucent,MIL,,Italy
+G.MI,Assicurazioni Generali S.p.A.,MIL,Property & Casualty Insurance,Italy
+LUX.MI,Luxottica Group S.p.A.,MIL,Apparel Stores,Italy
+GSP.MI,Gas Plus S.p.A.,MIL,Gas Utilities,Italy
+NRST.MI,Neurosoft Software Production S.A.,MIL,Business Software & Services,Italy
+HER.MI,Hera S.p.A.,MIL,Diversified Utilities,Italy
+CEM.MI,Cementir Holding S.p.A.,MIL,General Building Materials,Italy
+ANIM.MI,Anima Holding S.p.A,MIL,Asset Management,Italy
+JNPR-U.TI,JUNIPER NETWORKS,TLO,,Italy
+KI.MI,Ki Group S.p.A.,MIL,Farm Products,Italy
+MSK.MI,Moleskine SpA,MIL,,Italy
+MB.MI,Mediobanca Banca di Credito Finanziario S.p.A.,MIL,Money Center Banks,Italy
+RCS.MI,RCS MediaGroup S.p.A.,MIL,Publishing - Newspapers,Italy
+MT.MI,Maire Tecnimont S.p.A.,MIL,General Contractors,Italy
+MARR.MI,MARR S.p.A.,MIL,Food Wholesale,Italy
+MONC.MI,Moncler S.p.A.,MIL,Textile - Apparel Clothing,Italy
+MOL.MI,Gruppo MutuiOnline S.p.A,MIL,Business Services,Italy
+M7IT.MI,MP7 Italia S.p.A.,MIL,,Italy
+CNHI.MI,CNH Industrial N.V.,MIL,Farm & Construction Machinery,Italy
+NICE.MI,Nice S.p.A.,MIL,Electronic Equipment,Italy
+STM.MI,STMicroelectronics N.V.,MIL,Semiconductor - Broad Line,Italy
+PHIA.MI,Koninklijke Philips N.V.,MIL,Diversified Machinery,Italy
+NET.MI,Net Insurance S.p.A.,MIL,Property & Casualty Insurance,Italy
+NESN-U.TI,NESTLE,TLO,,Italy
+RACE.MI,Ferrari N.V.,MIL,,Italy
+NR.MI,Nova Re SIIQ S.p.A.,MIL,Real Estate Development,Italy
+NOK1V.TI,NOKIA,TLO,,Italy
+S24.MI,Il Sole 24 ORE S.p.A.,MIL,Publishing - Newspapers,Italy
+ORA.MI,Orange S.A.,MIL,,Italy
+ORA-U.TI,ORACLE,TLO,,Italy
+ON.MI,Bio-on S.p.A.,MIL,Specialty Chemicals,Italy
+DANR.MI,Danieli & C. Officine Meccaniche S.p.A.,MIL,Diversified Machinery,Italy
+OSR-U.TI,OSRAM LICHT,TLO,,Italy
+PRY.MI,Prysmian S.p.A.,MIL,Communication Equipment,Italy
+POPR.MI,Poligrafici Printing S.p.A.,MIL,Publishing - Newspapers,Italy
+PLT.MI,Parmalat S.p.A.,MIL,Food Wholesale,Italy
+PC.MI,PIRELLI & C. SocietÃ per Azioni,MIL,,Italy
+QC-U.TI,QUALCOMM,TLO,,Italy
+REY.MI,Reply S.p.A.,MIL,Information Technology Services,Italy
+TITR.MI,Telecom Italia S.p.A.,MIL,Wireless Communications,Italy
+REC.MI,Recordati S.p.A.,MIL,Drug Manufacturers - Major,Italy
+LR.MI,Landi Renzo S.p.A.,MIL,Auto Parts,Italy
+BSRP.MI,Banco di Sardegna S.p.A.,MIL,Money Center Banks,Italy
+STEFR.MI,Stefanel S.p.A.,MIL,Textile - Apparel Clothing,Italy
+UCG.MI,UniCredit S.p.A.,MIL,Money Center Banks,Italy
+YSFT.MI,Softec S.p.A.,MIL,Technical & System Software,Italy
+SRS.MI,Saras S.p.A.,MIL,Oil & Gas Refining & Marketing,Italy
+TOD.MI,TOD'S S.p.A.,MIL,Textile - Apparel Footwear & Accessories,Italy
+BZUR.MI,Buzzi Unicem SpA,MIL,General Building Materials,Italy
+USRA.MI,UnipolSai Assicurazioni S.p.A.,MIL,,Italy
+UNI.MI,Unipol Gruppo Finanziario S.p.A.,MIL,Property & Casualty Insurance,Italy
+UCGR.MI,UniCredit S.p.A.,MIL,Money Center Banks,Italy
+TWTR-U.TI,TWITTER,TLO,,Italy
+MD-U.TI,MCDONALD'S,TLO,,Italy
+CTIC.MI,CTI BioPharma Corp.,MIL,Biotechnology,Italy
+AP-U.TI,APPLE,TLO,,Italy
+AMD-U.TI,ADVANCED MICRO DEVICES,TLO,,Italy
+AMA-U.TI,AMAZON.COM,TLO,,Italy
+ZV.MI,Zignago Vetro S.p.A.,MIL,Packaging & Containers,Italy
+VOWG-U.TI,VOLKSWAGEN,TLO,,Italy
+VAS.MI,Vittoria Assicurazioni S.p.A.,MIL,Property & Casualty Insurance,Italy
+SGEF-U.TI,VINCI,TLO,,Italy
+TV.MI,Tech-Value S.p.A.,MIL,Information Technology Services,Italy
+YVI.MI,Valore Italia Holding di Partecipazioni S.p.A.,MIL,,Italy
+VZ.TI,VERIZON COMMUNICATIONS,TLO,,Italy
+VIV.TI,VIVENDI,TLO,,Italy
+VE.MI,Visibilia Editore S.p.a.,MIL,,Italy
+WMC.MI,WM Capital S.p.A.,MIL,Business Services,Italy
+INW.MI,Infrastrutture Wireless Italiane S.p.A.,MIL,General Contractors,Italy
+BMW.MI,Bayerische Motoren Werke Aktiengesellschaft,MIL,Auto Manufacturers - Major,Italy
+AOL-U.TI,TIME WARNER,TLO,,Italy
+WMT-U.TI,WAL-MART STORES,TLO,,Italy
+WD-U.TI,THE WALT DISNEY,TLO,,Italy
+XOM-U.TI,EXXON MOBIL,TLO,,Italy
+XLNX-U.TI,XILINX,TLO,,Italy
+XPR.MI,Exprivia S.p.A.,MIL,Information Technology Services,Italy
+YNAP.MI,YOOX Net-A-Porter Group S.p.A.,MIL,,Italy
+YIV.MI,Imvest S.p.A.,MIL,Property Management,Italy
+YA-U.TI,YAHOO,TLO,,Italy
+YRM.MI,Rosetti Marino SpA,MIL,General Contractors,Italy
+YSF.MI,Soft Strategy S.p.A.,MIL,,Italy
+ZUC.MI,Vincenzo Zucchi S.p.A.,MIL,Textile Industrial,Italy
+ESCO.MI,Zephyro S.p.A.,MIL,,Italy
+MZB.MI,Massimo Zanetti Beverage Group S.p.A.,MIL,Farm Products,Italy
+ZURN-U.TI,ZURICH INSURANCE GROUP,TLO,,Italy
+ZUCR.MI,Vincenzo Zucchi S.p.A.,MIL,Textile Industrial,Italy
+AA-U.TI,ALCOA,TLO,,Italy
+ABBN-U.TI,ABB,TLO,,Italy
+ABI-U.TI,ANHEUSER-BUSCH INBEV,TLO,,Italy
+ACE.MI,ACEA S.p.A.,MIL,Diversified Utilities,Italy
+ACS.MI,Acsm-Agam S.p.A.,MIL,Diversified Utilities,Italy
+ACO.MI,Acotel Group SpA,MIL,Wireless Communications,Italy
+ACA.TI,CREDIT AGRICOLE,TLO,,Italy
+ACC-U.TI,ACCOR,TLO,,Italy
+ACA.MI,Credit Agricole S.A.,MIL,Money Center Banks,Italy
+CDR.MI,Cdr Advance Capital S.p.A.,MIL,Asset Management,Italy
+ADB.MI,Aeroporto Guglielmo Marconi di Bologna S.p.A.,MIL,Heavy Construction,Italy
+ADS-U.TI,ADOBE SYSTEMS,TLO,,Italy
+ADSG-U.TI,ADIDAS,TLO,,Italy
+BABA-U.TI,ALIBABA GROUP HOLDING,TLO,,Italy
+AEF.MI,Aeffe S.p.A.,MIL,Textile - Apparel Clothing,Italy
+AGN.MI,AEGON N.V.,MIL,Property & Casualty Insurance,Italy
+TYA.MI,Toscana Aeroporti S.p.A.,MIL,,Italy
+AGN.TI,AEGON,TLO,,Italy
+AGL.MI,Autogrill S.p.A.,MIL,Restaurants,Italy
+A.MI,Agronomia S.p.A.,MIL,,Italy
+AGS.MI,ageas SA/NV,MIL,Property & Casualty Insurance,Italy
+ARE.MI,ARE.MI,MIL,,Italy
+MASI.MI,Masi Agricola S.p.A.,MIL,Beverages - Wineries & Distillers,Italy
+DTE.MI,Deutsche Telekom AG,MIL,Wireless Communications,Italy
+FORA.TI,AGEAS,TLO,,Italy
+BB.MI,BB Biotech AG,MIL,,Italy
+RWE.MI,RWE Aktiengesellschaft,MIL,Diversified Utilities,Italy
+OJM.MI,Openjobmetis S.p.A.,MIL,Staffing & Outsourcing Services,Italy
+AH.TI,KONINKLIJKE AHOLD,TLO,,Italy
+AHO.MI,Ahold Delhaize,MIL,,Italy
+AIRF-U.TI,AIR FRANCE KLM,TLO,,Italy
+AIRP-U.TI,L'AIR LIQUIDE,TLO,,Italy
+EAD-U.TI,AIRBUS,TLO,,Italy
+AKZO-U.TI,AKZO NOBEL,TLO,,Italy
+ARN.MI,Alerion Clean Power S.p.A.,MIL,Electric Utilities,Italy
+APE.MI,Alba S.p.A.,MIL,,Italy
+GOOGL.TI,AZIONE ALPHABET - CLASS A,TLO,,Italy
+CGE.TI,ALCATEL-LUCENT,TLO,,Italy
+ALBA.MI,Alba S.p.A.,MIL,,Italy
+ALSO.TI,ALSTOM,TLO,,Italy
+PM-U.TI,ALTRIA GROUP,TLO,,Italy
+ALV.TI,ALLIANZ,TLO,,Italy
+AMP.MI,Amplifon SpA,MIL,Medical Instruments & Supplies,Italy
+AMB.MI,Ambromobiliare S.p.A.,MIL,Business Services,Italy
+BAC.TI,BANK OF AMERICA,TLO,,Italy
+AXP.TI,AMERICAN EXPRESS,TLO,,Italy
+ATH.MI,Ambienthesis S.p.A.,MIL,,Italy
+AMG-U.TI,AMGEN,TLO,,Italy
+STS.MI,Ansaldo STS S.p.A.,MIL,Railroads,Italy
+ISPA-U.TI,ARCELORMITTAL,TLO,,Italy
+ASSI.MI,Assiteca S.p.A.,MIL,Insurance Brokers,Italy
+CASS.MI,Società Cattolica di Assicurazione - Società Cooperativa,MIL,Property & Casualty Insurance,Italy
+ASR.MI,A.S. Roma S.P.A.,MIL,"Recreational Goods, Other",Italy
+AT.MI,ASTM S.p.A.,MIL,General Contractors,Italy
+ASC.MI,Ascopiave S.p.A.,MIL,Gas Utilities,Italy
+ATL.MI,Atlantia S.p.A.,MIL,Heavy Construction,Italy
+T.TI,AT&T,TLO,,Italy
+SIS.MI,Società Iniziative Autostradali e Servizi S.p.A.,MIL,Heavy Construction,Italy
+FCA.MI,Fiat Chrysler Automobiles N.V.,MIL,Auto Manufacturers - Major,Italy
+AXEL.MI,axélero S.p.A.,MIL,Marketing Services,Italy
+AXA.MI,AXA SA,MIL,Property & Casualty Insurance,Italy
+AXA.TI,AXA,TLO,,Italy
+BOE.MI,Boero Bartolomeo SpA,MIL,Chemicals - Major Diversified,Italy
+BMED.MI,Banca Mediolanum S.p.A.,MIL,Money Center Banks,Italy
+BANZ.MI,ePRICE S.p.A.,MIL,,Italy
+PRO.MI,Banca Profilo S.p.A.,MIL,Money Center Banks,Italy
+CRG.MI,Banca Carige S.p.A. - Cassa di Risparmio di Genova e Imperia,MIL,Money Center Banks,Italy
+BP.MI,Banco Popolare Societa Cooperativa Scarl,MIL,,Italy
+BGN.MI,Banca Generali S.p.A.,MIL,Money Center Banks,Italy
+BASF.MI,BASF SE,MIL,Chemicals - Major Diversified,Italy
+BAN.MI,BasicNet S.p.A.,MIL,Textile - Apparel Clothing,Italy
+B.MI,Bastogi S.p.A.,MIL,Business Services,Italy
+IF.MI,Banca IFIS S.p.A.,MIL,Money Center Banks,Italy
+DBK.TI,DEUTSCHE BANK,TLO,,Italy
+BASF.TI,BASF,TLO,,Italy
+BBVA-U.TI,BBVA,TLO,,Italy
+BDBR.MI,Banco di Desio e della Brianza S.p.A.,MIL,Money Center Banks,Italy
+BDB.MI,Banco di Desio e della Brianza S.p.A.,MIL,Money Center Banks,Italy
+BCM.MI,Biancamano S.p.A.,MIL,Waste Management,Italy
+BC.MI,BRUNELLO CUCINELLI S.p.A.,MIL,Jewelry Stores,Italy
+BNS.MI,Beni Stabili SIIQ S.p.A.,MIL,REIT - Diversified,Italy
+BET.MI,"Be Think, Solve, Execute S.p.A.",MIL,Information Technology Services,Italy
+BEC.MI,B&C Speakers S.p.A.,MIL,Electronic Equipment,Italy
+BE.MI,Beghelli S.p.A.,MIL,Electronics Wholesale,Italy
+DEXB-U.TI,DEXIA,TLO,,Italy
+BEST.MI,Best Union Company S.p.A.,MIL,"Recreational Goods, Other",Italy
+BFE.MI,Banca Finnat Euramerica S.p.A.,MIL,Money Center Banks,Italy
+BF.MI,Bonifiche Ferraresi S.p.A. Società Agricola,MIL,Farm Products,Italy
+BSS.MI,Biesse S.p.A.,MIL,Diversified Machinery,Italy
+BIE.MI,Bioera S.p.A.,MIL,Farm Products,Italy
+BIA.MI,Bialetti Industrie S.p.A,MIL,Electronic Equipment,Italy
+BIIB-U.TI,BIOGEN,TLO,,Italy
+BIO2.MI,BioDue S.p.A.,MIL,Conglomerates,Italy
+BLUE.MI,Blue Financial Communication S.p.A.,MIL,Publishing - Newspapers,Italy
+BLU.MI,Blue Note S.p.A.,MIL,,Italy
+BLZ.MI,Bolzoni SpA,MIL,,Italy
+BM.MI,Bridge Management S.p.A.,MIL,,Italy
+BMW.TI,BMW,TLO,,Italy
+BNP.MI,BNP Paribas SA,MIL,Money Center Banks,Italy
+BNP.TI,BNP PARIBAS,TLO,,Italy
+BO.MI,Borgosesia S.p.A.,MIL,Textile Industrial,Italy
+BOMI.MI,Bomi Italia S.p.A.,MIL,Medical Equipment Wholesale,Italy
+DB1GN.TI,DEUTSCHE BOERSE,TLO,,Italy
+BOE-U.TI,BOEING,TLO,,Italy
+BOR.MI,Borgosesia S.p.A.,MIL,Textile Industrial,Italy
+BRI.MI,Brioschi Sviluppo Immobiliare spa,MIL,Real Estate Development,Italy
+IB.MI,Iniziative Bresciane S.p.A.,MIL,General Contractors,Italy
+DIB.MI,Digital Bros S.p.A.,MIL,Multimedia & Graphics Software,Italy
+BRE.MI,Brembo S.p.A.,MIL,Auto Parts,Italy
+BST.MI,Banca Sistema S.p.A.,MIL,Money Center Banks,Italy
+CARR.MI,Carraro SpA,MIL,Diversified Machinery,Italy
+MIC.MI,Mid Industry Capital SpA,MIL,Asset Management,Italy
+CB-U.TI,COMMERZBANK,TLO,,Italy
+CC.MI,Ciccolella SpA,MIL,,Italy
+RIC.MI,Gruppo Ceramiche Ricchetti SpA,MIL,General Building Materials,Italy
+CMB.MI,Cembre S.p.A.,MIL,Diversified Electronics,Italy
+PAN.MI,Panariagroup Industrie Ceramiche S.p.A.,MIL,General Building Materials,Italy
+CE.MI,Credito Emiliano S.p.A.,MIL,Money Center Banks,Italy
+UNA.TI,UNILEVER,TLO,,Italy
+CLT.MI,Centrale del Latte di Torino & C. S.p.A.,MIL,,Italy
+CERV.MI,Cerved Information Solutions S.p.A.,MIL,Business Services,Italy
+CFP.MI,Capital for Progress 1 S.p.A.,MIL,,Italy
+MSU.MI,Mondo TV (Suisse) SA,MIL,Entertainment - Diversified,Italy
+CHL.MI,Centro HL Distribuzione S.p.A.,MIL,"Specialty Retail, Other",Italy
+ROC-U.TI,ROCHE HOLDING,TLO,,Italy
+UBSG-U.TI,UBS GROUP,TLO,,Italy
+JPM.TI,J.P. MORGAN CHASE & CO.,TLO,,Italy
+CIT-U.TI,CITIGROUP,TLO,,Italy
+CIS-U.TI,CISCO SYSTEMS,TLO,,Italy
+CIA.MI,Compagnia Immobiliare Azionaria S.p.A.,MIL,Real Estate Development,Italy
+CIE-U.TI,CIENA,TLO,,Italy
+CIR.MI,Compagnie Industriali Riunite S.p.A.,MIL,Auto Parts,Italy
+CLF.MI,Caleffi S.p.A.,MIL,Textile Industrial,Italy
+CLG.MI,Caleido Group S.p.A.,MIL,"Recreational Goods, Other",Italy
+CLA.MI,Clabo S.p.A.,MIL,Diversified Machinery,Italy
+CLE.MI,Class Editori S.p.A.,MIL,Publishing - Newspapers,Italy
+CMCS-U.TI,COMCAST,TLO,,Italy
+CNP.MI,Conafi Prestitò S.p.A.,MIL,Mortgage Investment,Italy
+CRGR.MI,Banca Carige S.p.A. - Cassa di Risparmio di Genova e Imperia,MIL,Money Center Banks,Italy
+CRR.MI,Carrefour SA,MIL,Grocery Stores,Italy
+CVAL.MI,Credito Valtellinese Società Cooperativa,MIL,Money Center Banks,Italy
+CSP.MI,CSP International Fashion Group S.p.A.,MIL,Textile - Apparel Clothing,Italy
+CSG-U.TI,CREDIT SUISSE,TLO,,Italy
+CVX-U.TI,CHEVRON,TLO,,Italy
+DCX.TI,DAIMLER,TLO,,Italy
+DAN-U.TI,DANONE,TLO,,Italy
+DA.MI,Dada S.p.A.,MIL,Internet Information Providers,Italy
+DAN.MI,Danieli & C. Officine Meccaniche S.p.A.,MIL,Diversified Machinery,Italy
+DD.TI,E. I. DU PONT DE NEMOURS & CO,TLO,,Italy
+CONG-U.TI,CONTINENTAL,TLO,,Italy
+DGT.MI,DigiTouch S.p.A.,MIL,Advertising Agencies,Italy
+DIS.MI,D'Amico International Shipping S.A.,MIL,Shipping,Italy
+DIA.MI,DiaSorin S.p.A.,MIL,Medical Laboratories & Research,Italy
+DM.MI,Digital Magics S.p.A.,MIL,Internet Information Providers,Italy
+DLC.MI,DeLclima S.p.A.,MIL,,Italy
+DLG.MI,De'Longhi S.p.A.,MIL,Electronic Equipment,Italy
+DMA.MI,DMAIL GROUP S.p.A.,MIL,,Italy
+DP-U.TI,DEUTSCHE POST,TLO,,Italy
+LF-U.TI,DEUTSCHE LUFTHANSA,TLO,,Italy
+DTE.TI,DEUTSCHE TELEKOM,TLO,,Italy
+EBAY-U.TI,EBAY,TLO,,Italy
+ECK.MI,Ecosuntek S.p.A.,MIL,Diversified Utilities,Italy
+ECA.MI,ErgyCapital S.p.A.,MIL,Diversified Utilities,Italy
+ES.MI,Gruppo Editoriale L'Espresso S.p.A.,MIL,,Italy
+EDNR.MI,Edison S.p.A.,MIL,Electric Utilities,Italy
+POL.MI,Poligrafici Editoriale S.p.A.,MIL,Publishing - Newspapers,Italy
+EDF-U.TI,EDF,TLO,,Italy
+EEMS.MI,EEMS Italia SpA,MIL,Semiconductor - Broad Line,Italy
+EIT.MI,EI Towers S.p.A,MIL,,Italy
+ELC.MI,Elica S.p.A.,MIL,Home Furnishings & Fixtures,Italy
+ELN.MI,EL.EN. S.p.A.,MIL,Medical Appliances & Equipment,Italy
+SCHN.TI,SCHNEIDER ELECTRIC,TLO,,Italy
+ELE-U.TI,ENDESA,TLO,,Italy
+ELIN.MI,Elettra Investimenti SpA,MIL,Diversified Utilities,Italy
+ELAB.MI,Energy Lab S.p.A.,MIL,Diversified Utilities,Italy
+GEL-U.TI,GE SCF,TLO,,Italy
+EM.MI,Emak S.p.A.,MIL,Machine Tools & Accessories,Italy
+EMC.MI,Energica Motor Company S.p.A.,MIL,Recreational Vehicles,Italy
+FTL.MI,Fintel Energia Group S.p.A.,MIL,Diversified Utilities,Italy
+ENV.MI,Enervit S.p.A.,MIL,Beverages - Soft Drinks,Italy
+EOA.TI,E.ON,TLO,,Italy
+ENT.MI,Enertronica S.p.A.,MIL,Diversified Utilities,Italy
+GAS-U.TI,GAS NATURAL SDG,TLO,,Italy
+REP-U.TI,REPSOL,TLO,,Italy
+TEF.MI,"Telefónica, S.A.",MIL,Wireless Communications,Italy
+SANT.MI,"Banco Santander, S.A.",MIL,Money Center Banks,Italy
+SANT.TI,BANCO SANTANDER,TLO,,Italy
+TEF.TI,TELEFONICA,TLO,,Italy
+IBE-U.TI,IBERDROLA,TLO,,Italy
+ETH.MI,Eurotech SpA,MIL,Computer Based Systems,Italy
+EXSY.MI,Expert System S.p.A.,MIL,Technical & System Software,Italy
+FARM.MI,H-Farm S.p.A.,MIL,Asset Management,Italy
+FKR.MI,Falck Renewables S.p.A.,MIL,,Italy
+FB-U.TI,FACEBOOK,TLO,,Italy
+PSF.MI,Poligrafica S. Faustino S.p.A.,MIL,Publishing - Newspapers,Italy
+FBK.MI,FinecoBank Banca Fineco S.p.A.,MIL,Money Center Banks,Italy
+FCT.MI,Fincantieri S.p.A.,MIL,Aerospace/Defense - Major Diversified,Italy
+SFER.MI,Salvatore Ferragamo S.p.A.,MIL,Jewelry Stores,Italy
+FED.MI,Giorgio Fedon & Figli Spa,MIL,Personal Products,Italy
+TFI.MI,TREVI - Finanziaria Industriale S.p.A.,MIL,General Contractors,Italy
+LFG.MI,Leone Film Group S.p.A.,MIL,Entertainment - Diversified,Italy
+FIC.MI,First Capital S.p.A.,MIL,Investment Brokerage - National,Italy
+FM.MI,Fiera Milano SpA,MIL,Business Services,Italy
+FNM.MI,FNM S.p.A.,MIL,Railroads,Italy
+GLF.MI,Glenalta Food S.p.A.,MIL,,Italy
+SANF.MI,Sanofi,MIL,Drug Manufacturers - Major,Italy
+GLE.MI,Societe Generale Group,MIL,Money Center Banks,Italy
+RNO.MI,Renault SA,MIL,Auto Manufacturers - Major,Italy
+GAZ-U.TI,ENGIE,TLO,,Italy
+MICP-U.TI,MICHELIN,TLO,,Italy
+GLE.TI,SOCIETE GENERALE,TLO,,Italy
+CAPP-U.TI,CAPGEMINI,TLO,,Italy
+FTE.TI,ORANGE,TLO,,Italy
+FUL.MI,FullSix S.p.A.,MIL,Marketing Services,Italy
+GAB.MI,Gabetti Property Solutions S.p.A.,MIL,Real Estate Development,Italy
+GAMB.MI,Gambero Rosso SpA,MIL,Publishing - Newspapers,Italy
+GALA.MI,Gala S.p.A.,MIL,Diversified Utilities,Italy
+GEO.MI,Geox S.p.A.,MIL,Textile - Apparel Footwear & Accessories,Italy
+GE.MI,Gefran S.p.A.,MIL,Diversified Machinery,Italy
+SGR.MI,SAES Getters S.p.A.,MIL,Diversified Electronics,Italy
+SG.MI,SAES Getters S.p.A.,MIL,Diversified Electronics,Italy
+GGP.MI,Gruppo Green Power S.p.A.,MIL,Diversified Utilities,Italy
+GGTV.MI,Giglio Group S.p.A.,MIL,Broadcasting - TV,Italy
+PGR.MI,Italiaonline S.p.A.,MIL,,Italy
+GLW-U.TI,CORNING,TLO,,Italy
+GO.MI,GO internet S.p.A.,MIL,Internet Information Providers,Italy
+GS-U.TI,GOLDMAN SACHS GROUP,TLO,,Italy
+SGOB-U.TI,SAINT-GOBAIN,TLO,,Italy
+LMG.MI,Lucisano Media Group S.p.A.,MIL,Entertainment - Diversified,Italy
+IKGR.MI,Intek Group S.p.A.,MIL,,Italy
+IIG.MI,Italia Independent Group S.p.A.,MIL,Apparel Stores,Italy
+HD-U.TI,HOME DEPOT,TLO,,Italy
+LVMH.MI,LVMH Moët Hennessy Louis Vuitton S.E.,MIL,Jewelry Stores,Italy
+KHC-U.TI,THE KRAFT HEINZ,TLO,,Italy
+LITE-U.TI,LUMENTUM HOLDINGS,TLO,,Italy
+PYPL-U.TI,PAYPAL,TLO,,Italy
+IBM-U.TI,IBM,TLO,,Italy
+IES.MI,Investimenti e Sviluppo SpA,MIL,,Italy
+IGD.MI,Immobiliare Grande Distribuzione Società di Investimento Immobiliare Quotata S.p.A.,MIL,REIT - Diversified,Italy
+IGV.MI,iGrandiViaggi S.p.A.,MIL,Resorts & Casinos,Italy
+IIN.MI,Industria e Innovazione S.p.A.,MIL,Real Estate Development,Italy
+IKF.MI,IKF Spa,MIL,,Italy
+IKG.MI,Intek Group S.p.A.,MIL,,Italy
+IMA.MI,I.M.A. Industria Macchine Automatiche S.p.A.,MIL,Diversified Machinery,Italy
+SAL.MI,Salini Impregilo S.p.A.,MIL,,Italy
+SALR.MI,Salini Impregilo S.p.A.,MIL,,Italy
+IMS.MI,Immsi S.p.A.,MIL,Auto Manufacturers - Major,Italy
+IP.MI,Interpump Group S.p.A.,MIL,Diversified Machinery,Italy
+IRE.MI,Iren SpA,MIL,Diversified Utilities,Italy
+IRC.MI,IRCE S.p.A.,MIL,Diversified Machinery,Italy
+ISPR.MI,Intesa Sanpaolo S.p.A.,MIL,Money Center Banks,Italy
+ISP.MI,Intesa Sanpaolo S.p.A.,MIL,Money Center Banks,Italy
+ISG.MI,Isagro S.p.A.,MIL,Agricultural Chemicals,Italy
+ISGS.MI,Isagro S.p.A.,MIL,Agricultural Chemicals,Italy
+SRN.MI,Sorin SpA,MIL,,Italy
+STEF.MI,Stefanel S.p.A.,MIL,Textile - Apparel Clothing,Italy
+SRG.MI,Snam S.p.A.,MIL,Gas Utilities,Italy
+SO.MI,Sogefi S.p.A.,MIL,Auto Parts,Italy
+PR.MI,Premuda SpA,MIL,,Italy
+PINF.MI,Pininfarina S.p.A.,MIL,Auto Manufacturers - Major,Italy
+PIA.MI,Piaggio & C. SpA,MIL,Recreational Vehicles,Italy
+IT.MI,Italcementi SpA,MIL,,Italy
+COF.MI,COFIDE - Gruppo De Benedetti S.p.A.,MIL,Diversified Utilities,Italy
+TME.MI,Telecom Italia Media SpA,MIL,,Italy
+TXT.MI,TXT e-solutions S.p.A.,MIL,Technical & System Software,Italy
+TRN.MI,TERNA - Rete Elettrica Nazionale Società per Azioni,MIL,Electric Utilities,Italy
+TIT.MI,Telecom Italia S.p.A.,MIL,Wireless Communications,Italy
+TIS.MI,Tiscali S.p.A.,MIL,Wireless Communications,Italy
+TIP.MI,Tamburi Investment Partners S.p.A.,MIL,Asset Management,Italy
+SSL.MI,S.S. Lazio S.p.A.,MIL,"Recreational Goods, Other",Italy
+SPMR.MI,Saipem S.p.A.,MIL,Oil & Gas Equipment & Services,Italy
+SPM.MI,Saipem S.p.A.,MIL,Oil & Gas Equipment & Services,Italy
+SES.MI,SeSa S.p.A.,MIL,Information Technology Services,Italy
+SAVE.MI,SAVE S.p.A.,MIL,"Air Services, Other",Italy
+SAB.MI,Sabaf S.p.A.,MIL,Diversified Machinery,Italy
+RN.MI,Risanamento SpA,MIL,Real Estate Development,Italy
+PRL.MI,Pierrel S.p.A.,MIL,Drug Manufacturers - Major,Italy
+MS.MI,Mediaset S.p.A.,MIL,Broadcasting - TV,Italy
+MON.MI,Monrif S.p.A.,MIL,Publishing - Newspapers,Italy
+MLM.MI,MolMed S.p.A.,MIL,Biotechnology,Italy
+MCH.MI,Mediacontech S.p.A.,MIL,Entertainment - Diversified,Italy
+ITM.MI,Italmobiliare S.p.A.,MIL,General Building Materials,Italy
+IND.MI,IND.MI,MIL,,Italy
+INC.MI,Innovatec S.p.A.,MIL,Electric Utilities,Italy
+COV.MI,COVER 50 S.p.A.,MIL,Textile - Apparel Clothing,Italy
+LIT.MI,Retelit S.p.A.,MIL,Wireless Communications,Italy
+PLTE.MI,PLT energia S.p.A.,MIL,Electric Utilities,Italy
+RAT.MI,Ratti S.p.A.,MIL,Textile Industrial,Italy
+MEC.MI,M&C S.p.A.,MIL,Asset Management,Italy
+SPA2.MI,Space2 S.p.A.,MIL,,Italy
+ITMR.MI,Italmobiliare SpA,MIL,,Italy
+SII.MI,Sintesi Società di Investimenti e Partecipazioni S.p.A.,MIL,Asset Management,Italy
+USRB.MI,UnipolSai Assicurazioni S.p.A.,MIL,,Italy
+CAD.MI,CAD IT S.p.A.,MIL,Technical & System Software,Italy
+ENG.MI,Engineering Ingegneria Informatica S.p.A.,MIL,,Italy
+NOE.MI,NOEMALIFE S.p.A,MIL,,Italy
+MTV.MI,MONDO TV S.p.A.,MIL,Entertainment - Diversified,Italy
+MIT.MI,Mittel S.p.A,MIL,Asset Management,Italy
+SITI.MI,SITI - B&T Group S.p.A.,MIL,Diversified Machinery,Italy
+DEA.MI,DeA Capital S.p.A.,MIL,Asset Management,Italy
+MBY.MI,Mobyt S.p.A.,MIL,,Italy
+PRI.MI,Prima Industrie S.p.A.,MIL,Diversified Machinery,Italy
+CALT.MI,Caltagirone SpA,MIL,Asset Management,Italy
+PITE.MI,PITECO S.p.A.,MIL,Technical & System Software,Italy
+PQ.MI,Piquadro S.p.A.,MIL,Textile - Apparel Footwear & Accessories,Italy
+AUTME.MI,Autostrade Meridionali S.p.A.,MIL,Trucking,Italy
+ROS.MI,Rosss S.p.A.,MIL,Business Equipment,Italy
+TBM.MI,Triboo Media S.p.A.,MIL,,Italy
+UNIP.MI,Unipol Gruppo Finanziario S.p.A.,MIL,,Italy
+SFL.MI,Safilo Group S.p.A.,MIL,Medical Instruments & Supplies,Italy
+MAIL.MI,MailUp S.p.A.,MIL,Marketing Services,Italy
+TBS.MI,TBS Group S.p.A.,MIL,Medical Appliances & Equipment,Italy
+SNA.MI,Snaitech S.p.A.,MIL,Gaming Activities,Italy
+MTH.MI,Methorios Capital S.p.A.,MIL,,Italy
+PRS.MI,Prelios S.p.A.,MIL,Property Management,Italy
+PST.MI,Poste Italiane SpA,MIL,Credit Services,Italy
+TES.MI,Tesmec S.p.A.,MIL,Diversified Machinery,Italy
+CAI.MI,Cairo Communication S.p.A.,MIL,Advertising Agencies,Italy
+SB.MI,Safe Bag S.p.A,MIL,Packaging & Containers,Italy
+VLA.MI,Vianini Lavori SpA,MIL,,Italy
+RWAY.MI,Rai Way S.p.A.,MIL,Entertainment - Diversified,Italy
+TER.MI,TerniEnergia S.p.A.,MIL,Electric Utilities,Italy
+MBR.MI,Modelleria Brambilla S.p.A.,MIL,Auto Parts,Italy
+LVEN.MI,LVenture Group S.p.A.,MIL,,Italy
+KRE.MI,K.R.Energy S.p.A.,MIL,Electric Utilities,Italy
+MCK.MI,MC-link S.p.A.,MIL,Internet Information Providers,Italy
+ME.MI,Meridie S.p.A.,MIL,Asset Management,Italy
+MSP.MI,MSP.MI,MIL,,Italy
+LUVE.MI,LU-VE S.p.A.,MIL,Diversified Machinery,Italy
+PCP.MI,PIRELLI & C. SocietÃ per Azioni,MIL,,Italy
+SRI.MI,Servizi Italia S.p.A.,MIL,Business Services,Italy
+TECN.MI,Tecnoinvestimenti S.p.A.,MIL,Information Technology Services,Italy
+RM.MI,Reno De Medici S.p.A.,MIL,Paper & Paper Products,Italy
+VLS.MI,Valsoia SpA,MIL,Food - Major Diversified,Italy
+SOL.MI,Sol SpA,MIL,Chemicals - Major Diversified,Italy
+US.MI,UnipolSai Assicurazioni S.p.A.,MIL,Property & Casualty Insurance,Italy
+IWB.MI,Italian Wine Brands S.p.A.,MIL,Beverages - Wineries & Distillers,Italy
+WIG.MI,Gruppo Waste Italia S.p.A.,MIL,,Italy
+VIN.MI,Vianini S.p.A.,MIL,,Italy
+PRM.MI,Primi sui Motori S.p.A,MIL,Marketing Services,Italy
+NPI.MI,Notorious Pictures S.p.A.,MIL,Broadcasting - TV,Italy
+ITW.MI,Itway S.p.A.,MIL,Technical & System Software,Italy
+OVS.MI,OVS S.p.A.,MIL,Textile - Apparel Clothing,Italy
+SSB.MI,SSB.MI,MIL,,Italy
+OLI.MI,Olidata SpA,MIL,,Italy
+IVS.MI,IVS Group S.A.,MIL,Food Wholesale,Italy
+JNJ-U.TI,JOHNSON & JOHNSON,TLO,,Italy
+KER.MI,Kering S.A.,MIL,,Italy
+KPN-U.TI,KONINKLIJKE KPN,TLO,,Italy
+TEN.MI,Tenaris S.A.,MIL,Steel & Iron,Italy
+TEW.MI,Te Wind S.R.L.,MIL,,Italy
+LVMH.TI,LVMH,TLO,,Italy
+MANG-U.TI,MAN,TLO,,Italy
+TSLA-U.TI,TESLA,TLO,,Italy
+MOT-U.TI,MOTOROLA SOLUTIONS,TLO,,Italy
+MST-U.TI,MORGAN STANLEY,TLO,,Italy
+PHMO-U.TI,PHILIP MORRIS INTERNATIONAL,TLO,,Italy
+MRK-U.TI,MERCK & CO.,TLO,,Italy
+MS-U.TI,MICROSOFT,TLO,,Italy
+MUV2.TI,MUNICH REINSURANCE,TLO,,Italy
+INGA.MI,ING Groep N.V.,MIL,,Italy
+UNA.MI,Unilever N.V.,MIL,Personal Products,Italy
+PHIA.TI,PHILIPS,TLO,,Italy
+INGA.TI,ING GROEP,TLO,,Italy
+NVR-U.TI,NOVARTIS,TLO,,Italy
+NOKIA.MI,Nokia Corporation,MIL,,Italy
+NVDA-U.TI,NVIDIA,TLO,,Italy
+OR.MI,L'Oréal S.A.,MIL,Personal Products,Italy
+PEUP-U.TI,PEUGEOT,TLO,,Italy
+PF-U.TI,PFIZER,TLO,,Italy
+PG-U.TI,PROCTER & GAMBLE,TLO,,Italy
+RWE.TI,RWE,TLO,,Italy
+SIE.TI,SIEMENS,TLO,,Italy
+SYMC-U.TI,SYMANTEC,TLO,,Italy
+TOT.TI,TOTAL,TLO,,Italy
+TXN-U.TI,TEXAS INSTRUMENTS,TLO,,Italy
+BAY.TI,BAYER,TLO,,Italy
+BAY.MI,Bayer Aktiengesellschaft,MIL,Drug Manufacturers - Major,Italy
+CAT-U.TI,CATERPILLAR,TLO,,Italy
+COK-U.TI,THE COCA-COLA COMPANY,TLO,,Italy
+ENGI.MI,ENGIE SA,MIL,,Italy
+INF-U.TI,INFINEON TECHNOLOGIES,TLO,,Italy
+RENA-U.TI,RENAULT,TLO,,Italy
+SANF.TI,SANOFI,TLO,,Italy
+SAP.TI,SAP,TLO,,Italy
+S.TI,SPRINT,TLO,,Italy
+INT-U.TI,INTEL,TLO,,Italy
