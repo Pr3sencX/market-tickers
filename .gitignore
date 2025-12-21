@@ -9,3 +9,8 @@ venv/
 # OS / editor junk
 .DS_Store
 Thumbs.db
+
+# Build artifacts (IMPORTANT)
+build/
+dist/
+*.egg-info/
