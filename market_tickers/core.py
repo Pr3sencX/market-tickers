@@ -1,7 +1,5 @@
-# market_tickers/core.py
-
 import re
-from typing import List, Dict, Optional
+from typing import Optional
 
 from market_tickers.loaders import (
     load_stocks,
@@ -10,151 +8,156 @@ from market_tickers.loaders import (
     load_currencies,
 )
 
-# -----------------------------
+# ======================================================
 # Helpers
-# -----------------------------
+# ======================================================
 
 def _normalize(text: str) -> str:
     return re.sub(r"[^a-z0-9]", "", text.lower())
 
 
-# -----------------------------
-# Index aliases
-# -----------------------------
-
-INDEX_ALIASES = {
-    "nifty": "^NSEI",
-    "nifty50": "^NSEI",
-    "niftyfifty": "^NSEI",
-    "sensex": "^BSESN",
-    "bse": "^BSESN",
-    "sp500": "^GSPC",
-    "sandp500": "^GSPC",
-    "s&p500": "^GSPC",
-    "dow": "^DJI",
-    "dowjones": "^DJI",
-    "nasdaq": "^IXIC",
-}
+def _tokens(text: str) -> set[str]:
+    return set(re.findall(r"[a-z0-9]+", text.lower()))
 
 
-# -----------------------------
+def _token_similarity(a: set[str], b: set[str]) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+def _normalize_country(country: str) -> str:
+    c = country.lower().strip()
+    if c in ("us", "usa"):
+        return "usa"
+    if c in ("uk", "gb"):
+        return "united_kingdom"
+    if c == "nz":
+        return "new_zealand"
+    if c in ("kr", "korea", "south korea", "south_korea"):
+        return "south_korea"
+    return re.sub(r"[^a-z]", "", c)
+
+
+# ======================================================
 # Core resolver
-# -----------------------------
+# ======================================================
 
 def get_ticker(
     name: str,
     country: Optional[str] = None,
     category: Optional[str] = None,
 ):
-    if not name or not isinstance(name, str):
-        raise ValueError("name must be a non-empty string")
+    if not name:
+        raise ValueError("name is required")
 
-    raw_name = name.strip()
-    norm_name = _normalize(raw_name.replace("=x", ""))
+    raw = name.strip()
+    norm = _normalize(raw)
+    tokens = _tokens(raw)
 
-    # ---- shortcuts ----
-    if norm_name in INDEX_ALIASES:
-        return INDEX_ALIASES[norm_name]
-
-    if len(norm_name) == 6 and norm_name.isalpha():
-        return f"{norm_name.upper()}=X"
+    # --------------------------------------------------
+    # Currency shortcut
+    # --------------------------------------------------
+    if category in (None, "currency"):
+        if len(norm) == 6 and norm.isalpha():
+            return f"{norm.upper()}=X"
 
     if category is None:
         category = "stock"
 
-    country = country.lower() if isinstance(country, str) else None
-
-    # ---- load data ----
+    # ==================================================
+    # ✅ INDEX — STRICTLY indices.csv ONLY
+    # ==================================================
     if category == "index":
         rows = load_indices()
-    elif category == "etf":
-        rows = load_etfs()
-    elif category == "currency":
-        rows = load_currencies()
-    elif category == "stock":
-        country = country or "india"
-        rows = load_stocks(country)
-    else:
-        raise ValueError(f"Unknown category: {category}")
 
-    valid_rows: List[Dict[str, str]] = [
-        r for r in rows
-        if isinstance(r, dict) and r.get("name") and r.get("ticker")
-    ]
+        best_ticker = None
+        best_score = 0.0
 
-    # ---- exact match ----
-    exact = [
-        r for r in valid_rows
-        if norm_name == _normalize(r["name"])
-        or norm_name == _normalize(r["ticker"].replace("=x", ""))
-    ]
+        for r in rows:
+            idx_name = r.get("Index Name", "")
+            ticker = r.get("yfinance Ticker")
+            fuzzy = r.get("Fuzzy Names", "")
 
-    if len(exact) == 1:
-        return exact[0]["ticker"]
+            if not idx_name or not ticker:
+                continue
 
-    if len(exact) > 1:
-        if country == "india":
-            nse = [r for r in exact if r["ticker"].endswith(".NS")]
-            if len(nse) == 1:
-                return nse[0]["ticker"]
+            # 1️⃣ EXACT Index Name match (STRONGEST)
+            if _normalize(idx_name) == norm:
+                return ticker
 
-        raise KeyError(
-            f"'{raw_name}' is ambiguous. "
-            f"Please use full company name (e.g. 'Reliance Industries')."
-        )
+            # 2️⃣ EXACT alias match (comma-separated)
+            for alias in fuzzy.split(","):
+                if _normalize(alias.strip()) == norm:
+                    return ticker
 
-    # ---- startswith ----
-    starts = [
-        r for r in valid_rows
-        if _normalize(r["name"]).startswith(norm_name)
-    ]
+            # 3️⃣ Controlled fuzzy (token similarity ≥ 0.75)
+            score = _token_similarity(tokens, _tokens(idx_name))
+            for alias in fuzzy.split(","):
+                score = max(score, _token_similarity(tokens, _tokens(alias)))
 
-    if len(starts) == 1:
-        return starts[0]["ticker"]
+            if score >= 0.75 and score > best_score:
+                best_score = score
+                best_ticker = ticker
 
-    # ---- contains ----
-    contains = [
-        r for r in valid_rows
-        if norm_name in _normalize(r["name"])
-    ]
+        if best_ticker:
+            return best_ticker
 
-    if len(contains) == 1:
-        return contains[0]["ticker"]
+        raise KeyError(f"Index not found: {raw}")
 
-    if len(contains) > 1:
-        if country == "india":
-            nse = [r for r in contains if r["ticker"].endswith(".NS")]
-            if nse:
-                return nse[0]["ticker"]
+    # ==================================================
+    # STOCK
+    # ==================================================
+    if category == "stock":
+        if not country:
+            raise ValueError("country is required for stocks")
 
-        raise KeyError(
-            f"'{raw_name}' is ambiguous. "
-            f"Please use full company name (e.g. 'Reliance Industries')."
-        )
+        rows = load_stocks(_normalize_country(country))
+        matches = [r for r in rows if norm in _normalize(r["name"])]
 
-    raise KeyError(f"Ticker not found for: {raw_name}")
+        if not matches:
+            raise KeyError(f"Stock not found: {raw}")
 
+        # Prefer primary-looking tickers (shorter)
+        matches.sort(key=lambda r: len(r["ticker"]))
+        return matches[0]["ticker"]
 
-# -----------------------------
-# Defaults
-# -----------------------------
+    # ==================================================
+    # ETF
+    # ==================================================
+    if category == "etf":
+        for r in load_etfs():
+            if _normalize(r["name"]) == norm:
+                return r["ticker"]
+            if tokens.issubset(_tokens(r["name"])):
+                return r["ticker"]
+        raise KeyError(f"ETF not found: {raw}")
 
-def get_default_index(stock_name: str, country: str = "india"):
-    if country.lower() == "india":
-        return "^NSEI"
-    if country.lower() in ("us", "usa", "united_states"):
-        return "^GSPC"
-    raise ValueError(f"No default index defined for country: {country}")
+    # ==================================================
+    # CURRENCY
+    # ==================================================
+    if category == "currency":
+        for r in load_currencies():
+            if norm in _normalize(r["name"]):
+                return r["ticker"]
+        raise KeyError(f"Currency not found: {raw}")
+
+    raise ValueError(f"Unknown category: {category}")
 
 
-# -----------------------------
-# Smart wrapper
-# -----------------------------
+# ======================================================
+# Smart wrapper — FINAL PRIORITY ORDER
+# ======================================================
 
-def get(name: str, country: Optional[str] = None):
-    for cat in ("stock", "index", "currency", "etf"):
+def get(name: str, country: Optional[str] = None, category: Optional[str] = None):
+    if category:
+        return get_ticker(name, country=country, category=category)
+
+    # ✅ FINAL agreed priority
+    for cat in ("index", "stock", "etf", "currency"):
         try:
             return get_ticker(name, country=country, category=cat)
         except Exception:
             pass
+
     raise KeyError(f"Ticker not found for: {name}")

@@ -5,13 +5,20 @@ import csv
 def _load_csv(relative_path: str) -> list[dict]:
     """
     Load a CSV file bundled inside the market_tickers package.
-    Returns list of dict rows.
+    Returns list of dict rows with stripped keys & values.
     """
     with resources.files("market_tickers").joinpath(relative_path).open(
         "r", encoding="utf-8"
     ) as f:
         reader = csv.DictReader(f)
-        return list(reader)
+        rows = []
+        for row in reader:
+            # normalize keys & values (VERY IMPORTANT)
+            rows.append({
+                k.strip(): (v.strip() if isinstance(v, str) else v)
+                for k, v in row.items()
+            })
+        return rows
 
 
 # -----------------------------
@@ -21,10 +28,6 @@ def _load_csv(relative_path: str) -> list[dict]:
 def load_stocks(country: str) -> list[dict]:
     """
     Load stock tickers for a given country.
-
-    Example:
-        load_stocks("india")
-        load_stocks("united_states")
     """
     country = country.lower().replace(" ", "_")
     path = f"data/stocks/stocks_{country}.csv"
@@ -32,12 +35,13 @@ def load_stocks(country: str) -> list[dict]:
 
 
 # -----------------------------
-# INDICES
+# INDICES (STRICT)
 # -----------------------------
 
 def load_indices() -> list[dict]:
     """
-    Load global indices.
+    Load indices STRICTLY from indices.csv only.
+    No fallback, no regional mixing.
     """
     return _load_csv("data/indices/indices.csv")
 
