@@ -1,132 +1,76 @@
-Country,Index Name,yfinance Ticker,Fuzzy Names
-Argentina,S&P Merval,^MERV,"argentina s&p merval, merv, s&p merval"
-Argentina,S&P/BYMA Argentina General,SPBYCAP.BA,"argentina s&p/byma argentina general, s&p/byma argentina general, spbycap"
-Australia,ASX All Ordinaries Gold,^AXGD,"asx all ordinaries gold, australia asx all ordinaries gold, axgd"
-Australia,S&P/ASX 200,^AXJO,"australia s&p/asx 200, axjo, s&p/asx 200"
-Austria,ATX,^ATX,"atx, austria atx"
-Belgium,BEL 20,^BFX,"bel 20, belgium bel 20, bfx"
-Belgium,BEL Mid,BELM.NX,"bel mid, belgium bel mid, belm"
-Brazil,Bovespa,^BVSP,"bovespa, brazil bovespa, bvsp"
-Canada,S&P/TSX 60,^TSX60,"canada s&p/tsx 60, s&p/tsx 60, tsx60"
-Canada,S&P/TSX Composite,^GSPTSE,"canada s&p/tsx composite, gsptse, s&p/tsx, s&p/tsx composite"
-Canada,S&P/TSX Smallcap,^SPTSES,"canada s&p/tsx smallcap, s&p/tsx smallcap, sptses"
-Chile,S&P CLX IPSA,^IPSA,"chile s&p clx ipsa, ipsa, s&p clx ipsa"
-China,CSI 1000,000852.SS,"000852, china csi 1000, csi 1000"
-China,Shanghai Component,000001.SS,"000001, china shanghai component, shanghai component"
-Czech Republic,PX,^PX,"czech republic px, px"
-Denmark,OMXC25,^OMXC25,"denmark omxc25, omxc25"
-Egypt,EGX 30,^EGX30,"egx 30, egx30, egypt egx 30"
-Egypt,EGX 70,^CCSI,"ccsi, egx 70, egypt egx 70"
-Finland,OMX Helsinki 25,^OMXH25,"finland omx helsinki 25, omx helsinki 25, omxh25"
-France,CAC 40,^FCHI,"cac 40, fchi, france cac 40"
-Germany,DAX,^GDAXI,"dax, gdaxi, germany dax"
-Germany,Euro Stoxx 50,^STOXX50E,"euro stoxx 50, germany euro stoxx 50, stoxx50e"
-Germany,HDAX,HDAX.DE,"germany hdax, hdax"
-Germany,SDAX,^SDAX,"germany sdax, sdax"
-Germany,TecDAX,^TecDAX,"germany tecdax, tecdax"
-Greece,Athens General Composite,^ATG,"atg, athens general, athens general composite, greece athens general composite"
-Greece,FTSE/Athex 20,FTSE.AT,"ftse, ftse/athex 20, greece ftse/athex 20"
-Hong Kong,Hang Seng,^HSI,"hang seng, hong kong hang seng, hsi"
-Hong Kong,Hang Seng China Enterprises Index,^HSCE,"hang seng china enterprises, hang seng china enterprises index, hong kong hang seng china enterprises index, hsce"
-Hungary,Budapest SE BUX,^BUX,"budapest se bux, bux, hungary budapest se bux"
-India,BSE Sensex,^BSESN,"bse sensex, bsesn, india bse sensex"
-India,India VIX,^INDIAVIX,"india india vix, india vix, indiavix"
-India,Nifty 100,^CNX100,"cnx100, india nifty 100, nifty 100"
-India,Nifty 50,^NSEI,"india nifty 50, nifty 50, nsei"
-India,Nifty 500,^CRSLDX,"crsldx, india nifty 500, nifty 500"
-India,Nifty Auto,^CNXAUTO,"cnxauto, india nifty auto, nifty auto"
-India,Nifty Bank,^NSEBANK,"india nifty bank, nifty bank, nsebank"
-India,Nifty Energy,^CNXENERGY,"cnxenergy, india nifty energy, nifty energy"
-India,Nifty Financial Services,NIFTY_FIN_SERVICE.NS,"india nifty financial services, nifty financial services, nifty_fin_service"
-India,Nifty FMCG,^CNXFMCG,"cnxfmcg, india nifty fmcg, nifty fmcg"
-India,Nifty India Consumption,^CNXCONSUM,"cnxconsum, india nifty india consumption, nifty india consumption"
-India,Nifty Infrastructure,^CNXINFRA,"cnxinfra, india nifty infrastructure, nifty infrastructure"
-India,Nifty IT,^CNXIT,"cnxit, india nifty it, nifty it"
-India,Nifty Metal,^CNXMETAL,"cnxmetal, india nifty metal, nifty metal"
-India,Nifty Midcap 150,NIFTYMIDCAP150.NS,"india nifty midcap 150, nifty midcap 150, niftymidcap150"
-India,Nifty MNC,^CNXMNC,"cnxmnc, india nifty mnc, nifty mnc"
-India,Nifty Next 50,^NSMIDCP,"india nifty next 50, nifty next 50, nsmidcp"
-India,Nifty PSU Bank,^CNXPSUBANK,"cnxpsubank, india nifty psu bank, nifty psu bank"
-India,Nifty Pharma,^CNXPHARMA,"cnxpharma, india nifty pharma, nifty pharma"
-India,Nifty Realty,^CNXREALTY,"cnxrealty, india nifty realty, nifty realty"
-India,Nifty Services Sector,^CNXSERVICE,"cnxservice, india nifty services sector, nifty services sector"
-India,NIFTY Midcap 100,^CRSMID,"crsmid, india nifty midcap 100, nifty midcap 100"
-India,NIFTY Smallcap 100,^CNXSC,"cnxsc, india nifty smallcap 100, nifty smallcap 100"
-India,Nifty Smallcap 250,NIFTYSMLCAP250.NS,"india nifty smallcap 250, nifty smallcap 250, niftysmlcap250"
-Indonesia,IDX Composite,^JKSE,"idx, idx composite, indonesia idx composite, jkse"
-Ireland,ISEQ Overall,^ISEQ,"ireland iseq overall, iseq, iseq overall"
-Israel,TA 125,^TA125.TA,"israel ta 125, ta 125, ta125"
-Israel,TA 35,^TA35,"israel ta 35, ta 35, ta35"
-Italy,FTSE Italia All Share,ITLMS.MI,"ftse italia, ftse italia all share, italy ftse italia all share, itlms"
-Jamaica,JSE Market,JMSMX:IND,"jamaica jse market, jmsmx, jse market"
-Japan,JPX-Nikkei 400,^JPXN,"japan jpx-nikkei 400, jpx-nikkei 400, jpxn"
-Japan,Nikkei 225,^N225,"japan nikkei 225, nikkei 225, nky"
-Japan,Nikkei 300,^N300,"japan nikkei 300, n300, nikkei 300"
-Japan,TOPIX,^TPX,"japan topix, topix, tpx"
-Kuwait,Main Market 50,^50.KW,"bkm50, kuwait main market 50, main market 50"
-Malaysia,FTSE BM Mid 70,FBM70.FGI,"ftfbm70, ftse bm mid 70, malaysia ftse bm mid 70"
-Malaysia,KLCI,^KLSE,"fbmklci, klci, malaysia klci"
-Mexico,S&P/BMV IPC,^MXX,"mexico s&p/bmv ipc, mxx, s&p/bmv ipc"
-Mexico,S&P/BMV INMEX,INMEX.MX,"inmex, mexico s&p/bmv inmex, s&p/bmv inmex"
-Netherlands,AEX,^AEX,"aex, netherlands aex"
-Netherlands,AMX,^AMX,"amx, netherlands amx"
-New Zealand,DJ New Zealand,^NZDOW,"dj new zealand, new zealand dj new zealand, nzdow"
-New Zealand,NZX 50,^NZ50,"new zealand nzx 50, nz50, nzx 50"
-New Zealand,NZX MidCap,^NZMC,"new zealand nzx midcap, nzmc, nzx midcap"
-Norway,Oslo All Share,^OSEAX,"norway oslo all share, oseax, oslo, oslo all share"
-Norway,OSE Benchmark,OSEBX.OL,"norway ose benchmark, ose benchmark, osebx"
-Pakistan,Karachi 100,^KSE,"karachi 100, kse, pakistan karachi 100"
-Philippines,PHS All Shares,ALL.PS,"all, philippines phs all shares, phs all shares, phss"
-Philippines,PSEi Composite,^PSEI,"pcomp, philippines psei composite, psei, psei composite"
-Poland,WIG,^WIG,"poland wig, wig"
-Poland,WIG20,^WIG20,"poland wig20, wig20"
-Poland,WIG30,WIG30.WA,"poland wig30, wig30"
-Portugal,PSI,^PSI20,"portugal psi, psi, psi20"
-Portugal,PSI All Share GR,^BVLG,"bvlg, portugal psi all share gr, psi all share gr, psi gr"
-Qatar,QE General,^QSI,"qatar qe general, qe general, qsi"
-Romania,BET,^BET,"bet, romania bet"
-Romania,Bucharest BET-XT,^BET-XT-TR.RO,"betxt, bucharest bet-xt, romania bucharest bet-xt"
-Russia,MOEX Russia Index,IMOEX.ME,"imoex, moex russia, moex russia index, russia moex russia index"
-Russia,RTSI,RTSI.ME,"rtsi, russia rtsi"
-Saudi Arabia,Tadawul All Share,^TASI.SR,"saudi arabia tadawul all share, tadawul, tadawul all share, tasi"
-Singapore,FTSE Singapore,WISGP.SI,"ftse singapore, singapore ftse singapore, wisgp"
-Singapore,STI Index,^STI,"singapore sti index, sti, sti index"
-South Africa,South Africa Top 40,J200.L,"j200, south africa south africa top 40, south africa top 40"
-South Korea,KOSPI 200,^KS200,"kospi 200, ks200, south korea kospi 200"
-South Korea,KOSPI 50,KOSPI50.KS,"kospi 50, kospi50, south korea kospi 50"
-Spain,IBEX 35,^IBEX,"ibex, ibex 35, spain ibex 35"
-Sweden,OMX Stockholm Mid Cap,^OMXSMCPI,"omx stockholm mid cap, omxsmcpi, sweden omx stockholm mid cap"
-Sweden,OMXS30,^OMXS30,"omxs30, sweden omxs30"
-Switzerland,Swiss All Share Cumulative,SSIP.SW,"ssip, swiss all share cumulative, swiss cumulative, switzerland swiss all share cumulative"
-Switzerland,Swiss Market Index,^SSMI,"ssmi, swiss market, swiss market index, switzerland swiss market index"
-Taiwan,Taiwan Weighted,^TWII,"taiwan taiwan weighted, taiwan weighted, twii"
-Thailand,FTSE SET All-Share,FSTHA.L,"fstha, ftse set all-share, thailand ftse set all-share"
-Thailand,SET,^SET,"set, thailand set"
-Turkey,BIST 100,^XU100,"bist 100, turkey bist 100, xu100"
-United Arab Emirates,DFM General,^DFMGI,"dfm general, dfmgi, united arab emirates dfm general"
-United Arab Emirates,FTSE ADX General,FADGI.FGI,"ftfadgi, ftse adx general, united arab emirates ftse adx general"
-United Kingdom,FTSE 100,^FTSE,"ftse, ftse 100, united kingdom ftse 100"
-United Kingdom,FTSE 250,^FTMC,"ftmc, ftse 250, united kingdom ftse 250"
-United Kingdom,FTSE 350,^FTLC,"ftlc, ftse 350, united kingdom ftse 350"
-United States,DJ Transportation,^DJT,"dj transportation, djt, united states dj transportation"
-United States,DJ Utility,^DJU,"dj utilities, dj utility, dju, dow jones utilities, dow jones utility, dow utility, united states dj utility"
-United States,Dow Jones Industrial Average,^DJI,"dj industrial average, dji, djia, dow, dow jones, dow jones industrial, dow jones industrial average, dowjones industrial average, united states dow jones industrial average"
-United States,KBW Bank,^KBW,"kbw, kbw bank, united states kbw bank"
-United States,NYSE Composite,^NYA,"nya, nyse, nyse composite, united states nyse composite"
-United States,Nasdaq 100,^NDX,"nasdaq 100, ndx, united states nasdaq 100"
-United States,Nasdaq Composite,^IXIC,"ixic, nasdaq, nasdaq composite, united states nasdaq composite"
-United States,PHLX Semiconductor,^SOX,"phlx semiconductor, sox, united states phlx semiconductor"
-United States,S&P 100,^OEX,"oex, s&p 100, united states s&p 100"
-United States,S&P 500,^GSPC,"gspc, s&p 500, sp 500, sp500, standard & poors 500, standard and poor 500, united states s&p 500"
-United States,S&P 500 Consumer Discretionary,^SPLRCD,"s&p 500 consumer discretionary, sp 500 consumer discretionary, sp500, splrcd, standard & poors 500, standard and poor 500, united states s&p 500 consumer discretionary"
-United States,S&P 500 Consumer Staples,^SPLRCS,"s&p 500 consumer staples, sp 500 consumer staples, sp500, splrcs, standard & poors 500, standard and poor 500, united states s&p 500 consumer staples"
-United States,S&P 500 Energy,^SP500-10,"s&p 500 energy, sp 500 energy, sp500, sp500-10, standard & poors 500, standard and poor 500, united states s&p 500 energy"
-United States,S&P 500 Financials,^SP500-40,"s&p 500 financials, sp 500 financials, sp500, sp500-40, standard & poors 500, standard and poor 500, united states s&p 500 financials"
-United States,S&P 500 Information Technology,^SP500-45,"s&p 500 information technology, sp 500 information technology, sp500, sp500-45, standard & poors 500, standard and poor 500, united states s&p 500 information technology"
-United States,S&P 500 Materials,^SP500-15,"s&p 500 materials, sp 500 materials, sp500, sp500-15, standard & poors 500, standard and poor 500, united states s&p 500 materials"
-United States,S&P 500 Real Estate,^SP500-60,"s&p 500 real estate, sp 500 real estate, sp500, sp500-60, standard & poors 500, standard and poor 500, united states s&p 500 real estate"
-United States,S&P 500 Telecom Services,^SP500-50,"s&p 500 telecom services, sp 500 telecom services, sp500, sp500-50, standard & poors 500, standard and poor 500, united states s&p 500 telecom services"
-United States,S&P 500 Utilities,^SP500-55,"s&p 500 utilities, sp 500 utilities, sp500, sp500-55, standard & poors 500, standard and poor 500, united states s&p 500 utilities"
-United States,Small Cap 2000,^RUT,"rut, small cap 2000, united states small cap 2000"
-Vietnam,VN 30,VN30.VN,"vietnam vn 30, vn 30, vn30"
-Vietnam,VN-Index,^VNINDEX,"vietnam vn-index, vn-index, vnindex"
+ticker,name,exchange
+^GSPC,S&P 500,US
+^DJI,Dow Jones Industrial Average,US
+^IXIC,NASDAQ Composite,US
+^NDX,NASDAQ 100,US
+^RUT,Russell 2000,US
+^VIX,CBOE Volatility Index,US
+^MID,S&P MidCap 400,US
+^SP600,S&P SmallCap 600,US
+^NSEI,Nifty 50,IN
+^BSESN,BSE Sensex,IN
+^NSEBANK,Nifty Bank,IN
+^CNXIT,Nifty IT,IN
+^NSEMDCP50,Nifty Midcap 50,IN
+^CNXAUTO,Nifty Auto,IN
+^CNXFMCG,Nifty FMCG,IN
+^CNXPHARMA,Nifty Pharma,IN
+^CNXMETAL,Nifty Metal,IN
+^CNXREALTY,Nifty Realty,IN
+^CNXSMALLCAP,Nifty Smallcap 100,IN
+^FTSE,FTSE 100,GB
+^FTMC,FTSE 250,GB
+^FTAS,FTSE All-Share,GB
+^GDAXI,DAX 40,DE
+^MDAXI,MDAX,DE
+^FCHI,CAC 40,FR
+^STOXX50E,Euro Stoxx 50,EU
+^STOXX,STOXX 600,EU
+^AEX,AEX,NL
+^IBEX,IBEX 35,ES
+FTSEMIB.MI,FTSE MIB,IT
+^SSMI,SMI,CH
+^OMX,OMX Stockholm 30,SE
+^OMXC25,OMX Copenhagen 25,DK
+^OMXH25,OMX Helsinki 25,FI
+PSI20.LS,PSI 20,PT
+^ATG,Athens General Composite,GR
+^ATX,ATX,AT
+^BFX,BEL 20,BE
+IMOEX.ME,Moscow Exchange Index,RU
+^XU100,BIST 100,TR
+^N225,Nikkei 225,JP
+^TPX,TOPIX,JP
+^HSI,Hang Seng Index,HK
+^HSCE,Hang Seng China Enterprises,HK
+000001.SS,Shanghai Composite,CN
+000300.SS,CSI 300,CN
+399001.SZ,Shenzhen Component,CN
+^KS11,KOSPI,KR
+^KQ11,KOSDAQ,KR
+^AXJO,S&P/ASX 200,AU
+^AORD,All Ordinaries,AU
+^STI,Straits Times Index,SG
+^TWII,Taiwan Weighted Index,TW
+^SET.BK,SET Index,TH
+^KLSE,FTSE Bursa Malaysia KLCI,MY
+^JKSE,Jakarta Composite,ID
+^NZ50,NZX 50,NZ
+^BVSP,Bovespa,BR
+^MXX,IPC,MX
+^MERV,MERVAL,AR
+^GSPTSE,S&P/TSX Composite,CA
+^IPSA,S&P/CLX IPSA,CL
+^TASI.SR,Tadawul All Share,SA
+^DFMGI,DFM General Index,AE
+^ADI,ADX General Index,AE
+^TA125.TA,Tel Aviv 125,IL
+^TA35.TA,Tel Aviv 35,IL
+^QSI,Qatar Exchange Index,QA
+^EGX30,EGX 30,EG
+^J203,JSE Top 40,ZA
+BTC-USD,Bitcoin USD,CRYPTO
+ETH-USD,Ethereum USD,CRYPTO
+BNB-USD,Binance Coin USD,CRYPTO
+SOL-USD,Solana USD,CRYPTO
+XRP-USD,XRP USD,CRYPTO
