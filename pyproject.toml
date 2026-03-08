@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "market-tickers"
-version = "0.4.0"
+version = "0.4.1"
 description = "Human-friendly stock, index, ETF and currency names to Yahoo Finance tickers — with auto-update"
 authors = [{ name = "Vedant Wade" }]
 readme = "README.md"
