@@ -1,9 +1,9 @@
 # market_tickers/core.py
-# v0.4.0 — Damodaran 2026 primary dataset + YF2017 per-country CSV fallback
+# v0.5.0 — Batch lookup + case-insensitive countries
 
 import re
 import difflib
-from typing import List, Dict, Optional
+from typing import Dict, List, Optional, Union
 
 from market_tickers.loaders import (
     get_damodaran_rows_for_country,
@@ -30,49 +30,74 @@ def _ticker_base(ticker: str) -> str:
     """
     t = ticker.replace("=X", "").replace("=x", "")
     dot = t.rfind(".")
-    if dot != -1 and len(t) - dot <= 4:   # .NS, .BO, .L, .PA etc.
+    if dot != -1 and len(t) - dot <= 4:
         t = t[:dot]
     return _normalize(t)
 
 
-# Suffix preference for tie-breaking when multiple tickers share a base
 _SUFFIX_PREF = {"": 0, "ns": 1, "l": 2, "to": 3, "ax": 4}
+
+# Country aliases — normalise any input to the underscore key used in data files
+_COUNTRY_ALIASES: Dict[str, str] = {
+    "us":  "united_states",
+    "usa": "united_states",
+    "uk":  "united_kingdom",
+    "gb":  "united_kingdom",
+    "hk":  "hong_kong",
+    "nz":  "new_zealand",
+    "kr":  "south_korea",
+    "uae": "united_arab_emirates",
+}
+
+
+def _resolve_country(country: str) -> str:
+    """
+    Normalise any country string to the internal underscore key.
+
+    Handles mixed case, spaces, and short aliases:
+      "United States" → "united_states"
+      "south korea"   → "south_korea"
+      "USA"           → "united_states"
+      "india"         → "india"
+    """
+    key = country.strip().lower().replace(" ", "_")
+    return _COUNTRY_ALIASES.get(key, key)
 
 
 # Common index aliases
 INDEX_ALIASES = {
-    "nifty":      "^NSEI",
-    "nifty50":    "^NSEI",
-    "nifty 50":   "^NSEI",
-    "sensex":     "^BSESN",
-    "bse":        "^BSESN",
-    "sp500":      "^GSPC",
-    "s&p500":     "^GSPC",
-    "sandp500":   "^GSPC",
-    "s&p 500":    "^GSPC",
-    "dow":        "^DJI",
-    "dowjones":   "^DJI",
-    "nasdaq":     "^IXIC",
-    "nasdaq100":  "^NDX",
-    "nasdaq 100": "^NDX",
-    "russell2000":"^RUT",
-    "vix":        "^VIX",
-    "dax":        "^GDAXI",
-    "ftse":       "^FTSE",
-    "ftse100":    "^FTSE",
-    "cac40":      "^FCHI",
-    "cac 40":     "^FCHI",
-    "nikkei":     "^N225",
-    "nikkei225":  "^N225",
-    "hangseng":   "^HSI",
-    "hang seng":  "^HSI",
-    "kospi":      "^KS11",
-    "asx200":     "^AXJO",
-    "asx 200":    "^AXJO",
-    "bitcoin":    "BTC-USD",
-    "btc":        "BTC-USD",
-    "ethereum":   "ETH-USD",
-    "eth":        "ETH-USD",
+    "nifty":       "^NSEI",
+    "nifty50":     "^NSEI",
+    "nifty 50":    "^NSEI",
+    "sensex":      "^BSESN",
+    "bse":         "^BSESN",
+    "sp500":       "^GSPC",
+    "s&p500":      "^GSPC",
+    "sandp500":    "^GSPC",
+    "s&p 500":     "^GSPC",
+    "dow":         "^DJI",
+    "dowjones":    "^DJI",
+    "nasdaq":      "^IXIC",
+    "nasdaq100":   "^NDX",
+    "nasdaq 100":  "^NDX",
+    "russell2000": "^RUT",
+    "vix":         "^VIX",
+    "dax":         "^GDAXI",
+    "ftse":        "^FTSE",
+    "ftse100":     "^FTSE",
+    "cac40":       "^FCHI",
+    "cac 40":      "^FCHI",
+    "nikkei":      "^N225",
+    "nikkei225":   "^N225",
+    "hangseng":    "^HSI",
+    "hang seng":   "^HSI",
+    "kospi":       "^KS11",
+    "asx200":      "^AXJO",
+    "asx 200":     "^AXJO",
+    "bitcoin":     "BTC-USD",
+    "btc":         "BTC-USD",
+    "ethereum":    "ETH-USD",
+    "eth":         "ETH-USD",
 }
 
 
@@ -87,23 +112,13 @@ def _match_rows(
     fuzzy: bool = True,
 ) -> Optional[str]:
     """
-    4-tier matching pipeline against a list of rows.
+    5-tier matching pipeline against a list of rows.
 
-    Tiers
-    -----
-    1. Exact name   – normalized full company name equals query
-    2. Exact ticker – base ticker (suffix stripped) equals query
-    3. Prefix       – normalized name starts with query  (single match required)
-    4. Contains     – query is substring of normalized name
-       - Single match → return it
-       - Multiple matches + fuzzy=True → return shortest name (most specific)
-       - Multiple matches + fuzzy=False → raise KeyError
-    5. Fuzzy (difflib) – only when fuzzy=True and nothing found above
-       Catches common typos like "Relience" → "Reliance Industries"
-
-    Returns ticker string on unambiguous match.
-    Raises KeyError on unresolvable ambiguity.
-    Returns None if nothing matches.
+    Tier 1 — Exact name match
+    Tier 2 — Exact base-ticker match (suffix-priority tiebreak)
+    Tier 3 — Prefix match (single result required)
+    Tier 4 — Contains match (single → return; multiple → highest coverage fraction)
+    Tier 5 — Token-based difflib fuzzy (cutoff 0.82) for typo tolerance
     """
     valid = [r for r in rows if "name" in r and "ticker" in r]
 
@@ -140,31 +155,22 @@ def _match_rows(
         return contains[0]["ticker"]
     if len(contains) > 1:
         if fuzzy:
-            # Among multiple contains matches, prefer the entry where the query
-            # covers the largest fraction of the name (query fills most of the name).
-            # This favours shorter, more focused names AND preserves dataset order
-            # for equal scores (US-listed ETFs/stocks appear first in YF2017 CSVs).
             def _match_fraction(r):
                 nlen = len(_normalize(r["name"]))
-                return -len(norm_name) / nlen if nlen else 0   # negative = sort descending
+                return -len(norm_name) / nlen if nlen else 0
             contains.sort(key=_match_fraction)
             return contains[0]["ticker"]
         raise KeyError(
             f"Multiple tickers found for '{raw_name}'. Please refine your query."
         )
 
-    # 5. Fuzzy / typo matching — token-based difflib
-    #
-    # Compares query against each meaningful word token in the name, not the
-    # full normalized string. Splits on spaces AND punctuation so that
-    # "Amazon.com, Inc." → tokens ["amazon", "com", "inc"] and
-    # "amazn" vs "amazon" → 0.909 ✓
+    # 5. Token-based fuzzy — splits on whitespace + punctuation so that
+    #    "Amazon.com, Inc." → tokens ["amazon", "com", "inc"] and
+    #    "Amazn" vs "amazon" → 0.909 ✓
     if fuzzy:
         FUZZY_CUTOFF = 0.82
-
         scored: list = []
         for r in valid:
-            # Split on whitespace AND punctuation (dot, comma, hyphen, slash)
             raw_tokens = re.split(r"[\s.,\-/&]+", r["name"])
             tokens = [
                 _normalize(w)
@@ -181,46 +187,26 @@ def _match_rows(
                 scored.append((best, r))
 
         if scored:
-            # Highest token-score wins; ties broken by dataset order
             scored.sort(key=lambda x: -x[0])
             return scored[0][1]["ticker"]
 
     return None
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Public API
-# ─────────────────────────────────────────────────────────────────────────────
-
-def get_ticker(
+def _get_single(
     name: str,
-    country: Optional[str] = None,
-    category: str = "stock",
-    fuzzy: bool = True,
+    country: Optional[str],
+    category: str,
+    fuzzy: bool,
+    country_clean: Optional[str] = None,
 ) -> str:
-    """
-    Get Yahoo Finance ticker by human-readable name or code.
-
-    Lookup order for stocks
-    -----------------------
-    1. Damodaran 2026 dataset (primary — 41 k companies, 132 countries)
-    2. Legacy YF2017 per-country CSV (fallback)
-       For India: only .NS tickers are considered (BSE/.BO excluded)
-
-    Parameters
-    ----------
-    name    : Human-readable name or ticker code (e.g. "Reliance Industries")
-    country : Required for stocks  (e.g. "india", "usa", "uk", "germany")
-    category: One of: stock | index | etf | currency
-    fuzzy   : Enable approximate / typo-tolerant matching (default True)
-    """
+    """Core single-name resolver (reused by both get_ticker and batch mode)."""
     if not name:
         raise ValueError("name cannot be empty")
 
     raw_name  = name.strip()
     norm_name = _normalize(raw_name.lower().replace("=x", ""))
 
-    # ── Index ──────────────────────────────────────────────────────────────────
     if category == "index":
         alias = INDEX_ALIASES.get(norm_name) or INDEX_ALIASES.get(raw_name.lower())
         if alias:
@@ -231,7 +217,6 @@ def get_ticker(
             return result
         raise KeyError(f"Index not found: '{raw_name}'")
 
-    # ── ETF ────────────────────────────────────────────────────────────────────
     if category == "etf":
         rows = load_etfs()
         result = _match_rows(norm_name, raw_name, rows, fuzzy=fuzzy)
@@ -239,45 +224,36 @@ def get_ticker(
             return result
         raise KeyError(f"ETF not found: '{raw_name}'")
 
-    # ── Currency ───────────────────────────────────────────────────────────────
     if category == "currency":
-        # Guaranteed FX fallback — standard Yahoo Finance 6-letter pair
-        if len(norm_name) == 6 and norm_name.isalpha():
-            return f"{norm_name.upper()}=X"
+        # Normalise all common input formats to a bare 6-letter code:
+        #   "USD/INR"  → "USDINR=X"
+        #   "USDINR"   → "USDINR=X"
+        #   "usdinr"   → "USDINR=X"
+        #   "USDINR=X" → "USDINR=X"
+        _stripped = re.sub(r"=X$", "", raw_name, flags=re.IGNORECASE)  # remove =X suffix first
+        currency_code = re.sub(r"[^a-zA-Z]", "", _stripped)            # then strip / spaces etc.
+        if len(currency_code) == 6 and currency_code.isalpha():
+            return f"{currency_code.upper()}=X"
         rows = load_currencies()
         result = _match_rows(norm_name, raw_name, rows, fuzzy=fuzzy)
         if result:
             return result
         raise KeyError(f"Currency not found: '{raw_name}'")
 
-    # ── Stock ──────────────────────────────────────────────────────────────────
     if category == "stock":
-        if not country:
+        if not country and not country_clean:
             raise ValueError("country is required for stock lookup")
 
-        # Resolve country aliases
-        _ALIASES = {
-            "us":  "united_states",
-            "usa": "united_states",
-            "uk":  "united_kingdom",
-            "gb":  "united_kingdom",
-            "hk":  "hong_kong",
-            "nz":  "new_zealand",
-            "kr":  "south_korea",
-            "uae": "united_arab_emirates",
-        }
-        country_clean = _ALIASES.get(country.lower().strip(), country.lower().strip())
-        is_india = country_clean == "india"
+        cc = country_clean or _resolve_country(country)
+        is_india = cc == "india"
 
-        # Step 1: Damodaran 2026 (primary) — country-scoped
-        dam_rows = get_damodaran_rows_for_country(country_clean)
+        dam_rows = get_damodaran_rows_for_country(cc)
         if dam_rows:
             result = _match_rows(norm_name, raw_name, dam_rows, fuzzy=fuzzy)
             if result:
                 return result
 
-        # Step 2: Legacy YF2017 per-country CSV (fallback)
-        legacy_rows = load_stocks(country_clean)
+        legacy_rows = load_stocks(cc)
         if is_india and legacy_rows:
             legacy_rows = [r for r in legacy_rows if r.get("ticker", "").endswith(".NS")]
         if legacy_rows:
@@ -286,7 +262,7 @@ def get_ticker(
                 return result
 
         raise KeyError(
-            f"Ticker not found for '{raw_name}' in country '{country}'. "
+            f"Ticker not found for '{raw_name}' in country '{country or cc}'. "
             f"Searched Damodaran 2026 ({len(dam_rows)} rows) and "
             f"legacy dataset ({len(legacy_rows)} rows)."
         )
@@ -294,6 +270,77 @@ def get_ticker(
     raise ValueError(
         f"Unknown category: '{category}'. Use one of: stock, index, etf, currency"
     )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Public API
+# ─────────────────────────────────────────────────────────────────────────────
+
+def get_ticker(
+    name: Union[str, List[str]],
+    country: Optional[str] = None,
+    category: str = "stock",
+    fuzzy: bool = True,
+) -> Union[str, List[str]]:
+    """
+    Get Yahoo Finance ticker(s) by human-readable name or code.
+
+    Pass a single string → returns a single ticker string.
+    Pass a list          → returns a list of resolved tickers (not-found entries
+                           are silently skipped, so the result is always clean).
+
+    Parameters
+    ----------
+    name     : str, or list of str for batch lookup.
+    country  : Country for stock lookups. Case-insensitive, spaces accepted.
+               e.g. "India", "United States", "USA", "uk", "south korea"
+    category : "stock" | "index" | "etf" | "currency"
+    fuzzy    : Approximate / typo-tolerant matching (default True)
+
+    Single lookup
+    -------------
+    >>> get_ticker("Reliance Industries", country="india")
+    'RELIANCE.NS'
+    >>> get_ticker("AAPL", country="USA")
+    'AAPL'
+    >>> get_ticker("S&P 500", category="index")
+    '^GSPC'
+
+    Batch lookup
+    ------------
+    >>> companies = ["Apple", "Microsoft", "Amazon"]
+    >>> tickers = get_ticker(companies, country="United States")
+    >>> tickers
+    ['AAPL', 'MSFT', 'AMZN']
+
+    >>> # Not-found names are silently skipped — result is always yfinance-ready
+    >>> tickers = get_ticker(["Apple", "FakeXYZ", "Microsoft"], country="usa")
+    >>> tickers
+    ['AAPL', 'MSFT']
+    >>> yf.download(tickers, period="1y")
+    """
+    # ── Single ────────────────────────────────────────────────────────────────
+    if isinstance(name, str):
+        resolved = _resolve_country(country) if country else None
+        return _get_single(name, country, category, fuzzy, country_clean=resolved)
+
+    # ── Batch ─────────────────────────────────────────────────────────────────
+    if not isinstance(name, (list, tuple)):
+        raise TypeError(f"name must be a str or list, got {type(name).__name__}")
+
+    # Resolve country once — not per-item
+    resolved = _resolve_country(country) if country else None
+
+    results: List[str] = []
+    for n in name:
+        try:
+            results.append(
+                _get_single(n, country, category, fuzzy, country_clean=resolved)
+            )
+        except (KeyError, ValueError):
+            pass   # silently skip — result stays clean, no None pollution
+
+    return results
 
 
 def search_tickers(
@@ -309,8 +356,8 @@ def search_tickers(
     Parameters
     ----------
     query    : Search string (partial name or ticker)
-    country  : Required for category="stock"
-    category : One of: stock | index | etf | currency
+    country  : Required for category="stock". Case-insensitive.
+    category : "stock" | "index" | "etf" | "currency"
     limit    : Max results to return (default 10)
     """
     if not query:
@@ -318,16 +365,10 @@ def search_tickers(
 
     norm_query = _normalize(query)
 
-    # Load the right row set
     if category == "stock":
         if not country:
             raise ValueError("country is required for stock search")
-        _ALIASES = {
-            "us": "united_states", "usa": "united_states",
-            "uk": "united_kingdom", "gb": "united_kingdom",
-            "hk": "hong_kong", "nz": "new_zealand", "kr": "south_korea",
-        }
-        country_clean = _ALIASES.get(country.lower().strip(), country.lower().strip())
+        country_clean = _resolve_country(country)
         rows = get_damodaran_rows_for_country(country_clean) or load_stocks(country_clean)
     elif category == "index":
         rows = load_indices()
@@ -339,18 +380,13 @@ def search_tickers(
         raise ValueError(f"Unknown category: '{category}'")
 
     valid = [r for r in rows if "name" in r and "ticker" in r]
-
-    # Match: ticker exact → name contains → ticker contains
-    results = []
-    seen: set = set()
+    results, seen = [], set()
 
     for r in valid:
         t = r["ticker"]
         if t in seen:
             continue
-        norm_name   = _normalize(r["name"])
-        norm_ticker = _normalize(t.replace("=x", ""))
-        if norm_query in norm_name or norm_query in norm_ticker:
+        if norm_query in _normalize(r["name"]) or norm_query in _normalize(t.replace("=x", "")):
             results.append(r)
             seen.add(t)
         if len(results) >= limit:
@@ -366,13 +402,8 @@ def get_default_index(stock_name: str, country: str = "india") -> str:
     Parameters
     ----------
     stock_name : str  (unused; reserved for future per-sector logic)
-    country    : str  country key (e.g. "india", "united_states", "japan", "uk")
+    country    : str  Case-insensitive. e.g. "India", "United States", "uk"
     """
-    _ALIASES = {
-        "us": "united_states", "usa": "united_states",
-        "uk": "united_kingdom", "gb": "united_kingdom",
-        "hk": "hong_kong",
-    }
     _INDEX_MAP = {
         "india":           "^NSEI",
         "united_states":   "^GSPC",
@@ -411,7 +442,7 @@ def get_default_index(stock_name: str, country: str = "india") -> str:
         "saudi_arabia":    "^TASI.SR",
         "south_africa":    "^J203",
     }
-    key = _ALIASES.get(country.lower().strip(), country.lower().strip().replace(" ", "_"))
+    key = _resolve_country(country)
     if key in _INDEX_MAP:
         return _INDEX_MAP[key]
     raise ValueError(f"No default index defined for country: '{country}'")
